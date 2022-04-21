@@ -1,6 +1,0 @@
-2022/04/14-00:34:34.840 7802f Creating DB /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lichess.org_0.indexeddb.leveldb since it was missing.
-2022/04/14-00:34:34.845 7802f Reusing MANIFEST /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lichess.org_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/14-00:37:30.451 7ab41 Level-0 table #5: started
-2022/04/14-00:37:30.453 7ab41 Level-0 table #5: 1549 bytes OK
-2022/04/14-00:37:30.455 7ab41 Delete type=0 #3
-2022/04/14-00:37:30.455 7ab41 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

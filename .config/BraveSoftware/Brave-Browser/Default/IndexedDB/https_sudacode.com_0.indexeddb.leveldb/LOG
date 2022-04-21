@@ -1,6 +1,0 @@
-2022/04/13-00:38:03.141 df8b8 Creating DB /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_sudacode.com_0.indexeddb.leveldb since it was missing.
-2022/04/13-00:38:03.149 df8b8 Reusing MANIFEST /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_sudacode.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/13-00:38:35.228 df8b8 Level-0 table #5: started
-2022/04/13-00:38:35.230 df8b8 Level-0 table #5: 2229 bytes OK
-2022/04/13-00:38:35.233 df8b8 Delete type=0 #3
-2022/04/13-00:38:35.233 df8b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
