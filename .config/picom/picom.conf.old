@@ -1,0 +1,36 @@
+# made by Evan Koehler
+
+# set blur except for Chromium (because it doesn't need it and it saves resources)
+blur: {
+  method = "dual_kawase";
+  strength = 12;
+  background = false;
+  background-frame = false;
+  background-fixed = false;
+}
+
+blur-background-exclude = [
+  "class_g = 'Chromium'"
+];
+
+# to make vs code and discord a bit transparent and blurred
+opacity-rule = [
+    "85:class_g = 'Code'",
+    "85:class_g = 'Alacritty'",
+    "88:class_g = 'discord'",
+]
+
+# adding rounded corners on windows
+corner-radius = 7
+
+#remove rounded corners from polybar
+rounded-corners-exclude = ["window_type = 'dock'"]
+
+# without this line, blur won't work
+backend = "glx"
+
+# animations (set fading to false if you wanna disable them)
+fading = true
+fade-in-step = 0.08;
+fade-out-step = 0.08;
+

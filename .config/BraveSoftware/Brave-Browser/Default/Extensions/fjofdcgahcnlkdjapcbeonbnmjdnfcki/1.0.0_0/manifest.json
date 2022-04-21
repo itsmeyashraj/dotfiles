@@ -1,0 +1,31 @@
+{
+   "description": "This color scheme is a port of Gruvbox Material for Google Chrome Theme and its forks.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmHEGco7xecAy7LSKnAFSFi6bz2RyJVB7ebqytc+vVSio/WYySYUCX3WnFSoKhg6slbmI2qFRr9EUKEp4Jf5QkVHZodu34qo21HEL+0pG0wAFAdqKrx7oTsyMZhXnSpBaCS+CBV9cHJMVihs/rAo5exInC1PmB5w+EHOsOQgjfwpNbJeheH3SxaEvRnZMgkILAG5hIMCAj4KbA5kto8bNCVEqcLQi/kOqiDTvg1ECOGgzdjfUKbPDR2Aqvo7DGdIHA7H9DQndJ7xBz65lSPj9LujlyPoBKUArQ4d8yQaqffSN75DSwqNzmE44Fq52GqoQAIUn1DPDRH0KcIUyRtdFowIDAQAB",
+   "manifest_version": 2,
+   "name": "Gruvbox Material Dark",
+   "theme": {
+      "colors": {
+         "background_tab": [ 41, 40, 40 ],
+         "background_tab_inactive": [ 73, 70, 70 ],
+         "bookmark_text": [ 221, 199, 161 ],
+         "bookmark_text_inactive": [ 221, 199, 161 ],
+         "frame": [ 41, 40, 40 ],
+         "frame_inactive": [ 63, 60, 60 ],
+         "ntp_background": [ 41, 40, 40 ],
+         "ntp_text": [ 216, 166, 87 ],
+         "omnibox_background": [ 60, 56, 54 ],
+         "omnibox_text": [ 221, 199, 161 ],
+         "tab_background_text": [ 146, 131, 116 ],
+         "tab_text": [ 221, 199, 161 ],
+         "toolbar": [ 50, 48, 47 ],
+         "toolbar_button_icon": [ 125, 174, 163 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}

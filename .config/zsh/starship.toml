@@ -1,0 +1,186 @@
+# Username.
+[username]
+format = "[$user]($style) @ "
+
+# Git & related.
+[git_status]
+style = "bold blue"
+
+[git_branch]
+symbol = "שׂ "
+
+[git_commit]
+tag_symbol = " 笠 "
+
+[hg_branch]
+symbol = "שׂ "
+
+# Return status.
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[✗](bold red)"
+
+# Timing.
+[cmd_duration]
+format = "... ⏳ [$duration]($style)"
+
+# Battery.
+[[battery.display]]
+threshold = 20
+
+# Nerd Font symbols.
+[aws]
+symbol = "ﲳ "
+style = "bold black"
+
+[cmake]
+symbol = "△ "
+style = "bold black"
+
+[conda]
+symbol = " "
+style = "bold black"
+
+[crystal]
+symbol = " "
+style = "bold black"
+
+[dart]
+symbol = " "
+style = "bold black"
+
+[deno]
+symbol = " "
+style = "bold black"
+
+[docker_context]
+symbol = " "
+style = "bold black"
+
+[dotnet]
+symbol = ".NET "
+style = "bold black"
+
+[elixir]
+symbol = " "
+style = "bold black"
+
+[elm]
+symbol = " "
+style = "bold black"
+
+[erlang]
+symbol = " "
+style = "bold black"
+
+[gcloud]
+symbol = "ﲳ "
+style = "bold black"
+
+[golang]
+symbol = " "
+style = "bold black"
+
+[helm]
+symbol = "⎈ "
+style = "bold black"
+
+[java]
+symbol = " "
+style = "bold black"
+
+[julia]
+symbol = " "
+style = "bold black"
+
+[kotlin]
+symbol = "擄 "
+style = "bold black"
+
+[kubernetes]
+symbol = "☸ "
+style = "bold black"
+
+[lua]
+symbol = " "
+style = "bold black"
+
+[nim]
+symbol = " "
+style = "bold black"
+
+[nix_shell]
+symbol = " "
+style = "bold black"
+
+[nodejs]
+symbol = " "
+style = "bold black"
+
+[ocaml]
+symbol = " "
+style = "bold black"
+
+[openstack]
+symbol = "ﲳ "
+style = "bold black"
+
+[package]
+symbol = " "
+style = "bold black"
+
+[perl]
+symbol = " "
+style = "bold black"
+
+[php]
+symbol = " "
+style = "bold black"
+
+[purescript]
+symbol = "<=> "
+style = "bold black"
+
+[python]
+symbol = " "
+style = "bold black"
+
+[red]
+symbol = "卑 "
+style = "bold black"
+
+[ruby]
+symbol = " "
+style = "bold black"
+
+[rust]
+symbol = " "
+style = "bold black"
+
+[scala]
+symbol = " "
+style = "bold black"
+
+[singularity]
+symbol = "🆂 "
+style = "bold black"
+
+[swift]
+symbol = " "
+style = "bold black"
+
+[terraform]
+symbol = "行 "
+style = "bold black"
+
+[vagrant]
+symbol = "⍱ "
+style = "bold black"
+
+[vlang]
+symbol = "V "
+style = "bold black"
+
+[zig]
+symbol = "↯ "
+style = "bold black"

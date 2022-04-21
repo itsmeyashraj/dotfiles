@@ -1,0 +1,6 @@
+2022/04/14-15:01:24.430 5a5c7 Creating DB /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pickerwheel.com_0.indexeddb.leveldb since it was missing.
+2022/04/14-15:01:24.440 5a5c7 Reusing MANIFEST /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pickerwheel.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/14-15:03:46.343 33f24 Level-0 table #5: started
+2022/04/14-15:03:46.344 33f24 Level-0 table #5: 1103 bytes OK
+2022/04/14-15:03:46.346 33f24 Delete type=0 #3
+2022/04/14-15:03:46.346 33f24 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

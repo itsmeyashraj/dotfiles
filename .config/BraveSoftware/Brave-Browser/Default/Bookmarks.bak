@@ -1,0 +1,547 @@
+{
+   "checksum": "d7288e405d8fd19a1ba6a6118729e154",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13293707243947130",
+            "guid": "6efd950d-bd4b-4dda-9ddf-8400ae97f5e8",
+            "id": "5",
+            "name": "How to switch to the LTS kernel in Arch Linux",
+            "type": "url",
+            "url": "https://www.addictivetips.com/ubuntu-linux-tips/switch-to-the-lts-kernel-in-arch-linux/"
+         }, {
+            "date_added": "13293956560199714",
+            "guid": "caa72ffb-ddd3-410a-b9e5-66fc3909838c",
+            "id": "9",
+            "name": "How to remove timeout limit in Python requests? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/69620951/how-to-remove-timeout-limit-in-python-requests"
+         }, {
+            "date_added": "13293956951636088",
+            "guid": "0de6aca3-6305-4a9d-b699-f560424019fe",
+            "id": "10",
+            "name": "Nord-Theme-Ports-and-Assets/Wallpapers at main · midnitefox/Nord-Theme-Ports-and-Assets · GitHub",
+            "type": "url",
+            "url": "https://github.com/midnitefox/Nord-Theme-Ports-and-Assets/tree/main/Wallpapers"
+         }, {
+            "date_added": "13293970044352772",
+            "guid": "fb9210cc-2abb-4083-b390-ff0ff586db88",
+            "id": "11",
+            "name": "GitHub - PrayagS/polybar-spotify: Spotify status and controls module for Polybar with text scrolling",
+            "type": "url",
+            "url": "https://github.com/PrayagS/polybar-spotify"
+         }, {
+            "children": [ {
+               "date_added": "13293991864355381",
+               "guid": "17f743e6-2413-462b-8b51-c41e0af47f9e",
+               "id": "14",
+               "name": "searx.tiekoetter.com",
+               "type": "url",
+               "url": "https://searx.tiekoetter.com/search?q=linux+rice+bspwm+unixporn&category_general=1&language=en-GB&time_range=&safesearch=0&theme=simple"
+            }, {
+               "date_added": "13293991864357795",
+               "guid": "1c7e446c-67c7-474a-bc28-3096aac65353",
+               "id": "15",
+               "name": "GitHub - marsupial-king/my-arch-dots: These are my messy dots.",
+               "type": "url",
+               "url": "https://github.com/marsupial-king/my-arch-dots"
+            }, {
+               "date_added": "13293991864358504",
+               "guid": "d814e6a4-87df-44c8-95ac-43491d7e1515",
+               "id": "16",
+               "name": "GitHub - saimoomedits/bspwm-first-rice: my first ever rice on unixporn, powered by catppuccin ^^",
+               "type": "url",
+               "url": "https://github.com/saimoomedits/bspwm-first-rice"
+            }, {
+               "date_added": "13293991864358940",
+               "guid": "9b83c199-22b8-40dc-9525-a006b6cd3ddf",
+               "id": "17",
+               "name": "(71) Pinterest",
+               "type": "url",
+               "url": "https://in.pinterest.com/pin/670473463281947664/"
+            }, {
+               "date_added": "13293991864359599",
+               "guid": "1ba37000-e142-4ebc-b2f1-e149181f8468",
+               "id": "18",
+               "name": "How to break free of Google's ecosystem - Android Authority",
+               "type": "url",
+               "url": "https://www.androidauthority.com/break-free-googles-ecosystem-753969/"
+            }, {
+               "date_added": "13293991864360003",
+               "guid": "81177346-df3a-4a41-ac0b-3a2f9e277dfe",
+               "id": "19",
+               "name": "Bspwm: How to Configure Bspc Window Rules - Invidious",
+               "type": "url",
+               "url": "https://invidious.tiekoetter.com/watch?v=WBE1NrKX9ZA"
+            }, {
+               "date_added": "13293991864360366",
+               "guid": "e48092b2-688f-47e4-a3c7-2b5250d92a03",
+               "id": "20",
+               "name": "(86) calcurse - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/results?search_query=calcurse"
+            }, {
+               "date_added": "13293991864360742",
+               "guid": "a41d6483-b4a1-493c-92be-d1a309cff4b1",
+               "id": "21",
+               "name": "(86) I Wanted A Calendar And Calcurse Is Exactly What I Need! - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=I_-MqgpEWFA"
+            }, {
+               "date_added": "13293991864361142",
+               "guid": "65d86a21-ce43-436f-9cab-9e5d22ffeb01",
+               "id": "22",
+               "name": "(86) Calcurse - Your Calendar and To-Do List on Your Terminal - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=hvc-pHjbhdE"
+            }, {
+               "date_added": "13293991864361507",
+               "guid": "d378f53f-1551-4251-9640-a3d6c3bd0317",
+               "id": "23",
+               "name": "(86) WTF is Mabox Linux? - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=4KDEWyFQcVQ&t=116s"
+            }, {
+               "date_added": "13293991864361875",
+               "guid": "13f47197-1655-4d3f-b2a6-55fb7ad09283",
+               "id": "24",
+               "name": "(3) reddit.com: search results - spotify gruvbox",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/search/?q=spotify%20gruvbox&restrict_sr=1&sr_nsfw="
+            }, {
+               "date_added": "13293991864362265",
+               "guid": "0fff2278-fdd7-41e8-b1a6-60f62a0541c0",
+               "id": "25",
+               "name": "oz7gspn92w661.png (1440×2700)",
+               "type": "url",
+               "url": "https://i.redd.it/oz7gspn92w661.png"
+            }, {
+               "date_added": "13293991864367855",
+               "guid": "be0745dc-bdaf-48a0-8147-b764f7552ccf",
+               "id": "26",
+               "name": "m2jdqrtoquy41.png (1248×702)",
+               "type": "url",
+               "url": "https://libreddit.tiekoetter.com/img/m2jdqrtoquy41.png"
+            }, {
+               "date_added": "13293991864368389",
+               "guid": "6a5f1202-368b-49fd-a6fe-9605dfddb080",
+               "id": "27",
+               "name": "Gogh/gruvbox-dark.sh at master · Mayccoll/Gogh · GitHub",
+               "type": "url",
+               "url": "https://github.com/Mayccoll/Gogh/blob/master/themes/gruvbox-dark.sh"
+            }, {
+               "date_added": "13293991864368792",
+               "guid": "29ec41ac-e565-4ab7-a18a-d8c1071f52ea",
+               "id": "28",
+               "name": "vscode-theme-gruvbox/colors.txt at main · jdinhify/vscode-theme-gruvbox · GitHub",
+               "type": "url",
+               "url": "https://github.com/jdinhify/vscode-theme-gruvbox/blob/main/colors.txt"
+            }, {
+               "date_added": "13293991864369171",
+               "guid": "e5228961-22bd-4e39-92b7-90aab9aa47c4",
+               "id": "29",
+               "name": "Post Install | NvChad",
+               "type": "url",
+               "url": "https://nvchad.github.io/getting-started/post-install"
+            }, {
+               "date_added": "13293991864369511",
+               "guid": "21fe5d92-9d41-4124-9eed-f42a2a7788e1",
+               "id": "30",
+               "name": "(86) LAST STREAM FOR A WHILE | REACHING 1800 ft. Sagar Shah - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=hsB6I_pkaYw&t=241s"
+            }, {
+               "date_added": "13293991864369895",
+               "guid": "4c6d1e99-3b78-4844-80ae-3d3f39d2224c",
+               "id": "31",
+               "name": "Telescope breaks when adding plugins · Issue #230 · NvChad/NvChad · GitHub",
+               "type": "url",
+               "url": "https://github.com/NvChad/NvChad/issues/230"
+            }, {
+               "date_added": "13293991864370369",
+               "guid": "0555205b-6421-4f8e-a47b-5fa34505bca3",
+               "id": "32",
+               "name": "searx.tiekoetter.com",
+               "type": "url",
+               "url": "https://searx.tiekoetter.com/search?q=nvim-treesitter+not+installing&category_general=1&language=en-GB&time_range=&safesearch=0&theme=simple"
+            } ],
+            "date_added": "13293991864352964",
+            "date_modified": "13293991864370369",
+            "guid": "bd518458-be20-4b94-9eea-4c174fdf0143",
+            "id": "13",
+            "name": "check",
+            "type": "folder"
+         }, {
+            "date_added": "13294058519866926",
+            "guid": "c3165c16-2d84-460c-995e-e4e6e79b987a",
+            "id": "35",
+            "name": "Volume notification: Pulseaudio and dunst · GitHub",
+            "type": "url",
+            "url": "https://gist.github.com/Liblor/b01549fef2d3d56247ff0292034a3ad6"
+         }, {
+            "date_added": "13294059225452961",
+            "guid": "967b9e95-1fdc-4afc-bdc0-c2a30083eee4",
+            "id": "36",
+            "name": "[sxhkd] Running Shell Script in sxhkdrc - r/bspwm",
+            "type": "url",
+            "url": "https://libreddit.tiekoetter.com/r/bspwm/comments/m2erkk/sxhkd_running_shell_script_in_sxhkdrc/"
+         }, {
+            "date_added": "13294061287607912",
+            "guid": "b5c8117a-85dd-4065-a292-3b818506e32c",
+            "id": "37",
+            "name": "notify-send.sh/notify-send.sh at master · vlevit/notify-send.sh · GitHub",
+            "type": "url",
+            "url": "https://github.com/vlevit/notify-send.sh/blob/master/notify-send.sh"
+         }, {
+            "date_added": "13294061291413291",
+            "guid": "7cd54432-ada9-4996-8029-df6d46ab57f3",
+            "id": "38",
+            "name": "GitHub - dastorm/volume-notification-dunst: send a nice volume notification",
+            "type": "url",
+            "url": "https://github.com/dastorm/volume-notification-dunst"
+         }, {
+            "date_added": "13294087709733095",
+            "guid": "335d15bd-e284-4355-b311-c0ba62492818",
+            "id": "40",
+            "name": "linux - How to make a fish script executable in any directory? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/32803777/how-to-make-a-fish-script-executable-in-any-directory"
+         }, {
+            "date_added": "13294098868446795",
+            "guid": "f2cb20b2-5e3a-4d25-a4f5-18cc3a28e612",
+            "id": "41",
+            "name": "GitHub - jmattheis/gruvbox-dark-gtk: A colorless gruvbox dark theme for GTK 2.0 and 3.0.",
+            "type": "url",
+            "url": "https://github.com/jmattheis/gruvbox-dark-gtk"
+         }, {
+            "date_added": "13294129026689004",
+            "guid": "d44b7b83-b691-47e8-ab53-78679d63f8d4",
+            "id": "42",
+            "name": "spicetify-extensions/adblock at main · CharlieS1103/spicetify-extensions · GitHub",
+            "type": "url",
+            "url": "https://github.com/CharlieS1103/spicetify-extensions/tree/main/adblock"
+         }, {
+            "date_added": "13294129135254491",
+            "guid": "f48326a1-39a3-4669-b1a5-ea41d838b221",
+            "id": "43",
+            "name": "GitHub - Daksh777/SpotifyNoPremium: A cross-platform Spicetify theme which declutters Spotify stock UI and removes all ads.",
+            "type": "url",
+            "url": "https://github.com/Daksh777/SpotifyNoPremium"
+         }, {
+            "date_added": "13294133311825813",
+            "guid": "60d58f25-aa1c-49e3-8d58-e2a30d066bd7",
+            "id": "44",
+            "name": "m2jdqrtoquy41.png (1248×702)",
+            "type": "url",
+            "url": "https://preview.redd.it/m2jdqrtoquy41.png?auto=webp&s=e5826fc0087ffe5c78c7ef1b5eb2734e4bf55369"
+         }, {
+            "date_added": "13294134746757580",
+            "guid": "77ba1107-323f-48f3-9484-810a942e1263",
+            "id": "45",
+            "name": "1366x768px | free download | HD wallpaper: anime, warrior girls, samurai, GUWEIZ | Wallpaper Flare",
+            "type": "url",
+            "url": "https://www.wallpaperflare.com/anime-warrior-girls-samurai-guweiz-wallpaper-ymexh/download/1366x768"
+         }, {
+            "date_added": "13294150441868816",
+            "guid": "2440901b-4472-41c1-b108-643f62a259be",
+            "id": "46",
+            "name": "Fonts not changing with new Spotify version · Issue #88 · khanhas/Spicetify · GitHub",
+            "type": "url",
+            "url": "https://github.com/khanhas/Spicetify/issues/88"
+         }, {
+            "date_added": "13294168371021498",
+            "guid": "e14996c8-1fcf-450b-9286-10ea6f7e9a8c",
+            "id": "48",
+            "name": "Basics - WWE SmackDown vs. Raw Wiki Guide - IGN",
+            "type": "url",
+            "url": "https://www.ign.com/wikis/wwe-smackdown-vs-raw/Basics"
+         }, {
+            "date_added": "13294170684566787",
+            "guid": "17bab7e8-bc44-4fd6-abd6-9750f61ad765",
+            "id": "49",
+            "name": "How do i set $EDITOR to nvim in fish shell? - r/fishshell",
+            "type": "url",
+            "url": "https://libreddit.tiekoetter.com/r/fishshell/comments/jme5ks/how_do_i_set_editor_to_nvim_in_fish_shell/"
+         }, {
+            "date_added": "13294178180332918",
+            "guid": "9e128850-b85d-4c7d-a6b4-884a3f0fe308",
+            "id": "51",
+            "name": "How to create a permanent alias in fish shell(ubuntu ,linux mint) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=iccAc2YasAE"
+         }, {
+            "date_added": "13294178999635620",
+            "guid": "1acf63a3-bee8-46af-8b7b-ecb2351b906d",
+            "id": "52",
+            "name": "Fix \"Max retries exceeded with URL\" error in Python requests library - LinuxPip",
+            "type": "url",
+            "url": "https://linuxpip.org/fix-max-retries-exceeded-with-url-error-python/"
+         }, {
+            "date_added": "13294214520932690",
+            "guid": "03394446-cb26-42f8-ba7e-1fa84e9fade6",
+            "id": "54",
+            "name": "how do I apply rounded corners in picom without effect polybar? - r/Polybar",
+            "type": "url",
+            "url": "https://libreddit.tiekoetter.com/r/Polybar/comments/owlu4q/how_do_i_apply_rounded_corners_in_picom_without/"
+         }, {
+            "date_added": "13294230276934517",
+            "guid": "a3b5d51c-4d7d-4401-8946-f81f0182dbf2",
+            "id": "56",
+            "name": "(3) [BSPWM] Blue : unixporn",
+            "type": "url",
+            "url": "https://www.reddit.com/r/unixporn/comments/ru73ai/bspwm_blue/"
+         }, {
+            "date_added": "13294243869082433",
+            "guid": "a50d55a0-cb46-4838-8ec2-26a9e8de56b3",
+            "id": "58",
+            "name": "picom.conf · GitHub",
+            "type": "url",
+            "url": "https://gist.github.com/gaurav712/42549678b778db12fda5764f7c0757ad"
+         }, {
+            "date_added": "13294258994562300",
+            "guid": "f997c29d-8e28-4789-9023-ca2cb80dee94",
+            "id": "60",
+            "name": "rounded corners and dunst - r/bspwm",
+            "type": "url",
+            "url": "https://libreddit.tiekoetter.com/r/bspwm/comments/hd26bj/rounded_corners_and_dunst/"
+         }, {
+            "date_added": "13294323543562315",
+            "guid": "8f8f8e28-799e-4758-8a02-a9ad204f5b20",
+            "id": "62",
+            "name": "xkbcommon: ERROR: couldn't find a Compose file for locale \"en_IN\" · Issue #43 · adi1090x/rofi · GitHub",
+            "type": "url",
+            "url": "https://github.com/adi1090x/rofi/issues/43"
+         }, {
+            "date_added": "13294325449199337",
+            "guid": "015e3a06-ee16-4290-ac84-9f1d9beb6f9f",
+            "id": "63",
+            "name": "how to set environment variables in fish shell - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/25632846/how-to-set-environment-variables-in-fish-shell"
+         }, {
+            "date_added": "13294341865054218",
+            "guid": "8aa03f6f-2a36-4dbf-8d3e-6cfce650c08f",
+            "id": "65",
+            "name": "dotfiles/sxhkdrc at master · BrodieRobertson/dotfiles · GitHub",
+            "type": "url",
+            "url": "https://github.com/BrodieRobertson/dotfiles/blob/master/config/sxhkd/sxhkdrc"
+         }, {
+            "date_added": "13294344300061469",
+            "guid": "ee4c8e2c-6bc4-4858-85cb-10dbbfd939c5",
+            "id": "66",
+            "name": "(4) Problem with sxhkd : bspwm",
+            "type": "url",
+            "url": "https://www.reddit.com/r/bspwm/comments/rv2x88/problem_with_sxhkd/"
+         }, {
+            "children": [ {
+               "date_added": "13294355222237536",
+               "guid": "0838cdad-5566-4532-8e59-c68a4b18928c",
+               "id": "69",
+               "name": "Basics - WWE SmackDown vs. Raw Wiki Guide - IGN",
+               "type": "url",
+               "url": "https://www.ign.com/wikis/wwe-smackdown-vs-raw/Basics#Basics"
+            }, {
+               "date_added": "13294355222237897",
+               "guid": "69db5065-780e-4717-8f37-b1e288c2e595",
+               "id": "70",
+               "name": "Matthew Weber / My Dots · GitLab",
+               "type": "url",
+               "url": "https://gitlab.com/thelinuxcast/my-dots"
+            }, {
+               "date_added": "13294355222238149",
+               "guid": "c267e3fe-ee13-46ce-a314-35a2e0142fef",
+               "id": "71",
+               "name": "Clipmenu: Look No Further For A Simple Clipboard Manager - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=nfPSpkqv0UM&t=214s"
+            }, {
+               "date_added": "13294355222238384",
+               "guid": "e52107bb-ce8b-4811-9966-efd50c41c58e",
+               "id": "72",
+               "name": "Use Rofi for all the things. (Linux) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=SdenZsIYl_Y"
+            }, {
+               "date_added": "13294355222238608",
+               "guid": "72ac748d-89c2-44eb-a5ba-265757be3685",
+               "id": "73",
+               "name": "How to Setup and Configure Rofi (The Best App Launcher) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=TutfIwxSE_s"
+            }, {
+               "date_added": "13294355222238861",
+               "guid": "0b4ee272-f103-4efc-a9bf-ce4c49e79865",
+               "id": "74",
+               "name": "Using Rofi for EVERYTHING! (Wifi menu, emoji selector, calculator, & more) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=v8w1i3wAKiw"
+            }, {
+               "date_added": "13294355222239106",
+               "guid": "ee0074ab-552a-4f29-8372-4ad619d6f5ac",
+               "id": "75",
+               "name": "shell - re-use '~/.profile` for Fish? - Super User",
+               "type": "url",
+               "url": "https://superuser.com/questions/446925/re-use-profile-for-fish"
+            }, {
+               "date_added": "13294355222239354",
+               "guid": "8068e832-fd9f-46e7-89e7-0d85597b41aa",
+               "id": "76",
+               "name": "bash - Is there anything in Zsh like .bash_profile? - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/23090390/is-there-anything-in-zsh-like-bash-profile"
+            }, {
+               "date_added": "13294355222239630",
+               "guid": "45b2a43b-a907-4079-bb7d-087efb0d5297",
+               "id": "77",
+               "name": "PaulGO",
+               "type": "url",
+               "url": "https://paulgo.io/search?q=zsh+indicate+scripts+that+are+chmod+%2Bx&language=en-GB&time_range=None&safesearch=1&categories=general"
+            }, {
+               "date_added": "13294355222239862",
+               "guid": "58878453-a2f6-4d99-bd0d-46db30ccb612",
+               "id": "78",
+               "name": "PaulGO",
+               "type": "url",
+               "url": "https://paulgo.io/search"
+            }, {
+               "date_added": "13294355222240048",
+               "guid": "74feae3a-1675-4efd-9fc7-9bd990e50adc",
+               "id": "79",
+               "name": "dotfiles/.zshenv at master · BrodieRobertson/dotfiles · GitHub",
+               "type": "url",
+               "url": "https://github.com/BrodieRobertson/dotfiles/blob/master/.zshenv"
+            }, {
+               "date_added": "13294355222240279",
+               "guid": "16d20692-abd0-45f6-b330-3a42f30d2cd9",
+               "id": "80",
+               "name": "How To Change The Default Shell In Linux (Bash, Zsh, Fish, Etc.) - Linux Uprising Blog",
+               "type": "url",
+               "url": "https://www.linuxuprising.com/2021/01/how-to-change-default-shell-in-linux.html"
+            }, {
+               "date_added": "13294355222240517",
+               "guid": "99ae90df-caf0-4f65-a5d1-963468187c0a",
+               "id": "81",
+               "name": "(4) reddit.com: search results - rofi gruvbox",
+               "type": "url",
+               "url": "https://www.reddit.com/search/?q=rofi%20gruvbox"
+            }, {
+               "date_added": "13294355222240725",
+               "guid": "fbc67b8d-6f54-4144-8379-68f5d7b9b4b6",
+               "id": "82",
+               "name": "BSPWM_blue/rofi/themes at main · giumatt/BSPWM_blue · GitHub",
+               "type": "url",
+               "url": "https://github.com/giumatt/BSPWM_blue/tree/main/rofi/themes"
+            }, {
+               "date_added": "13294355222240936",
+               "guid": "23ece82f-f9f2-4d03-b860-ba04cd194eeb",
+               "id": "83",
+               "name": "PaulGO",
+               "type": "url",
+               "url": "https://paulgo.io/search#"
+            }, {
+               "date_added": "13294355222241139",
+               "guid": "30e81064-b547-4c13-bee5-6bd9d40fe105",
+               "id": "84",
+               "name": "GitHub - undiabler/nord-rofi-theme: An arctic, north-bluish clean and elegant rofi color theme.",
+               "type": "url",
+               "url": "https://github.com/undiabler/nord-rofi-theme"
+            }, {
+               "date_added": "13294355222241382",
+               "guid": "846ae64f-06af-40cb-9d71-6c36115abace",
+               "id": "85",
+               "name": "Rofi run launcher customization and building a custom theme - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=SAlIDmSa6Aw"
+            }, {
+               "date_added": "13294355222241622",
+               "guid": "c6202914-dc05-4da3-9841-b9aa09dad122",
+               "id": "86",
+               "name": "Let's Linux #016: rofi setup - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=Sa9SWMvAMIU"
+            }, {
+               "date_added": "13294355222241853",
+               "guid": "be8f4eac-29c5-49b1-9a3b-f4c44d46ffc6",
+               "id": "87",
+               "name": "dotfiles-13/launcher.sh at main · DavidAlphaFox/dotfiles-13 · GitHub",
+               "type": "url",
+               "url": "https://github.com/DavidAlphaFox/dotfiles-13/blob/main/home/.config/rofi/launcher/launcher.sh"
+            }, {
+               "date_added": "13294355222242108",
+               "guid": "93cd4c22-f1c8-44be-a440-dde62b9d71cf",
+               "id": "88",
+               "name": "GitHub - bardisty/gruvbox-rofi: Gruvbox dark and light color themes for Rofi",
+               "type": "url",
+               "url": "https://github.com/bardisty/gruvbox-rofi"
+            }, {
+               "date_added": "13294355222242342",
+               "guid": "87473681-131d-4415-8bdf-b666f52eb555",
+               "id": "89",
+               "name": "PaulGO",
+               "type": "url",
+               "url": "https://paulgo.io/search?q=nvchad+copy+lines&language=en-GB&time_range=None&safesearch=1&categories=general"
+            }, {
+               "date_added": "13294355222242592",
+               "guid": "17cc2693-2a24-4303-8d9f-f0824b28f48e",
+               "id": "90",
+               "name": "config",
+               "type": "url",
+               "url": "file:///home/yashraj/.config/rofi/config"
+            } ],
+            "date_added": "13294355222237226",
+            "date_modified": "13294355222242592",
+            "guid": "c7c095b1-1c1b-46b4-8bee-9755521e5a2c",
+            "id": "68",
+            "name": "clean it up",
+            "type": "folder"
+         }, {
+            "date_added": "13294437223897276",
+            "guid": "f9bc2114-a295-4f81-9efa-c9eb4c872474",
+            "id": "92",
+            "name": "i3-dotfiles/.config/rofi at main · Outlaw-Amir/i3-dotfiles · GitHub",
+            "type": "url",
+            "url": "https://github.com/Outlaw-Amir/i3-dotfiles/tree/main/.config/rofi"
+         }, {
+            "date_added": "13294437236740307",
+            "guid": "5f085ebb-79e5-453c-bc78-a6d63df3c523",
+            "id": "93",
+            "name": "GitHub - umgbhalla/dotstow: dotfiles managed with stow",
+            "type": "url",
+            "url": "https://github.com/umgbhalla/dotstow"
+         } ],
+         "date_added": "13293707201825143",
+         "date_modified": "13294437236740307",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13293707201825144",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13293386499305696",
+            "guid": "6e377cc6-1e84-43cd-90b0-947215ce3af4",
+            "id": "7",
+            "name": "Download: YouTube Vanced MOD APK 17.03.38 (Premium Unlocked)",
+            "type": "url",
+            "url": "https://apkdone.com/youtube-vanced/download"
+         } ],
+         "date_added": "13293707201825148",
+         "date_modified": "13293386499305696",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgqq78ySiGAAAAAAEgAaWFZOWXJzbnAzenZWL1lyaGw1aEIyRGpqbVhWUzNUbDZWU1hhQUdKSE9hQ1lhSnV0SVltME80NUNlUzJKby9rQkVmVWFvSHNlY2JrTzNxREJvbXJKRTRBPT0gASoYbkxwNGp5ZWcxYXRtRlhXcXQ0N2ZPQT09EqkBCFcSpAEKHCtXdlFsQ3FqQlZ4bFlnUHltdVdTdHN2dDl0ND0SJDRiMjUxZmMyLTU4NDctNDU0MC05NmUxLTFiNWNlMWYwYzFlORgAIAIoAjDQ6u6kgjA44s3upIIwQPXN7qSCMEocbEx2UnpFMUU0Y2NNQVk4MjY0WFhlaEp4a3pVPVogIh7//3Rtalh1MkVGaU4zSGhORVczMVBCWjdsQVJqcz1lCAxKLhKqAQg/EqUBChx5YzU4RjlQS25PKzZGakwxN2FndUYxM084Z2c9EiRiNDRkYWE0NC02MzAwLTQwMDctYmU3Yi1iMDllYjZlYjE5ZWYYACADKAMwo+DLl4IwOO+z1ZaCMEDv0MuXgjBKHE1CNmFDU21QSmVjVStKd1VvbktFckhRaG1IVT1aISIf////Z1VmcGJicDJSb2t1ZnpxUC95cWJpNWtkMnNjPWUPzDQUEqkBCFQSpAEKHHhzUElnTEJ2aGRBa0h2ZGp2Vy84bnFYaG5VWT0SJDIzNWQ0ZjU5LWJlZmYtNGZmNC04NGEyLWVkYTc3MTQ1NWYxYhgAIAIoAjCU6u6kgjA44c3upIIwQPXN7qSCMEoccGtDSUI5anVkZHFxR1pOWStXeHhrVkMvZVI4PVogIh7//WpMa0greGxSc2lGb21tQzZtWlNoQnBPd0pabz1lCAxKLhKqAQg0EqUBChxvVUVucTRRRlRNeHJsUWd4Ty9HTjBvVU5RTmc9EiQyYmRlOGEzNy1jOWIxLTQ2Y2MtYTc4OC04NmI2MGEwOGM0ZTkYACACKAIwz4jr0IEwONPq6tCBMEDd6urQgTBKHE93MmdzV1BnU1BlVkU4clRYUW40dlB0eHRMdz1aISIf///bOE5jT08wNHFNT0h0ZlVvQmVZMWJydjE3UDNNPWV78cgqEqkBCB8SpAEKHE5qSnF3QVNKYlR3aGFpak1jN3dwNmVtSEMyYz0SJDY3MzMzNDRhLWQ3NjItNDY3Zi05YjBlLTExNmFmNmNkMTFiZBgAIAIoAjCLjtb3gDA4soDN94AwQMWAzfeAMEocRUhnbXNhbFV3OEhwQ2ZiSHJpQmJTemNiSENjPVogIh7//UFlTkZYM3BERlA3UlA4RmZjQXFyL1Jld3BKZz1lCAxKLhKpAQhTEqQBChxJYkN5ZkxhbVVSVHdYSE1IbHVDeE9QYnNPSU09EiRjOWRlMjhmNC1hOTAyLTRmMDgtYWIzMi0xZWIyYWRjYTE1YmYYACACKAIwgurupIIwOOHN7qSCMED1ze6kgjBKHEF6VVozbFBVbm5mS0I5bDQrNG4wdmlRME1LZz1aICIe//tXbUlrcmVYWEVVVUw1TGRWdWhHa1g2T1MzSVU9ZWN5fTUSqAEIShKjAQocYmViM05WSnJsOEd0ditnYzBURVJNTVBJenN3PRIkYzRjYmU0YzQtM2E5Ni00MmEyLWIyYzgtYmEwZDQzODU3YTY3GAAgAigCMNno7qSCMDjfze6kgjBA883upIIwShx0ZGVBbTNsSnFUNTA5NXNQQnoyOTZSald5Ykk9Wh8iHfpBM0ZVaFdsN3pKa1NRYWVJYkE0d2VENzRSMzg9ZTj5OTMSpwEIDhKiAQocdmtKUXVIdjNTT3NmcHNHeTVTRU43K0FYUmowPRIkNDMxNDQ0MjgtYmVhYy00MzBiLWFkODEtMDFhMjc1OGI1MmUyGAAgAigCMPeN1veAMDilgM33gDBAxIDN94AwShxobitaZTY4aXdEVjkzSXlLR3NvY2JuakVvNkE9Wh4iHDJDTzk5NnVBTnNyRmlMZEF0bnNweE9VbFZLOD1lY3l9NRKoAQhNEqMBChxtVWpWWUo0bjBmQklnQkp6VW9MSWVGTHYwamc9EiRiNDJkZTMyYS1iMzBkLTRkZGQtOWVjOS1lZGQ2M2M5Y2I2ZWMYACACKAIwkunupIIwON/N7qSCMED0ze6kgjBKHDVHNnRaOU9pNEVSVTRWbmwwMVRYbnZCN3VvWT1aHyId/1ZXQVV3T1cvV01JRTdkaGpOMVJhcDNlUTBpST1lY3l9NRKqAQhYEqUBChx3YldseDdTczFSbFNlaFJmcGRuQWdrTHEzYVU9EiQ4ZmM5OTM5Ny0yNzk5LTQwZTctYjhlYS0wZjc0NWIxMzViNmQYACACKAIw4erupIIwOOLN7qSCMED1ze6kgjBKHFAzRHd6dEczUjMzMGtMenZWQ1lsUkQwUlBoND1aISIf//+6VUNuSENsQzJCdFhxSFdMdzVhR20yVzNNazN3PWUIDEouEqkBCFESpAEKHDF1cUVxZlNUTDEyY2pyR01MUW85SHdVT0Z1UT0SJDAwNWY0Nzc3LWY0MGUtNDA5Mi1iMzViLTg4YzU2MzQ5ZjhhMBgAIAIoAjDe6e6kgjA44M3upIIwQPTN7qSCMEocNURyTWIxaHA0c29mV1JTcXMzN1dZR2xMRkNJPVogIh7/7kJwUldiWEVXSGwydFlaYjM3WDg0ckY1SFRIND1lHLJoTRKqAQhaEqUBChxwTkU5Z0lna1cyaEZQcG16c1Z1c3I2VzJqOEU9EiQzZGU3MDZmZi1kZjg1LTRmYjUtYTE5NC1iOWE0Zjc2ZDgxNGYYACABKAEwsuvupIIwOOLN7qSCMEDize6kgjBKHFFhbWJTRTRnV2plbHpDMXJITTlzV3FOaXlpST1aISIf///uRUZKUFd5aE92aG9tdFVtc01GOFRrNlRQc1NFPWUAAAAAEqsBCF0SpgEKHGkrRVVhQkJ0THl6WDlFV25Gbm1maU9LdHltcz0SJDRhMzZkMjIxLTIzMWEtNGJkZC1iODFjLTc5MmFjYjYwNDgwZRgAIAIoAjDNvPzLgjA4hLD8y4IwQIaw/MuCMEocK2thTmgxSnJDNWlCam51TzhSVFFtOGVYamEwPVoiIiD////7TlFiaHJ1NmFOOHFUNTMzS1djWDZzRDRZYUtzPWUIDEouEqkBCFASpAEKHENRLzdtd2VOVUpHNGlVa3lLVkFDL0ZlTEp5bz0SJDg5ZjEyNWEyLWIyYmQtNGU5YS04MWNlLWJmZGNhZDE2NGZlYRgAIAIoAjDO6e6kgjA44M3upIIwQPTN7qSCMEoca3dRZUxyTUZmWUMrZkVIZ0xXV3JOUHRtalZnPVogIh7/3G1JWkMybU9CL012OWRqSlRJaVUxQzI3YisxMD1l4JQggxKoAQhLEqMBChxIMmpIOE9HSXJ5UW9Sc0ZaUHZ1dUhpbmZ3Ylk9EiRjMGRlNmQ2Yy03YjdmLTQyNmItOTYwMC1kZTE0OGZjZDI0MzgYACACKAIw6ujupIIwON/N7qSCMEDzze6kgjBKHGpZdG9TOUdPY0tMYmR4U25SVGxvZUNyYTJ5VT1aHyId/VkrSHF2RnZUU3FvN0xDekZHc2xRSTc5OTFtaz1luS3SCRKpAQhVEqQBChxFeGthYzJoN1BOQUl1czZXTGl6ZE1ML0t0WWs9EiRjMDE5NmZlZi1lOWNjLTQ2MGMtOTU1MS0wZWE3MDMwODFhNzkYACACKAIwrOrupIIwOOHN7qSCMED1ze6kgjBKHE81UHFwZlVwZFFqSzdoL2Z4U0RNdkN1K3dhcz1aICIe//5rdldwcmdZZVF0RTFobWlPQUdyUkpkOUZJSkE9ZTj5OTMSqAEIFRKjAQocY2NGWXFYSk9SZFhKN01Ya25aSUFWOXNHa2hZPRIkZjY5NGQxODgtOTQxNC00MzUzLTkxMjYtODBlYmYwYTNmZTY3GAAgAigCMNKN1veAMDipgM33gDBAxIDN94AwShx3YzlkUXdocDBCMnBWWDBrYUsrbXNuWVhWQjQ9Wh8iHf14WE9vZGxISVdjSUYweVdFcEJwYTh6R1hDTmM9ZTj5OTMSqAEISRKjAQoccVVzOWIvbUN5T21nWFNHODVPV1dlVCtiV0tVPRIkZGM0ZWMzMDQtMGM3ZC00MmJlLThjZWUtM2JhNWRiMDM1MjgxGAAgAigCMMjo7qSCMDjeze6kgjBA883upIIwShx3VlFlTWJZblFXT3FzT2JaSnlYNDhKdDJXdWc9Wh8iHfRHdnNkTXNEUjR0MlY4OC81MEJoMzk0SzBBZDg9ZTj5OTMSpwEIBRKiAQocanN6bkdNaGVGWDloL1BrQnJaVi9OdS9xUkEwPRIkMzk3ODVmN2EtMTA4MS00NWE5LWJkZmEtNDcwZDRjYWE0YzhiGAAgACgAMNXt0piAMDja8NGYgDBA2vDRmIAwShxIeW5QZ3ZXUTd5SjdoT2FEMGZLdmFhRnFDa1E9Wh4iHFhnWXFaaUxpdS94RnBGVXhkbHYvK09JVVd2RT1lIy7GzhKpAQgsEqQBChwwckxPY3cvVDZtK0lQelBpS0JGdUNNbUdpdWs9EiRlYjA3NTc3Ny05NWM4LTQxMDYtYTRiZC0xOGY5NzkxNjE1YzIYACABKAEw7reGu4EwONKihruBMEDSooa7gTBKHEJjK3FjaHgzSDZFbWMzcXhYdDZWdEF2OVpaST1aICIe//pKSk11UEFoOEd0TEVnLzhrZkh2NVhNbmFUZGM9ZQAAAAASqAEISBKjAQocSnovbk9lakJkcjNPMk9CYThRVEc5MFNaektVPRIkMmM2MTMxYzMtYTQxMi00NDhiLTgwZDQtYjc3YzE4ZmI3ZTJkGAAgAigCMLfo7qSCMDjeze6kgjBA8s3upIIwShxyVGtUQVpScUs4UlBzWWRsQm9hc1laL0YwSU09Wh8iHeh5Ti9kTnE1V3g5OUtyT2xaSnFCVGtMa3R2R3c9ZTj5OTMSqwEIRBKmAQocVWpYMnN6VE9oVTNqaWZpZUcvTjV3MkUxRFc4PRIkYjlhOWViMmYtODkxNy00ZGJmLThlMjQtZmU1MGY1MTRhODA5GAAgASgBMN7n7qSCMDjdze6kgjBA3c3upIIwShxPdXNmWStTZCtKaHZ6b0RwaXJJTXBRWllKaEk9WiIiIP///+w5Y2E1ZXdJSDdQY3NOYmpXcXR1M1dqN3pCanM9ZQAAAAASqQEIMBKkAQocR0FnRWNhdzhmb0VNZkRxbzRlOFJwK2c5SHpNPRIkOGJlMjYyNGItNTNjMi00NmEyLWFkZWEtMWE3OTMzNWJlZmUyGAAgAigCMJrX6cuBMDjNjuLLgTBA1Y7iy4EwShx4emFZZFZYOC9TWDY2L2hkRWNsWm1UcGxCWlk9WiAiHv//RFFJazJuMXc1MkZZZEduMXNLa081R1BjdDZZPWU6HVu3EqkBCFISpAEKHGZRcTgwODZtM3Jzckx5NkszRW0zZHhwZVMwdz0SJDczODhhYmJjLTUxYzEtNDU3My05N2E5LWJhMTg0YzM2Nzk3NRgAIAIoAjDy6e6kgjA44M3upIIwQPTN7qSCMEocM2ZXK2lnRkpML2hQSTFTd2ZtcUZUd2Q0VC9NPVogIh7/93pDNUpNc3F3bzVjUGtKdDZvQUZQcEhVcFdBVT1lCAxKLhKoAQhHEqMBChxJTHQrUHF3SmpiN1U0blYzb1Q3NkNKSFRGQlE9EiQyOWEyOWVlOC01YWMwLTRlNDQtOWYzMC1lMGVkOTIxNDYxMDAYACACKAIwn+jupIIwON7N7qSCMEDyze6kgjBKHHJxQ2ZJdHVXL1FRQ1RTY05RQlhRRHZ1Njl2Zz1aHyId0VMrYU80czNEQXZJZ0s4dVRWdmxma1d3VmFiZz1lOPk5MxKqAQg6EqUBChwrU1NHN1ROMG4xdERhL1BvOG9xUTlvZDh0dTg9EiQxZmViNzRhNy03ZTJmLTRjNDItODc1OC0xODMxODI5NGQwNmMYACAEKAQwvNrJ94EwOJuT4u+BMEDqxMn3gTBKHGg3c3pZMkpILytza3lxemZKZEp4a3E5eG1kND1aISIf///7WEswVENUTHhtSlhDME9HR3J4d3czMjZBVjVzPWUIDEouEqkBCDESpAEKHDBWL0JPZHNFMTIyVkZDejNObDVFckpndEM1az0SJGY1ZTExNmJhLTdlMGEtNDhjZi1hZGE5LTk2OTk0YjQwYjE1ORgAIAIoAjCWv+/MgTA4l6nvzIEwQKap78yBMEoceHlVZXhJaGFHU1NPaUplNnF1RWFRQ0c4OGVrPVogIh7//2w4dFg1cWVCd25NcnovNm5JVTZ2NVVXc1Z6UT1l7SckEhKpAQgeEqQBChxSekN2RFBDdmNKaS9DMThyZzJ3czdjOGU0ZGs9EiRhYTUxMjUzNi1iNjUzLTQ2ZDQtODFlMy1iODI1YTNhOThjZmEYACACKAIwvY3W94AwOLGAzfeAMEDFgM33gDBKHHZBVzMxODFQeVdEZTM3Qk1KSURBZ0F1Y1FBTT1aICIe//tWeldMdVF6WHNoWnFHZU9xeXd4MUMxaVNVR3M9ZTj5OTMSqQEIKhKkAQocei9EVnZLN2NSZkgva0JvejVTZWhDZWxJeFlzPRIkM2I5NWFlNTItNDM1Zi00ZDFjLWFkYmEtZDg0ODU5MTJlMDBkGAAgAigCMKvwgLmBMDiB3YC5gTBAid2AuYEwShxxaENaSUdoN3FwMS9peFdMUi8zbXhNakdXazQ9WiAiHv/qOGhKYmQwQVJuYjc1M0xuNFhvUklVVitHc1lZPWUIDEouEqkBCBsSpAEKHGpPT1VXYTBuTnZrK3Y5b1VNVFNuUHN4NGI0Yz0SJDg3N2M1Y2ExLTAxMWMtNDM1ZC1hZWIwLTQyNzc5MzA3N2VmYRgAIAIoAjD1i9b3gDA4sIDN94AwQMSAzfeAMEocVS9tM0ZMYUkxaHdvckdGQ25wYkFBRStYaWVJPVogIh7/3khLVUpkdE82QlNFSkh5K2cvN1IrY1RpaUo1cz1lCAxKLhKnAQhFEqIBChxubkNmejZRanFCS1lMY0xmRWFxVExkYTdOQzA9EiQ3YTIxZDFjNC03YWU2LTQyZGQtODY0MC1mYTU1ODliZGFkZGIYACACKAIw+ufupIIwON3N7qSCMEDyze6kgjBKHDNOYXNuSGVqRkM3b25HUXh2bTA5T1czREVVbz1aHiIcRTEvbW9UZ1lZMEFCYzU4WHVpM243bHRUVURZPWU6HVu3EqkBCBoSpAEKHHBScWRTYWp6dDVIU1o3TnEyNEN6V1pHejl1TT0SJGE4Y2RkZjY1LTdkZjYtNDUxNi05MTliLWI3NWU1NDY2MmU1NRgAIAIoAjC1jNb3gDA4sIDN94AwQMSAzfeAMEocMCttNzBzRGZJQjlDQ21YdW11cHM5NzZMcDBjPVogIh7/vDcyUFpXOStiWnVnNlZHMUljR3RQdDBidXpuTT1l7SckEhKoAQgTEqMBChxsTVVJd3ZCdlhxc3ljbkVpclVuNGdxbUxiRGc9EiQ2NGE0ZTZiZi0yOGM4LTQ2OTUtOWM4ZC0xMWFmNjE2MDc4N2UYACACKAIw9IzW94AwOKiAzfeAMEDEgM33gDBKHDlwYkErRHh0Y3JXNzI1dlYzYnBhNmdtQ1RUaz1aHyId90VTMG1WNDRzLzN5NXo5eUxoSi9jL2V4YUFHaz1lNMoEkBKnAQgHEqIBChxURkt0ZEpsbGV2ZXQ5UDZ6cHJ2T0xNY0dQR289EiQxNjVkMDRkNi04ZjYwLTRlZjUtYjk5YS0zYjViZjczY2U3ZWYYACAAKAAw6O3SmIAwONrw0ZiAMEDa8NGYgDBKHGJNWHFpN1U5RXJybUtVaklMWkRNY2FTNVZNbz1aHiIcMzRoUTd6TVFRTWlKdC9aMjdDRithUnQzV2NJPWVbaDWNEqkBCCgSpAEKHEFzTDRGUEZuUVpvbHhzZGJENmEzZnB3anB6dz0SJGI4YzdjNGFmLWFhODYtNDMyNC1hOGU2LTExOWYzODhkNTlkZRgAIAQoBDCd4MuXgjA4pvimpYEwQO/Qy5eCMEocdHFLdHE2RmJIWUsrMzh4UjJGNFNuQkllVDFZPVogIh7/qjZnakdBV3ZXTVM4N3VkckpCY1V3eGMxaDd0dz1lD8w0FBKqAQg2EqUBChxuakVRNGg4bndjbVh1SUFzN3U5cnQxUmpyS1k9EiQwMDA2MGFhOS05MzQxLTQ2MWQtOTFiNy03YmY4MTM4Nzk4M2MYACACKAIw6YTj4YEwOOXw4uGBMEDr8OLhgTBKHEdPWXR1eGQ3NkZ5c3JORUg2d0ppbERzaWc0bz1aISIf///tODN5aUYwS3ZPYzgxaElFMHVyNm82c1V5QnZvPWXtJyQSEqkBCBwSpAEKHDBNdkRZT0FWeUFPSHg1bzltNWlMNTFHbHdRUT0SJGFiYzA3YTRkLTFlMTQtNGE5MC05MmU3LWFkMTFmNTI4MDk2MxgAIAIoAjCdjtb3gDA4sYDN94AwQMSAzfeAMEocRkE5NnE4M3U5enkyU2Fhak1laytDbzhrSkxZPVogIh7/721GWlRoT3FqMTNJTkpoM1F2WXZmdmtXYWdvcz1lCAxKLhKoAQhGEqMBChxmemNHUnZGNkVqTDF0QjdlUldoeU5sbDlvNTQ9EiQwNzc5NmYwYi0xMmRmLTQyNGItOWE3Ny0yZDhmMTQ4NzQyZmUYACACKAIwi+jupIIwON7N7qSCMEDyze6kgjBKHGFKZ3YrNnZPVFQ1Y0k0Q1p2alRBOFBlNXJSQT1aHyIdojdjVExjOGJ0SkgrVnNGNFAvQXA3a1pDQ2J2Yz1l0Rf3NxKpAQhWEqQBChxDdVJvUmsxcHR6Yms2Nm9uNFp3VEU3aklpNVk9EiQ5ZTJlMDZlMC1jNjZkLTRhMjAtOWM5MS04YzgxMGExODM0ZjgYACACKAIwv+rupIIwOOHN7qSCMED1ze6kgjBKHGFwRGVwbDBGcDRLd0wwaTVwTGJidW84UDdxND1aICIe//9DUS9wVExtdGpMR1ljZzdHK0ZWSmd2WjJFY009ZTj5OTMSqAEIIxKjAQocZDA4OGJGRTVHbnpZUXBDK2dlMWFJeEdRU0djPRIkNjNlYWVlN2ItMjVjNi00Mjk2LWIzOWYtYWRlOTk4Njk1MmZlGAAgAigCMNi/sZeBMDi7qrGXgTBAyqqxl4EwShxad0I5djN0MFZ1ejhFYlJsL3YrMk82WDhWSmc9Wh8iHfpUTlVBQ3Yybk1uOE9EVGRyRzdXY1IrTW9DRHM9ZQgMSi4SqwEIXBKmAQocRlBteXFYaXMvMTdYK09maVV1dFhkc29FS0o4PRIkNGUyYWJhZTAtOTc2Ny00NTBjLTg3NzUtNGJmYTMyYzg4ZWM0GAAgAigCMIPg+8uCMDjZy/vLgjBA3sv7y4IwShxKc3BpQUV5YnYyczBkbzB2ZVJOSnhROWR6b0k9WiIiIP////ZydEhrRnYzSEN2NFUvREYyTUZDQ0tmOGc4L2c9ZQgMSi4SqAEICRKjAQocZTZSM1VFV1VzSWpnRjhXcW5hTjNlUWw0QUFNPRIkOGI3OTg4NDQtOTgyYy00ODdmLTljMTYtM2VmYzFlYmY3Yzk3GAAgBCgEMJbgy5eCMDjImuLmgDBA79DLl4IwShxVVjVYL0YzUCtJZ3hsYTRvWEtvdDBySWNTM1E9Wh8iHaxXeFY5SXVsR0ZOczlGQWZldExEQ2VnR1laVUU9ZQ/MNBQSqAEIERKjAQocUXBQNGhKWHYzaUZRRk91K0x2MHR5NFBWS09BPRIkMjYyNjIzYWYtMWYwNy00YTQ5LWI5OGYtOGI4MzFiZDg4NjJhGAAgAigCMIaN1veAMDingM33gDBAxIDN94AwShw0ZWhuTUNTaTdwWEE0dG9sUi9OYVFEbWpuaXc9Wh8iHd5iL3BUSXBCYzErVDFNeHQxNStZUWZUN3N0cTg9ZWY/B6ISqQEIKRKkAQocWnF4OXkvTEoyejZLREFWdmM5dkhvK3dpTFpzPRIkZGI4OTZkNDctNzdmMy00MjNiLWE3NDQtNmRiNzQ2MjkwMTQxGAAgAigCMOSV0KqBMDjfgdCqgTBA6oHQqoEwShxUSlcwVkVQZWFoZUc5LzZKRGpYV1RWMFpxUUE9WiAiHv/VSzBkSlQ5N3NlajI1ZW91NnYxL0Z0U3dFM01RPWUIDEouEqoBCD4SpQEKHCtFUmd1ZzE1cUFobDNjdFdrU1Z0VlU0TkM5UT0SJGIyNmIwZmRkLTVhM2QtNGYyYi05Y2Y0LThkZDQwYTFmMmJmZRgAIAIoAjD/n+GVgjA4iozhlYIwQI+M4ZWCMEocVU0zQUE0WGpvWXRQWUxPZGFoL3FWWFdieXpJPVohIh////43aWJSTFc5SzRFZys0WTJyM01obFJUdVp1ekE9ZQgMSi4SqAEIFBKjAQocQmtwcWE0cVZNdlVXK1pNMVdYdXBLNW1YN0I0PRIkMzQ1ZDUxZDYtZGMyNC00MDE0LTgzOTItZTk3MzgyOWEyYTA5GAAgAigCMLOO1veAMDiogM33gDBAxIDN94AwShwyWVRDTW1wRExSOGFXNk9GMGV2SWswUU8rL2s9Wh8iHft4OGhFTGRMYW5SNmRkR1UwU01ocGlPRXA4eFk9ZTj5OTMSqAEIChKjAQoccFhtT0ZEY0w4VFF6c2VIS2tYZHBMckdTeFp3PRIkN2ZjNWVhODctNDg2ZS00N2IyLWIwM2ItMDk4ZTFiOGZmNTYzGAAgAigCMNSi+uaAMDjVjPrmgDBA4Iz65oAwShxFTzkydjRPUTVTc2Q2MFNKMXhPcUd4TG9TVVU9Wh8iHdZJbVFGWlZtcytUcVB6cjFkOG9xK2JpVjBRT0U9ZQgMSi4SgwEIAhJ/ChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQxNzZhMTRjYi0xNDc3LTQzZTYtYWM1NS1lZWY0ZTFhZTgzNzYYACAAKAAwATjQtc6YgDBA0LXOmIAwShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKpAQgrEqQBChw4T1V4ZHpLUGlKR2IvSXpEbWhMbW5GbzJ1YkU9EiQxNTY1MTg2Zi1iODcwLTQyMGUtOTJkNi1iOWYzOWI4NWUyY2QYACACKAIwqMGHuYEwOJath7mBMECcrYe5gTBKHHlUTGxGWlVLZ1VjZXlzNzB0RFVnZjhPQWpiVT1aICIe//VsTlp5UGhXdndtNFRXcld3dlE5T2lCeHJIOEU9ZQgMSi4SqQEIIBKkAQocOFo5NVFzNEVaV3FQTk01ZDNFaFhzWDl0S2dRPRIkNGI3MmIwN2QtZWMzYS00Y2FlLTg1MDktZTYxMDVjNTc0NWJhGAAgAigCMMSL1veAMDiygM33gDBAxYDN94AwShxQa3VmNXV0R0FEckpKVEd0KzlFTDlMQzU2SEU9WiAiHv/+b2s3c0JvT1MwSlMvRXlTaVM2NExpZC8rMXBZPWVjeX01EqgBCBkSowEKHElncjdwd0tDV0tBRmNGTnlhdGdlaUJqVlIwZz0SJDMzZTlhNjNjLTcxNjktNDkwMi1iNzQ0LTcxNDNjYmViOWNhNRgAIAEoATCjjNb3gDA4r4DN94AwQK+AzfeAMEocTlVpYlV0T3U3a0RiVkVLcDJKUU1hMjhuMDZnPVofIh3/eURYTXJpMU5KRllmNUo3ZUNQSGlzSXBneFhBPWUAAAAAEqcBCA8SogEKHG51dndTc1dwUHBoczlrNHArc25QK0hwL2hjaz0SJDkxMWQwMWJhLWM1MWItNDM4OC05ZDBlLThlNTVhNDRlYzAzORgAIAIoAjCYjdb3gDA4poDN94AwQMSAzfeAMEocSTF0U3F4WXR0RGh0REVmekt3OXBEVWxoUXFrPVoeIhx6WnUzL05XNnF5aU0xQ0lCYjZXR1d2Vkt0Ylk9ZQgMSi4SqQEITxKkAQocL0d3WGhzSlhmU0h6QlQ5WUVhOE1EK2F1SldnPRIkMTNmMTM2MjMtNjk2NS00ZjEyLThmY2MtMTFlNTgzMTljNGFlGAAgAigCMLzp7qSCMDjgze6kgjBA9M3upIIwShxZRzlFTFdLRHRsR2tyWjNES3Z4bDZQeUF0SjA9WiAiHv+4S1IzUk4weVRxa1VEazk0RVhkU2dtRFh1b3k4PWUIDEouEqoBCFkSpQEKHDZnYm96amVRcWs1aUg1TnFMTUk3YmVCTi9qaz0SJDc1NDlhOWNiLThiNDctNDA5Ni04NTkwLTRjNjk3YjUxMGI4NRgAIAIoAjCh6+6kgjA44s3upIIwQPXN7qSCMEocUmtyTHM3TW9nSURzTzVYQjVMNUFraTd2OS8wPVohIh///91yZXZtNEpkTkJSU3JObFVuVVJKRVJ3Qzk5d0E9ZWN5fTUSqAEIJRKjAQocOWJYbldCUzNlRTdqR3RHVVUydGMvY3Bvb09rPRIkZDU0MTRjOTMtMzcyZC00Y2ViLWI1MDAtMDI0MGNhZWY1MzY4GAAgAigCMIy22piBMDi4odqYgTBAxKHamIEwShwzbzlad3dJcGVvZWhINVlsbnIzb1JTckVkMkU9Wh8iHf5XKzBZR25xc1NEUHZISHplbkIwbEVZajBIazg9ZQgMSi4SqAEICxKjAQocOGx5cjZGWFQxdWJhMnhDWG9CUDZZdG9TMzNNPRIkNTExNTNhNDYtYzVkMy00YTE2LTgzNDktNWY4OWMwZjg0YTI3GAAgAigCMN+vme2AMDjBm5ntgDBAxZuZ7YAwShwrLzJ6R3FRc0ZRWEJoN29PVW5LSGhWbXZ4aGs9Wh8iHet6MU41MFVuMXB6L3lqOXdDdm82RWFEaUI3YnM9ZQgMSi4SqwEIQRKmAQocbzM2Z29Lek53Q3JCeW1TVmFNMElja1dGYWJBPRIkN2QzYjk1MTEtNjQ3My00ZjhkLTllNzItYjZkN2VjYjU3MWQ0GAAgAigCMODCv56CMDjhrL+egjBA86y/noIwShxUb2ZxTzdhWExLRitWd0pleGhJeEZ0ajJwYjQ9WiIiIP///7NnSXoycXh1OXQrU2NDdGR3cDRVcERMWWZFRTg9ZQgMSi4SqAEIEhKjAQoccVh0d1Bid2E1dWJhc3d6SFRGZGtjNlNSdWJ3PRIkMjI5MzZjMGItY2U3ZS00OGFiLThmZWQtZjgyZDI1ODQ1ZTYwGAAgAigCMMqM1veAMDingM33gDBAxIDN94AwShxabS9uZGtOZ2ZGUnBhTTd2Z0tPOElyQ244SlE9Wh8iHe9rNWlsSUxxOWw5YkdOcE1CZWF5VkhEV3NTYUk9ZYK/PIkSqAEIThKjAQocOVRlZnBNbjkvcnRCWVQwc2NhMitFNkVFV0RzPRIkNjgyZmNjZmUtNjAzYi00ZWZkLWE0NDgtMjA4MGM4M2VhMjkwGAAgAygDMNW3pomEMDjgze6kgjBA9KmmiYQwShwxeDRxY0IreE9BTFJodTJrNXo4Ny84VFJzaHc9Wh8iHf9xQ0tNOEtsZmg4SVJTU0ZSWUxnMGhQOGp6cU09ZWN5fTUSqQEIHRKkAQocdHEvN05pcXowRTcvZTEyYlRvaENXdmdpOWVRPRIkMGI1YTQ1MmUtYTQ0OC00NjRhLTlhMTktNzlkMTg2YTJiZmExGAAgBCgEMP7jv/yAMDixgM33gDBA446//IAwShx6MmxjdlFaUVRUN0hnMW5Cbld5R2JZVnJKY1k9WiAiHv/3d01mbGJiQTJTdmRKdUdpTVhMVjl2RmRBT3AwPWX6BzDJEqoBCDMSpQEKHFF3d1VQcERqcnRPUWhRMHNTaFY3bVRCTkc2MD0SJGJjYThlZmNmLThiNDEtNDBhZC1hOTU4LTZlY2ZjNThmMzAxNxgAIAIoAjDKgLnQgTA47+m40IEwQPfpuNCBMEocWlNNSFpjZ0dPcDdndHRlb2xCdllta1NQei9FPVohIh///7ZJa0tIL1VGZ2o0S0d6eFMzcERrQmF4TFJuNk09ZTj5OTMSqAEITBKjAQocMW8zLzQ5YmM4NU50VTJkSURFUGs3ZEFQOXBjPRIkNjg3ZGQwY2QtMGRjNC00ZmNlLWFiMWMtYzc4N2JlNjdjZTE0GAAgAigCMILp7qSCMDjfze6kgjBA883upIIwShw1cVlXbUhNZTVwTmVscExENmUrWTBxWFd0ZDg9Wh8iHf5HbFlybmNjWUI5YmNmcm0vaHlzdTdka3E2T1k9ZQ/MNBQSqAEIFxKjAQocS3Zxd3hsTDdVVWF6OGk5bDNaUmVWZVpwcFpnPRIkMDA0ZDY0MzQtMTM1Ni00YjNlLTllMzUtZDkxYzJmNDU1NDI4GAAgAigCMIqM1veAMDipgM33gDBAxIDN94AwShxWWFJOUjhTRmU5SkVYVXN4NThjdXhmckk5V1k9Wh8iHf9LeVRVcnBwMzlQbXBTRW5BRldHUGRJek1oelU9ZTj5OTMSgwEIARJ/Chx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQ4Nzg1ZjFkMi0xMDQ2LTQ3ZWUtOGQzYi02OTBmNGY5ZDVkNDUYACAAKAAwATjQtc6YgDBA0LXOmIAwShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKoAQgWEqMBChxEcllvaXQvdGF1QUlrTG9IYmhOOUpFQlZFWlk9EiQwMzE1ZWRiYi05YzY1LTQ3MTUtOTk1Yy0zNGZhYTc2NGJkYzgYACACKAIwq43W94AwOKmAzfeAMEDEgM33gDBKHFF0dDUxMkk5dkhEMVdYZHVGRFo4UmNlSGtscz1aHyId/lhKR1ZnNG54SUFicWl1Q2ZYNXd4bHJaYkJxND1lOPk5MxKoAQgYEqMBChxLSWhsSDRvWUxmM0Ywa1grUGdKeDNESWFiY1U9EiQzM2E5NzZlMC04NzY1LTRlYjYtYTU4YS1mYWU3MWIxMDZlYWYYACACKAIw4IzW94AwOKqAzfeAMEDEgM33gDBKHEIzekNTTEcvQmhMSG43UFhOZ2x4RTdBTG9SVT1aHyId/3ZibXhnaW9ka0dZSEJ3cytXQ2xEZ3cyVFh1Zz1lHLJoTRKoAQgkEqMBChxJZkZuT2lJU09SQ0JZVGYrRGtHVjczcllobnc9EiQyZDA4OWIwZi0zYzllLTRjZmMtOWU1OS1jZDc1ZWUwNzJhMjkYACACKAIwjcfcl4EwOO2y3JeBMEDzstyXgTBKHEVJZnZOTTArK2FMQlJ6enl1UDVCNThLaVJmYz1aHyId/VhaTmZvR3F2WXNoRnM2cXE1MTRzUjJ2S2ppOD1l7SckEhKoAQgmEqMBChxqZE4yYk1IZUt4dVpsZGQzKzB0bjkzVXdueGs9EiRmMmY1NThiYy0zOGVkLTRmYzEtOGE4ZC0yOWEyNGNhYWE1NDQYACACKAIw+tPamIEwOJW/2piBMECYv9qYgTBKHEoyS2dSRklVYldxS2dzV25zZWJ6OEJUQStNUT1aHyId/1R6WTFCRjFSRDdHcmsyRGcrQlVFR01kY0d5UT1lCAxKLhKoAQgNEqMBChxhV3ExR3o3VWZON2FXaEt1cFI0UktrS09WUzg9EiRhZWU0ZjMwOC03ZTAxLTRiOGUtODVmOS01OTRkY2Y3MDc1YTcYACABKAEwlPDV94AwOKOAzfeAMECjgM33gDBKHExzTjJOMnNKRUtWT1gxVDI0NUNTbFAwak4wTT1aHyId9Uo4ZFovVmlJcFloMGVYVWFpVzBWa1U2Rkw3Yz1lAAAAABKrAQhCEqYBChxZeDdXMk9ER1ltUVR6T3JjV0R1TXNxdGkxV1k9EiQ4ZWE0YTIxNy0zNmJjLTQ4MDItYTdhZi02Y2M5NGYyNjg1ZDIYACACKAIw95HUn4IwOJ/805+CMECv/NOfgjBKHDlBNS9mUURUcnQxSjU2VWVYTW41RityTEZlTT1aIiIg////2TR6OWJ3M1RUdlhYYmJnNFNscWUrMDFkdWRnND1lHLJoTRKqAQg4EqUBChxYekVLeGppa3BmQU1WN0FiNkhGNzVyV1lhOTA9EiRkZTIwMTc2Ni04ZTM5LTQ1YjYtYjcxNi0yYzJkZDc1MzhkYmMYACAEKAQwhbnMoIIwOMfGpOmBMEDIpMyggjBKHDVlNzR3ZGJpOWNZdlB6c2hva05abElGU3hucz1aISIf///2OFJoTHZ1MzdBZDZrWGwxQ0tJdnBZREtZSEowPWUcsmhNEqkBCC0SpAEKHGFSdngrVWluZWdyNWdpSC9Pb0dMdS9iN0s5ST0SJGQ1YmE1M2VmLTJkNzQtNDY2MS1iNDNiLWZiYzc0MWFjNDIxMhgAIAIoAjDwgd67gTA4h+3du4EwQJLt3buBMEocYms3VnpvSHMzU2QxRnBVRFdEYXI4TW1sTGtZPVogIh7//XRiYmwzZW1rbG0wSW1PcnZucmtHKzNuQnFrTT1lUgDxshKpAQguEqQBChxQdnhGaTJFZFV6OTBpczl2MDdOQVV1TGF4NVE9EiRhNTkxNjFiMC1lNTZhLTQ2ZWQtYTc0OC1lZTk4ODY4MTkyMDcYACACKAIw2Pubw4EwOI3nm8OBMECb55vDgTBKHEF1YlRRUnEwV1E2RmllR3l4Zk5VOWNaUDdvcz1aICIe//5kUitEeUFUd25iMFBXYWxhWm4wemNRR1FBVnc9ZQgMSi4SqgEIPBKlAQocUU1zVjJ5Q05OUk1lYlJXbFlHT0ZMcWN1M2U0PRIkOGJhZDA3NzYtYTU4NS00MjZhLWJmNzUtODY4NTcyYjYzYTVlGAAgAigCMOe//faBMDiCq/32gTBAkav99oEwShw5eGxHNXZYQzAzZUdpNHNQMHdUeGIzY1c0TW89WiEiH////VNjQnJyQmwvYmVQZHM3T2xIRDhOQjdUUEErZz1l7SckEhKDAQgDEn8KHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGQ5MTczOGUyLTY4MGYtNDA1OC1iZGY3LTBjOWZhN2RlMjAyNRgAIAAoADABONC1zpiAMEDQtc6YgDBKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEqgBCBASowEKHHROT0N0dS9KTXVCd2NBVXBjTXJXZFpybWhBdz0SJDRhOTZmNjk2LTcyYWMtNDg1ZC05ZTYxLWQ1MzBlODc5NTAwZBgAIAIoAjDjjdb3gDA4poDN94AwQMSAzfeAMEocZzIxZDBVVFkwVHNjN2JyNWR5UUpBZjh2TTE0PVofIh29V3VJZUxzSWxqWVljRmhsZUd1VUczK1I4ZHRNPWUIDEouMAE4AA==",
+   "version": 1
+}

@@ -1,0 +1,5 @@
+[default-routes]
+alsa_card.pci-0000_00_1f.3:output:analog-output-speaker:channelMap=FL;FR;
+alsa_card.pci-0000_00_1f.3:output:analog-output-speaker:channelVolumes=0.51209378242493;0.51209378242493;
+alsa_card.pci-0000_00_1f.3:output:analog-output-speaker:latencyOffsetNsec=0
+alsa_card.pci-0000_00_1f.3:profile:output:analog-stereo+input:analog-stereo=analog-output-speaker;

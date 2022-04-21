@@ -1,0 +1,6 @@
+2022/04/21-10:35:44.458 e6fe3 Reusing MANIFEST /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/21-10:35:44.458 e6fe3 Recovering log #355
+2022/04/21-10:35:44.520 e6fe3 Reusing old log /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000355.log 
+2022/04/21-10:36:47.354 e6fe3 Level-0 table #361: started
+2022/04/21-10:36:47.369 e6fe3 Level-0 table #361: 1118674 bytes OK
+2022/04/21-10:36:47.372 e6fe3 Delete type=0 #355

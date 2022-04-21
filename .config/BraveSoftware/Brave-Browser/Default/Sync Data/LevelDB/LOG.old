@@ -1,0 +1,24 @@
+2022/04/21-09:24:03.502 89224 Reusing MANIFEST /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/04/21-09:24:03.503 89224 Recovering log #483
+2022/04/21-09:24:03.504 89224 Reusing old log /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000483.log 
+2022/04/21-09:24:38.890 89260 Level-0 table #487: started
+2022/04/21-09:24:38.897 89260 Level-0 table #487: 81884 bytes OK
+2022/04/21-09:24:38.901 89260 Delete type=0 #483
+2022/04/21-09:24:38.901 89258 Compacting 4@0 + 1@1 files
+2022/04/21-09:24:38.906 89258 Generated table #488@0: 238 keys, 30653 bytes
+2022/04/21-09:24:38.906 89258 Compacted 4@0 + 1@1 files => 30653 bytes
+2022/04/21-09:24:38.909 89258 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/21-09:24:38.909 89258 Delete type=2 #476
+2022/04/21-09:24:38.909 89258 Delete type=2 #479
+2022/04/21-09:24:38.909 89258 Delete type=2 #482
+2022/04/21-09:24:38.909 89258 Delete type=2 #484
+2022/04/21-09:24:38.909 89258 Delete type=2 #487
+2022/04/21-09:58:51.365 b92b9 Level-0 table #490: started
+2022/04/21-09:58:51.373 b92b9 Level-0 table #490: 75190 bytes OK
+2022/04/21-09:58:51.376 b92b9 Delete type=0 #486
+2022/04/21-11:04:33.328 11c351 Level-0 table #492: started
+2022/04/21-11:04:33.332 11c351 Level-0 table #492: 73674 bytes OK
+2022/04/21-11:04:33.335 11c351 Delete type=0 #489
+2022/04/21-11:31:03.636 13f5f1 Level-0 table #494: started
+2022/04/21-11:31:03.644 13f5f1 Level-0 table #494: 80875 bytes OK
+2022/04/21-11:31:03.654 13f5f1 Delete type=0 #491

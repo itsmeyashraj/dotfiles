@@ -1,0 +1,6 @@
+2022/04/13-12:59:49.517 3aeed Creating DB /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_bitbucket.org_0.indexeddb.leveldb since it was missing.
+2022/04/13-12:59:49.520 3aeed Reusing MANIFEST /home/yashraj/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_bitbucket.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/13-13:00:16.976 3aeed Level-0 table #5: started
+2022/04/13-13:00:16.980 3aeed Level-0 table #5: 10178 bytes OK
+2022/04/13-13:00:16.983 3aeed Delete type=0 #3
+2022/04/13-13:00:16.984 3aeed Manual compaction at level-0 from (begin) .. (end); will stop at (end)

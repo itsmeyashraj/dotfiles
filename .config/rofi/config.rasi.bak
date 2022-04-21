@@ -1,0 +1,164 @@
+configuration {
+    font: 			    "JetBrainsMono Nerd Font 12";
+    show-icons: 		    true;
+    icon-theme:                     "Papirus";
+    sidebar-mode: 		    false;
+    display-run: 	            "Run";
+    display-ssh: 		    "SSh";
+    display-drun: 		    "Apps";
+    display-combi: 		    "Combi";
+}
+
+@import                             "~/.config/rofi/gruvbox.rasi"
+
+window {
+    transparency:                   "real";
+    background-color:               @bg;
+    border:			    3px;
+    border-color:	            @red;
+    border-radius:                  12px;
+    padding:                        30;
+    width:		            50%;
+    location:                       center;
+    x-offset:                       0;
+    y-offset:                       0;
+}
+
+prompt {
+	text-color: 	            @fg;
+        spacing:                    0;
+        border:                     0;
+}
+
+textbox-prompt-colon {
+    expand: 			    false;
+    str: 			    " ";
+    margin:			    0px 4px 0px 0px;
+    text-color: 		    @fg;
+}
+
+entry {
+    text-color:                     @fg;
+}
+
+
+case-indicator {
+    spacing:    		    0;
+    text-color: 		    @fg;
+}
+
+inputbar {
+	children: 		    [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    text-color:                     @fg;
+    padding:                        1px;
+}
+
+listview {
+    fixed-height:                   0;
+    border:                         0px;
+    border-color:                   @ac;
+    padding:                        5px 5px 0px 5px;
+    columns:                        3;
+    lines:                          10;
+    spacing:                        4px;
+    scrollbar:                      false;
+}
+
+mainbox {
+    border:			    0px;
+    border-color:		    @ac;
+    padding:                        6;
+}
+
+element {
+    border-radius:                  0px;
+    padding:                        5px;
+}
+
+element-icon {
+    size:                           20px;
+    border:                         0px;
+}
+
+element-text {
+    text-color:                     #a89984;
+}
+
+element normal.normal {
+    background-color: 				@bg;
+    text-color:       				@fg;
+}
+element normal.urgent {
+    background-color: 				@bg;
+    text-color:       				@red;
+}
+element normal.active {
+    background-color: 				@green;
+    text-color:       				@bg;
+}
+element selected.normal {
+    background-color: 				@ac;
+    text-color:       				@fg;
+}
+element selected.urgent {
+    background-color: 				@bg;
+    text-color:       				@red;
+}
+element selected.active {
+    background-color: 				@fg;
+    text-color:       				@bg;
+}
+element alternate.normal {
+    background-color: 				@bg;
+    text-color:       				@fg;
+}
+element alternate.urgent {
+    background-color: 				@bg;
+    text-color:       				@fg;
+}
+element alternate.active {
+    background-color: 				@bg;
+    text-color:       				@fg;
+}
+
+sidebar {
+    border:       					0px;
+    border-color: 					@ac;
+    border-radius: 					0px;
+}
+
+button {
+    background-color:             	                @fg;
+    margin: 						5px;
+    padding: 						5px;
+    text-color: 					@fg;
+    border: 						0px;
+    border-radius: 					10px;
+    border-color: 					@fg;
+}
+
+button selected {
+    background-color:                                   @ac;
+    text-color: 					@fg;
+    border: 						0px;
+    border-radius: 					10px;
+    border-color: 					@fg;
+}
+
+scrollbar {
+    width:        					4px;
+    border:       					0px;
+    handle-color: 					@fg;
+    handle-width: 					8px;
+    padding:      					0;
+}
+
+message {
+    border: 						0px;
+    border-color: 					@ac;
+    padding: 						1px;
+}
+
+textbox {
+    text-color: 					@fg;
+}
