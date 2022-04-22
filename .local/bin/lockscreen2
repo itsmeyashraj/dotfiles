@@ -1,0 +1,80 @@
+#!/bin/env bash
+
+wallpaper=$2
+cachepath=$HOME/.cache/lockscreen
+
+width=$(xrandr --query | grep ' connected' | grep -o '[0-9][0-9]*x[0-9][0-9]*[^ ]*' | sed -r 's/^[^0-9]*([0-9]+x[0-9]+).*$/\1/' |cut -d "x" -f 1 |head -n1)
+height=$(xrandr --query | grep ' connected' | grep -o '[0-9][0-9]*x[0-9][0-9]*[^ ]*' | sed -r 's/^[^0-9]*([0-9]+x[0-9]+).*$/\1/' |cut -d "x" -f 2 |head -n1)
+half_width=$((width/2))
+half_height=$((height/2))
+
+
+fg_color=E6CB9D
+wrong_color=FB4934
+highlight_color=98971a
+verif_color=fabd2f
+
+cropbg() {
+	convert "$wallpaper" -resize ${width}x -gravity center -crop ${width}x${height}+0+0 +repage \( \
+        -size 120x140 xc:none \
+        \) -gravity south -compose over -composite $cachepath/resize.png
+}
+
+blurbg() {
+	convert "$cachepath/resize.png" \
+		-filter Gaussian \
+		-blur 0x10 \
+		"$cachepath/resize-blur.png"
+}
+
+genbg() {
+	echo "Caching image ..."
+	if [[ ! -d $HOME/.cache/lockscreen ]]; then
+		mkdir $HOME/.cache/lockscreen
+	fi
+	cropbg
+	blurbg
+	echo "Finished caching image"
+}
+
+lock() {
+    i3lock -e -n --force-clock -c 00000000 -i $cachepath/resize-blur.png \
+    --insidever-color=fefefe00 --insidewrong-color=$wrong_color --inside-color=fefefe00 \
+    --ringver-color=$verif_color --ringwrong-color=$wrong_color --ring-color=$highlight_color \
+    --line-color=fefefe00 \
+    --keyhl-color=$fg_color --bshl-color=$fg_color --separator-color=00000000 \
+    --date-color=$highlight_color --time-color=$fg_color --greeter-color=$fg_color \
+    --clock \
+    --radius 20 --ring-width 3 \
+    --time-str="%H:%M" --time-size=100 \
+    --date-str="%a, %m %Y" --date-size=25 \
+    --greeter-text="Hope you have a good day!" --greeter-size=18\
+    --time-pos="w/2:h/2-200" \
+    --date-pos="w/2:h/2-140" \
+    --verif-text=""  --wrong-text="" --noinput-text="" \
+    --time-font="FiraCode" \
+    --date-font="FiraCode" --verif-font="FiraCode" --wrong-font="FiraCode" \
+    --greeter-font="FiraCode:style=Bold"
+    sleep 1
+}
+
+show_help(){
+	cat <<-EOF
+	Usage :
+	 lockscreen [OPTION]
+
+	Avaible options:
+	 -i, --image             Generate cache image
+	 -h, --help              Show this help
+
+	EOF
+}
+
+case $1 in
+	-i|--image)
+		genbg $2 ;;
+	-h|--help)
+		show_help ;;
+	*)
+		lock ;;
+esac
