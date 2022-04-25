@@ -39,7 +39,7 @@ bspc monitor HDMI-A-1 -d 8 9 10 11 12 13 14
 
 # floating windows
 declare -a floats=(Alafloat Lxappearance Arandr \
-Viewnior Oblogout Pcmanfm feh Thunar Catfish Nm-connection-editor Matplotlib Yad)
+Viewnior Oblogout Pcmanfm feh Thunar Catfish Nm-connection-editor Matplotlib Yad xfce4-power-manager-settings)
 for i in ${floats[@]}; do
   bspc rule -a $i state=floating follow=on focus=on; done
 
@@ -54,7 +54,3 @@ bspc rule -a mus state=floating center=true
 bspc rule -a scratchpad sticky=on state=floating hidden=on
 # check scratchpad already running
 [ "$(ps -x | grep -c 'scratchpad')" -eq "1" ] && st -c scratchpad -e /usr/local/bin/scratch &
-
-# change cava colorscheme
-CAVA_PATH="$HOME/.config/cava"
-cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config

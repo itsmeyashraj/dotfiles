@@ -9,6 +9,7 @@ function run {
 
 #[ ! -s ~/.config/mpd/pid ] && mpd &
 
+killall -9 picom sxhkd dunst xfce4-power-manager
 
 # Launch polybar
 $HOME/.config/polybar/launch.sh &
@@ -22,7 +23,6 @@ run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 xsetroot -cursor_name left_ptr &
 
 # start compositor
-while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 picom --config $HOME/.config/picom/picom.conf &
 
 # polkit agent - using gnome's because it supports gtk theme
@@ -37,7 +37,8 @@ cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
 
 # Autostart apps
 clipmenud &
+xfce4-power-manager &
 #flameshot &
 
-# Lockscreen after some time
-xidlehook --not-when-fullscreen --not-when-audio --timer 600 'betterlockscreen -l dimblur timestr="%H:%M"' '' &
+# Lockscreen
+xss-lock -- betterlockscreen -l dimblur &
