@@ -72,6 +72,8 @@ ctrl + alt + s
     flameshot gui
 
 #Audio Keybindings
+XF86Sleep
+        arcolinux-logout
 
 XF86AudioRaiseVolume
         $HOME/.local/bin/pulsevol up
