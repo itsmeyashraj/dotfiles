@@ -1,6 +1,6 @@
 # History in cache directory:
-HISTSIZE=1000000
-SAVEHIST=1000000
+HISTSIZE=1000
+SAVEHIST=1000
 setopt appendhistory
 
 # some useful options (man zshoptions)
