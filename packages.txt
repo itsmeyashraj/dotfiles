@@ -676,12 +676,12 @@ rtkit 0.13-1
 rtmpdump 1:2.4.r99.f1b83c1-2
 rubberband 2.0.2-1
 run-parts 5.5-1
+rust 1:1.60.0-1
 rxvt-unicode 9.26-2
 rxvt-unicode-terminfo 9.26-2
 sardi-icons 22.03-01
 sbc 1.5-2
 screen 4.9.0-1
-sddm 0.19.0-8
 sdl2 2.0.20-2
 sdparm 1.12-1
 sed 4.8-1
@@ -811,6 +811,8 @@ xf86-video-ati 1:19.1.0.r9.g5eba006e-2
 xf86-video-fbdev 0.5.0-3
 xf86-video-openchrome 0.6.0.r754.g15c868a-1
 xf86-video-vesa 2.5.0-2
+xfce4-notifyd 0.6.3-1
+xfce4-power-manager 4.16.0-3
 xfconf 4.16.0-2
 xfsprogs 5.15.0-2
 xkeyboard-config 2.35.1-1
@@ -857,6 +859,7 @@ xorg-xwud 1.0.5-2
 xorgproto 2022.1-1
 xplc 0.3.13-10
 xsel 1.2.0.20200527-1
+xss-lock 0.3.0.g1e158fb20108-4
 xvidcore 1.3.7-2
 xxhash 0.8.1-2
 xz 5.2.5-3
