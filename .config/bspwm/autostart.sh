@@ -38,3 +38,6 @@ cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
 # Autostart apps
 clipmenud &
 #flameshot &
+
+# Lockscreen after some time
+xidlehook --not-when-fullscreen --not-when-audio --timer 600 'betterlockscreen -l dimblur timestr="%H:%M"' '' &
