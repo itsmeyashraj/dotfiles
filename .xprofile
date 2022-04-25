@@ -1,2 +1,3 @@
-nvidia-settings --load-config-only
-numlockx
+nvidia-settings --load-config-only &
+numlockx &
+xidlehook --not-when-fullscreen --not-when-audio --timer 600 'betterlockscreen -l dimblur timestr="%H:%M"' '' &
