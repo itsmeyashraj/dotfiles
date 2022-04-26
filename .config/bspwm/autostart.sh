@@ -36,7 +36,7 @@ CAVA_PATH="$HOME/.config/cava"
 cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
 
 # Autostart apps
-dex -a -s ~/.config/autostart
+dex -a -s ~/.config/autostart &
 
 # Lockscreen
 xss-lock -- betterlockscreen -l dimblur &
