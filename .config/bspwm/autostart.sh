@@ -35,6 +35,9 @@ dunst -config $HOME/.config/dunst/dunstrc.gruvbox &
 CAVA_PATH="$HOME/.config/cava"
 cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
 
+# replace neovim colorscheme
+sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadrc.lua
+
 # Autostart apps
 dex -a -s ~/.config/autostart &
 

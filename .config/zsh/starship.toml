@@ -50,7 +50,7 @@ symbol = " "
 symbol = " "
 
 [lua]
-symbol = " "
+format = "via [ $version](bold blue) "
 
 [aws]
 symbol = "  "
