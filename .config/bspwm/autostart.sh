@@ -36,9 +36,7 @@ CAVA_PATH="$HOME/.config/cava"
 cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
 
 # Autostart apps
-clipmenud &
-xfce4-power-manager &
-#flameshot &
+dex -a -s ~/.config/autostart
 
 # Lockscreen
 xss-lock -- betterlockscreen -l dimblur &

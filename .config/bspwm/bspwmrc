@@ -39,7 +39,7 @@ bspc monitor HDMI-A-1 -d 8 9 10 11 12 13 14
 
 # floating windows
 declare -a floats=(Alafloat Lxappearance Arandr \
-Viewnior Oblogout Pcmanfm feh Thunar Catfish Nm-connection-editor Matplotlib Yad xfce4-power-manager-settings)
+Viewnior Oblogout Pcmanfm feh Thunar Catfish Nm-connection-editor Matplotlib Yad xfce4-power-manager-settings arcolinux-tweak-tool.py)
 for i in ${floats[@]}; do
   bspc rule -a $i state=floating follow=on focus=on; done
 
