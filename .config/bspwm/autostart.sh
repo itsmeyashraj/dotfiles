@@ -53,3 +53,5 @@ xfce4-power-manager &
 
 # Lockscreen
 xss-lock -- betterlockscreen -l dimblur &
+
+dunstify "Ready"
