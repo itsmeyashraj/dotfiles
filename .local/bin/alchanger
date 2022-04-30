@@ -21,9 +21,7 @@ declare -a options=(
 "quit"
 )
 
-#choice=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i -l 20 -p 'Themes')
-
-choice=$1
+choice=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i -l 10 -p 'Themes')
 
 case $choice in
     'doom-one')

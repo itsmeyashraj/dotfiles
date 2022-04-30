@@ -1,0 +1,8 @@
+(defvar fg      "#f8f8f2")
+(defvar bg      "rgba(40, 42, 54, 0.8)")
+(defvar red     "#ff5555")
+(defvar green   "#50fa7b")
+(defvar yellow  "#f1fa8c")
+(defvar blue    "#bd93f9")
+(defvar magenta "#ff79c6")
+(defvar cyan    "#8be9fd")

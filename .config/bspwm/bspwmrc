@@ -38,19 +38,6 @@ bspc monitor VGA-0 -d 1 2 3 4 5 6 7
 bspc monitor HDMI-A-1 -d 8 9 10 11 12 13 14
 
 # floating windows
-declare -a floats=(Alafloat Lxappearance Arandr \
-Viewnior Oblogout Pcmanfm feh Thunar Catfish Nm-connection-editor Matplotlib Yad xfce4-power-manager-settings)
+declare -a floats=(Lxappearance Arandr Pcmanfm feh Catfish Nm-connection-editor)
 for i in ${floats[@]}; do
   bspc rule -a $i state=floating follow=on focus=on; done
-
-#Scratchpads
-bspc rule -a term state=floating center=true 
-bspc rule -a mail state=floating center=true 
-bspc rule -a ranger state=floating center=true 
-bspc rule -a Bitwarden state=floating center=true 
-bspc rule -a pulse state=floating center=true 
-bspc rule -a mus state=floating center=true 
-
-bspc rule -a scratchpad sticky=on state=floating hidden=on
-# check scratchpad already running
-[ "$(ps -x | grep -c 'scratchpad')" -eq "1" ] && st -c scratchpad -e /usr/local/bin/scratch &

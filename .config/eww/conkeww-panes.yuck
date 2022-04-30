@@ -1,0 +1,52 @@
+(include "./conkeww-base.yuck")
+
+(defpoll username :interval "1000000s"
+  `whoami`)
+(defpoll uptime :interval "60s"
+  `uptime --pretty | sed -e 's/up //g' -e 's/ days/d/g' -e 's/ day/d/g' -e 's/ hours/h/g' -e 's/ hour/h/g' -e 's/ minutes/m /g' -e '
+s/, / /g'`)
+(defpoll date :interval "60s"
+  `date "+%H:%M %P"`)
+
+(defwidget conkeww-panes []
+  (box :orientation 'v'
+       :space-evenly 'false'
+       :spacing 10
+
+    (conkeww-pane :title "AXYL"
+                  :color magenta
+                  :spacing 69 
+                  :value-css "font-weight: 700; color: ==color=="
+                  :text 
+"Username: === ${username}
+Uptime:    === ${uptime}
+Time:      === ${date}"
+                 )
+
+    (conkeww-pane :title "KEYBINDINGS"
+                  :color blue
+                  :spacing 15
+                  :key-css "font-weight: 700; color: ==color=="
+                  :text
+"[S]+C          === Kill Window
+[S]+D           === dmenu
+[S]+N           === Network Menu
+[S]+X           === Power Menu
+[Alt]+E         === Edit Configs
+[Alt]+L         === Quick Links
+
+[Ctrl]+[Alt]+L  === Lock
+[Ctrl]+[Shft]+R === Reload
+[Ctrl]+[Shft]+Q === Logout
+
+[S]+Enter       === Alacritty
+[S]+[Shft]+E    === Conkeww
+[S]+[Shft]+W    === Firefox
+[S]+[Shft]+F    === Thunar
+[S]+[Shft]+G    === Geany
+[S]+[Shft]+R    === Ranger
+[PrtSc]         === Screenshot"
+      )
+    )
+  )
+

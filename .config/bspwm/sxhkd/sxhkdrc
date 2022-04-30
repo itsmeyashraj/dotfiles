@@ -2,10 +2,13 @@ super + Escape
     pkill -USR1 -x sxhkd
 
 super + Return
-   alacritty
+    alacritty
 
 super + shift + Return
-    krusader
+    thunar
+
+super + r
+    alacritty -e "ranger"
 
 #Rofi & dmenu
 
@@ -15,45 +18,51 @@ super + d
 super + p
     rofi -show power-menu -modi power-menu:rofi-power-menu
 
-super + r
-   alacritty -e "ranger"
-
-alt + z; {a,s}
-   {viddesc, poddesc}
+alt + p
+    rofi -show
 
 #Scratchpads
 
-super + m
-        tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 0 neomutt
-super + shift + m
-        tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 1 alacritty -e ncmpcpp 
-
-super + shift + n
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 2 alacritty -e ranger
-
-super + n
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 3 alacritty -e pulsemixer
-
 super + b
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 4 alacritty
+	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 6 thunar
 
 super + shift + b
 	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 5 alacritty -e newsboat
 
-super + v
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 6 alacritty
+super + m
+        tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 0 neomutt
+
+super + shift + m
+        tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 1 alacritty -e ncmpcpp 
+
+super + n
+	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 3 alacritty -e pulsemixer
+
+super + shift + n
+	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 2 alacritty -e ranger
+
+super + t
+	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 4 alacritty
+
+super + shift + t 
+       tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 4 alacritty
+
+super + v 
+       tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 4 alacritty
 
 super + shift + v
 	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 7 alacritty
+
+#Multi
 
 super + g; {n,t,l,g,k,a,o} 
   {nitrogen,telegram-desktop,lowriter,gimp-2.10,kdenlive,audacium,obs}
 
 super + s; {s,b,a,c,r,d,e}
-  {dmsearch,bm.sh,dmconf,clipmenu,rofi-beats, brave snapdrop.net, rofi -show emoji -modi emoji}
+  {dmsearch,bm.sh,dmconf,clipmenu,rofi-beats, brave snapdrop.net, rofimoji}
 
-alt + p
- rofi -show
+alt + z; {a,s}
+   {arcolinux-tweak-tool, spotify}
 
 # Application Keybindings
 
@@ -71,9 +80,10 @@ alt + n
 ctrl + alt + s
     flameshot gui
 
-#Audio Keybindings
 XF86Sleep
         arcolinux-logout
+
+#Audio Keybindings
 
 XF86AudioRaiseVolume
         $HOME/.local/bin/pulsevol up
@@ -113,7 +123,6 @@ XF86AudioStop
 
 alt + {h,j,k,l}
    mpc {prev,next,play,pause}
-
 
 #arcolinux-logout
 super + x

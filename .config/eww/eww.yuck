@@ -1,0 +1,16 @@
+(include "./conkeww-panes.yuck")
+(include "./colors/color-nord.yuck")
+
+(defwindow conkeww-main
+  :monitor 0
+  :geometry (geometry :x "-1%"
+                      :width 285
+                      :y "20px"
+                      :hexpand false
+                      :anchor "center right"
+              )
+  :windowtype "dock"
+  :stacking "bg"
+  :wm-ignore false
+  (conkeww-panes)
+  )

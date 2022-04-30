@@ -1,0 +1,53 @@
+(defwidget conkeww-pane [?title color text ?key-css ?value-css spacing]
+  (box :class "conkeww-pane"
+       :orientation 'v'
+       :space-evenly false
+       :spacing 0
+       :style "background-color: ${bg};
+               color: ${fg};
+               border-color: ${color}"
+
+    (label :class "title"
+           :halign "center"
+           :style "
+                  background-color: ${color};
+                  color: ${bg};
+
+                  ${ title != ''
+                  ? 
+                    'margin-bottom: 12px';
+                  : 
+                    'font-size: 0;
+                     opacity: 0;
+                     padding: 0;'
+                  }"
+           :markup "${title}"
+      )
+
+    (conkeww-pane__text  :text text
+                         :color color
+                         :key-css key-css
+                         :value-css value-css
+                         :spacing spacing)
+      )
+  )
+
+(defwidget conkeww-pane__text [text color ?key-css ?value-css spacing]
+  (box :orientation 'h'
+       :space-evenly false
+       :spacing spacing
+    (conkeww-pane__text__entry :text {replace(text, "( )+===( )+.+", "")}
+                               :color color
+                               :css key-css)
+    (conkeww-pane__text__entry :text {replace(text, ".+( )+===( )+", "")}
+                               :color color
+                               :css value-css)
+    )
+  )
+
+(defwidget conkeww-pane__text__entry [text color css]
+  (label :markup text
+         :wrap true
+         :style {replace(css, "==color==", color)}
+    )
+  )

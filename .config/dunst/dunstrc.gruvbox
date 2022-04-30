@@ -1,6 +1,17 @@
 [global]
 monitor = 0
+
+#Mouse actions
 follow = mouse
+mouse_left_click = do_action
+mouse_middle_click = close_all
+mouse_right_click = close_current
+
+#Shortcuts
+close = ctrl+space
+close_all = ctrl+shift+space
+history = ctrl+grave
+context = ctrl+shift+period
 
 width = 250
 height = 650
@@ -36,21 +47,17 @@ hide_duplicate_count = yes
 show_indicators = no
 icon_position = left
 max_icon_size = 80
+icon_path =/usr/share/icons/Gruvbox-Material-Dark/:/usr/share/icons/Gruvbox-Material-Dark/symbolic/status/
 sticky_history = yes
 history_length = 20
-browser = x-www-browser -new-tab
+#browser = x-www-browser -new-tab
+browser = /usr/bin/xdg-open
 always_run_script = true
 title = Dunst
 class = Dunst
 progress_bar = true
 progress_bar_height = 10
 corner_radius = 7
-
-[shortcuts]
-close = ctrl+shift+space
-close_all = ctrl+shift+space
-history = ctrl+grave
-context = ctrl+shift+period
 
 [urgency_low]
 timeout = 5

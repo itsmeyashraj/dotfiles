@@ -2,26 +2,46 @@
 
 function send_notification() {
 	volume=$(pamixer --get-volume)
-	dunstify -a "changevolume" -u low -r "9993" -h int:value:"$volume" -i "volume-$1" "Volume: ${volume}%" -t 2000
+	dunstify -a "changevolume" -u low -r "9993" -h int:value:"$volume" -i "$icon" "Volume: ${volume}%" -t 2000
+}
+
+# Get icons
+get_icon() {
+	vol="$(pamixer --get-volume)"
+	current="${vol%%%}"
+	if [[ "$current" -eq "0" ]]; then
+		icon='audio-volume-muted-symbolic'
+	elif [[ ("$current" -ge "0") && ("$current" -le "30") ]]; then
+		icon='audio-volume-low-symbolic'
+	elif [[ ("$current" -ge "30") && ("$current" -le "60") ]]; then
+		icon='audio-volume-medium-symbolic'
+	elif [[ ("$current" -ge "60") && ("$current" -le "90") ]]; then
+		icon='audio-volume-high-symbolic'
+	elif [[ ("$current" -ge "90") ]]; then
+		icon='audio-volume-overamplified-symbolic'
+	fi
 }
 
 case $1 in
 up)
 	# Set the volume on (if it was muted)
 	pamixer -u
-	pamixer -i 5 --allow-boost
+	pamixer -i 2 --allow-boost
+        get_icon
 	send_notification $1
 	;;
 down)
 	pamixer -u
-	pamixer -d 5 --allow-boost
+	pamixer -d 2 --allow-boost
+        get_icon
 	send_notification $1
 	;;
 mute)
 	pamixer -t
 	if $(pamixer --get-mute); then
-		dunstify -i volume-mute -a "changevolume" -t 2000 -r 9993 -u low "Muted"
+		dunstify -i volume-mute -a "changevolume" -t 2000 -r 9993 -u low  -i 'audio-volume-muted-symbolic' "Muted"
 	else
+                get_icon 
 		send_notification up
 	fi
 	;;

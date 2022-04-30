@@ -9,6 +9,10 @@ function run {
 
 #[ ! -s ~/.config/mpd/pid ] && mpd &
 
+# Ev
+GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
+export GTK2_RC_FILES
+
 killall -9 picom sxhkd dunst xfce4-power-manager
 
 # Launch polybar
@@ -31,6 +35,9 @@ picom --config $HOME/.config/picom/picom.conf &
 # Launch notification daemon
 dunst -config $HOME/.config/dunst/dunstrc.gruvbox &
 
+# Change alacritty colorscheme 
+sed -i '/colors:/c\colors: *gruvbox-dark' $HOME/.config/alacritty/alacritty.yml
+
 # change cava colorschemes
 CAVA_PATH="$HOME/.config/cava"
 cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
@@ -40,6 +47,9 @@ sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadr
 
 # Autostart apps
 dex -a -s ~/.config/autostart &
+clipmenud &
+#flameshot &
+xfce4-power-manager &
 
 # Lockscreen
 xss-lock -- betterlockscreen -l dimblur &
