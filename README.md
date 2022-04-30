@@ -1,1 +1,1 @@
-# Post Installion process (WIP)
+# Post installation process (WIP)
