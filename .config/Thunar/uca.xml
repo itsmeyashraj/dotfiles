@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1651325414833882-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>Alacritty</icon>
+	<name>Alacritty</name>
+	<unique-id>1651325453831257-2</unique-id>
+	<command>alacritty</command>
+	<description>opens alacritty in current directory</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>plasma-search</icon>
+	<name>Catfish</name>
+	<unique-id>1651325567230177-3</unique-id>
+	<command>catfish --path=%f
+</command>
+	<description>Search with catfish</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+</actions>

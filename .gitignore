@@ -6,7 +6,7 @@
 .cache/
 .config/BraveSoftware/
 .config/QtProject.conf
-.config/Thunar/
+.config/Thunar/accels.scm
 .config/alacritty/default-arcolinux.yml
 .config/arcolinux-betterlockscreen/
 .config/arcolinux-tweak-tool/
