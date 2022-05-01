@@ -13,7 +13,7 @@ function run {
 GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
 export GTK2_RC_FILES
 
-killall -9 picom sxhkd dunst xfce4-power-manager
+killall picom sxhkd dunst xfce4-power-manager flameshot
 
 # Launch polybar
 $HOME/.config/polybar/launch.sh &
@@ -48,10 +48,7 @@ sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadr
 # Autostart apps
 dex -a -s ~/.config/autostart &
 clipmenud &
-#flameshot &
 xfce4-power-manager &
 
 # Lockscreen
 xss-lock -- betterlockscreen -l dimblur &
-
-dunstify "Ready"
