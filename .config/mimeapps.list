@@ -3,6 +3,7 @@ x-scheme-handler/magnet=torrent.desktop;
 application/x.bittorrent=torrent.desktop;
 image/svg+xml=gimp.desktop;brave-browser.desktop;inkscape.desktop;
 application/x-php=vscodium-bin.desktop;
+text/plain=userapp-alacritty -e nvim-DN9DL1.desktop;userapp-alacritty-L7WHL1.desktop;
 
 [Default Applications]
 video/x-matroska=mpv.desktop;
@@ -10,8 +11,8 @@ video/mp4=mpv.desktop;
 image/gif=mpvgif.desktop
 image/png=sxiv.desktop;
 image/jpeg=sxiv.desktop;
-text/html=firefox.desktop;
-text/xml=firefox.desktop;
+text/html=brave.desktop;
+text/xml=brave.desktop;
 x-scheme-handler/http=brave.desktop;
 x-scheme-handler/https=brave.desktop;
 x-scheme-handler/ftp=brave.desktop;
