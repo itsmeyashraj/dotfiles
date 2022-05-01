@@ -53,7 +53,9 @@ export OPENER="xdg-open"
 export PAGER="less"
 export WM="bspwm"
 export CM_LAUNCHER=rofi
-export QT_QPA_PLATFORMTHEME=qt5ct
+#export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_QPA_PLATFORMTHEME=gtk2
+
 
 # Path
 path=("$HOME/scripts" "$HOME/scripts/alsa" "$HOME/scripts/dragon" "$HOME/scripts/lf" "$HOME/scripts/i3" "$HOME/scripts/pulse"
