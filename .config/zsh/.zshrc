@@ -13,12 +13,14 @@ zle_highlight=('paste:none')
 unsetopt BEEP
 
 # completions
-autoload -Uz compinit
-zstyle ':completion:*' menu select
-#zstyle ':completion::complete:lsof:*' menu yes select
 zmodload zsh/complist
-# compinit
-_comp_options+=(globdots)		# Include hidden files.
+autoload -U compinit
+zstyle ':completion:*' menu select
+zstyle ':completion:*' completer _complete _match _approximate
+zstyle ':completion:*:match' original only
+zstyle ':completion:*:approximate:*' max-errors 1 numeric
+compinit
+_comp_options+=(globdots)
 
 autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
@@ -32,7 +34,7 @@ mcd() {
 }
 
 cd() {
-	builtin cd "$@" && command ls --group-directories-first --color=auto -F
+	builtin cd "$@" && command exa -aG --color=always --icons --group-directories-first
 }
 
 CASE_SENSITIVE="false"
@@ -41,8 +43,6 @@ CASE_SENSITIVE="false"
 bindkey -s '^o' 'ranger^M'
 bindkey -s '^f' 'zi^M'
 bindkey -s '^s' 'ncdu^M'
-# bindkey -s '^n' 'nvim $(fzf)^M'
-# bindkey -s '^v' 'nvim\n'
 bindkey -s '^z' 'zi^M'
 bindkey '^[[P' delete-char
 bindkey "^p" up-line-or-beginning-search # Up
@@ -59,8 +59,6 @@ bindkey -r "^d"
 [ -f /usr/share/doc/fzf/examples/key-bindings.zsh ] && source /usr/share/doc/fzf/examples/key-bindings.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f $ZDOTDIR/completion/_fnm ] && fpath+="$ZDOTDIR/completion/"
-# export FZF_DEFAULT_COMMAND='rg --hidden -l ""'
-compinit
 
 # ###### end interactive configs ######
 
@@ -83,5 +81,4 @@ zsh_add_plugin "hlissner/zsh-autopair"
 # More completions https://github.com/zsh-users/zsh-completions
 
 colorscript random
-
 eval "$(starship init zsh)"
