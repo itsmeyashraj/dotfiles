@@ -25,7 +25,7 @@ run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 ~/.config/bspwm/.fehbg
 
 xsetroot -cursor_name left_ptr &
-
+xrdb -load ~/.config/bspwm/xresources
 # start compositor
 picom --config $HOME/.config/picom/picom.conf &
 
