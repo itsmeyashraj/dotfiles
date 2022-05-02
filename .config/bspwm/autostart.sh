@@ -24,8 +24,10 @@ run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 # Restore wallpaper
 ~/.config/bspwm/.fehbg
 
+# X settings
 xsetroot -cursor_name left_ptr &
 xrdb -load ~/.config/bspwm/xresources
+
 # start compositor
 picom --config $HOME/.config/picom/picom.conf &
 
