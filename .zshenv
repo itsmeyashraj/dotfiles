@@ -3,6 +3,7 @@ export GTK_IM_MODULE='fcitx'
 export QT_IM_MODULE='fcitx'
 export SDL_IM_MODULE='fcitx'
 export XMODIFIERS='@im=fcitx'
+export LANG=en_US.UTF-8
 
 # Other XDG paths
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}

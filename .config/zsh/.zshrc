@@ -1,6 +1,6 @@
 # History in cache directory:
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 setopt appendhistory
 
 # some useful options (man zshoptions)
@@ -15,7 +15,7 @@ unsetopt BEEP
 # completions
 autoload -Uz compinit
 zstyle ':completion:*' menu select
-# zstyle ':completion::complete:lsof:*' menu yes select
+#zstyle ':completion::complete:lsof:*' menu yes select
 zmodload zsh/complist
 # compinit
 _comp_options+=(globdots)		# Include hidden files.
@@ -24,6 +24,45 @@ autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
+
+# interactive configs
+mcd() {
+    mkdir -p $1
+    cd $1
+}
+
+cd() {
+	builtin cd "$@" && command ls --group-directories-first --color=auto -F
+}
+
+CASE_SENSITIVE="false"
+
+# Key-bindings
+bindkey -s '^o' 'ranger^M'
+bindkey -s '^f' 'zi^M'
+bindkey -s '^s' 'ncdu^M'
+# bindkey -s '^n' 'nvim $(fzf)^M'
+# bindkey -s '^v' 'nvim\n'
+bindkey -s '^z' 'zi^M'
+bindkey '^[[P' delete-char
+bindkey "^p" up-line-or-beginning-search # Up
+bindkey "^n" down-line-or-beginning-search # Down
+bindkey "^k" up-line-or-beginning-search # Up
+bindkey "^j" down-line-or-beginning-search # Down
+bindkey -r "^u"
+bindkey -r "^d"
+
+# FZF 
+[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
+[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+[ -f /usr/share/doc/fzf/examples/completion.zsh ] && source /usr/share/doc/fzf/examples/completion.zsh
+[ -f /usr/share/doc/fzf/examples/key-bindings.zsh ] && source /usr/share/doc/fzf/examples/key-bindings.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f $ZDOTDIR/completion/_fnm ] && fpath+="$ZDOTDIR/completion/"
+# export FZF_DEFAULT_COMMAND='rg --hidden -l ""'
+compinit
+
+# ###### end interactive configs ######
 
 # Colors
 autoload -Uz colors && colors
