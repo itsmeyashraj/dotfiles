@@ -2,7 +2,7 @@
 # /home/yashraj/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA Settings utility
-# Generated on Mon Apr 25 01:23:49 2022
+# Generated on Tue May  3 20:29:54 2022
 #
 
 # ConfigProperties:
@@ -13,9 +13,9 @@ SliderTextEntries = Yes
 IncludeDisplayNameInConfigFile = No
 ShowQuitDialog = Yes
 UpdateRulesOnProfileNameChange = Yes
-Timer = Memory_Used_(GPU_0),Yes,3000
-Timer = Thermal_Monitor_(GPU_0),Yes,1000
 Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
+Timer = Memory_Used_(GPU_0),Yes,3000
 
 # Attributes:
 

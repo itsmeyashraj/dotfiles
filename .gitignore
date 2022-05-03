@@ -13,6 +13,10 @@
 .config/arcolinux-welcome-app/
 .config/arcologout/
 .config/dconf/
+!.config/glava/
+.config/glava/*
+!.config/glava/bars.glsl
+!.config/glava/rc.glsl
 .config/libfm/
 .config/neofetch/arcolinux-arc.png
 .config/neofetch/arcolinux-black.png

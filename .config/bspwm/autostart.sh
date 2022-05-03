@@ -13,7 +13,7 @@ function run {
 GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
 export GTK2_RC_FILES
 
-killall picom sxhkd dunst xfce4-power-manager flameshot
+killall glava picom sxhkd dunst xfce4-power-manager flameshot
 
 # Launch polybar
 $HOME/.config/polybar/launch.sh &
@@ -47,10 +47,15 @@ cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
 # replace neovim colorscheme
 sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadrc.lua
 
+# change glava color
+sed -i '/COLOR/c\#define COLOR (#d79921 * GRADIENT)' $HOME/.config/glava/bars.glsl
+
+# Lockscreen
+xss-lock -- betterlockscreen -l dimblur &
+
 # Autostart apps
 dex -a -s ~/.config/autostart &
 clipmenud &
 xfce4-power-manager &
-
-# Lockscreen
-xss-lock -- betterlockscreen -l dimblur &
+# glava | should be in the end so that everything important loads up first
+sleep 10 && glava --desktop &
