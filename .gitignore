@@ -55,6 +55,8 @@
 .config/paru/
 .config/pulse/
 .config/spotify/
+.config/spicetify/Backup/
+.config/spicetify/Extracted/
 .config/user-dirs.dirs
 .config/user-dirs.locale
 .config/xfce4/

@@ -48,7 +48,17 @@ cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
 sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadrc.lua
 
 # change glava color
-sed -i '/COLOR/c\#define COLOR (#d79921 * GRADIENT)' $HOME/.config/glava/bars.glsl
+sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $HOME/.config/glava/bars.glsl
+
+# change spicetify colorscheme
+COLOR_SCHEME="gruvbox"
+if grep -q $COLOR_SCHEME "$HOME/.config/spicetify/config-xpui.ini";
+then
+  :
+else
+  spicetify config color_scheme $COLOR_SCHEME
+  spicetify apply --no-restart
+fi 
 
 # Lockscreen
 xss-lock -- betterlockscreen -l dimblur &
