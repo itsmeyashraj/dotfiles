@@ -1,1 +1,5 @@
 ## hello
+### Post installation thingy
+1. make a zsh history file in .cache/zsh/history
+2. make a gnupg folder in .local/share/
+3. install tumbler & ffmpegthumbnailer for thunar
