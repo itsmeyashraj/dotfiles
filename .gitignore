@@ -63,6 +63,7 @@
 .config/zsh/plugins/
 .config/zsh/starship.default
 .config/zsh/starship.pastel
+.config/zsh/.zcompdump
 .dmrc
 .git-credentials
 .gitconfig
