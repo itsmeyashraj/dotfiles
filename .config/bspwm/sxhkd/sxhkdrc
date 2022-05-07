@@ -62,7 +62,7 @@ super + s; {s,b,a,c,r,d,e}
   {dmsearch,bm.sh,dmconf,clipmenu,rofi-beats, brave snapdrop.net, rofimoji}
 
 alt + z; {a,s}
-   {arcolinux-tweak-tool, spotify}
+   {archlinux-tweak-tool, spotify}
 
 # Application Keybindings
 
@@ -81,7 +81,7 @@ ctrl + alt + s
     flameshot gui
 
 XF86Sleep
-        arcolinux-logout
+        archlinux-logout
 
 #Audio Keybindings
 

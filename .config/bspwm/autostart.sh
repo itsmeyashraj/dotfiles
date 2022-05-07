@@ -10,8 +10,11 @@ function run {
 #[ ! -s ~/.config/mpd/pid ] && mpd &
 
 # Ev
-GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
-export GTK2_RC_FILES
+#GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
+#export GTK2_RC_FILES
+
+export GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
+export QT_QPA_PLATFORMTHEME=gtk2
 
 killall glava picom sxhkd dunst xfce4-power-manager flameshot
 
@@ -67,5 +70,6 @@ xss-lock -- betterlockscreen -l dimblur &
 dex -a -s ~/.config/autostart &
 clipmenud &
 xfce4-power-manager &
+sleep 10 && flameshot &
 # glava | should be in the end so that everything important loads up first
 sleep 10 && glava --desktop &
