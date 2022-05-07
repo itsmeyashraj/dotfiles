@@ -3,3 +3,5 @@
 1. make a zsh history file in .cache/zsh/history
 2. make a gnupg folder in .local/share/
 3. install tumbler & ffmpegthumbnailer for thunar
+4. Resize some modules to fit in your system. They are located in modules folder .config/bspwm/polybar/themes/modules/"here"
+5. For spotify module check polybar scripts and edit zscroll file l = "length for zscroll to acrivate = polybar spotify modules - 2"
