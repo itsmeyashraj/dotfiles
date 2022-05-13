@@ -39,7 +39,7 @@ bindkey "^j" down-line-or-beginning-search # Down
 autoload edit-command-line; zle -N edit-command-line
 
 # Speedy Key
-xset r rate 200 40
+#xset r rate 200 40
 
 # Useful Functions
 source "$ZDOTDIR/zsh-functions"
