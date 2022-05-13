@@ -5,7 +5,10 @@
 .bashrc.bak
 .cache/
 .config/BraveSoftware/
-.config/Code/
+!.config/Code/
+.config/Code/*
+!.config/Code/User/
+.config/Code/User/*
 !.config/Code/User/settings.json
 .vscode/
 .config/QtProject.conf
