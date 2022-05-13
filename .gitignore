@@ -5,6 +5,9 @@
 .bashrc.bak
 .cache/
 .config/BraveSoftware/
+.config/Code/
+!.config/Code/User/settings.json
+.vscode/
 .config/QtProject.conf
 .config/Thunar/accels.scm
 .config/alacritty/default-arcolinux.yml
