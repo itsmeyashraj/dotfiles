@@ -25,9 +25,8 @@ format-padding =
 format-margin =
 format-offset =
 
-include-file = ~/.config/bspwm/polybar/themes/gruvbox.ini
+include-file = ~/.config/bspwm/polybar/themes/colors/gruvbox.ini
 include-file = ~/.config/bspwm/polybar/themes/modules/modules.ini
-include-file = ~/.config/bspwm/polybar/themes/modules/decor
 
 #mainbar
 

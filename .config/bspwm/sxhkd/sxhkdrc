@@ -157,7 +157,7 @@ super + q
 
 #Focus selected desktop
 super + Tab
-	bspc desktop -f '^{1-9,10}'
+	bspc desktop -f '^{1-6,7}'
 
 # Increase/decrease window gap on focused desktop
 super + bracket{left,right}
@@ -259,11 +259,11 @@ super + ctrl + {_,shift +}{1-9}
 
 #Focus selected desktop
 alt + Tab
-	bspc desktop -f '^{1-9,10}'
+	bspc desktop -f '^{1-6,7}'
 
 	#Focus selected desktop
 alt + shift + Tab
-	bspc desktop -f '^{1-9,10}'
+	bspc desktop -f '^{1-6,7}'
 
 #Rotate desktop
 alt + space
