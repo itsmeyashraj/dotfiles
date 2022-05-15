@@ -1,5 +1,45 @@
 {
-    "window.menuBarVisibility": "toggle",
-    "editor.fontFamily": "JetBrainsMono Nerd Font"
-
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Pragmata Medium','Hack NF','monospace'",
+  "terminal.integrated.fontFamily": "'Pragmata Medium','Iosevka Regular','Hack NF'",
+  "terminal.integrated.fontWeight": "bold",
+  "editor.fontWeight": "bold",
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.letterSpacing": 1.05,
+  "editor.lineHeight": 20,
+  "editor.minimap.maxColumn": 100,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.side": "left",
+  "editor.minimap.size": "fill",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "files.defaultLanguage": "html",
+  "prettier.singleQuote": true,
+  "problems.showCurrentInStatus": true,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.rightClickBehavior": "paste",
+  "workbench.iconTheme": "chalice-icon-theme",
+  "editor.cursorStyle": "block",
+  "customizeUI.font.monospace": "Pragmata Medium",
+  "customizeUI.font.regular": "Pragmata Medium",
+  "workbench.colorTheme": "paddy-eucalyptus-upright",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": ["-NoLogo"]
+    }
+  },
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.gpuAcceleration": "on",
+  "emulator.emulatorPathWindows": "C:\\Users\\yashraj\\AppData\\Local\\Android\\Sdk\\emulator",
+  "window.menuBarVisibility": "toggle"
 }

@@ -1,7 +1,7 @@
 configuration {
     font: 			    "JetBrainsMono Nerd Font 12";
     show-icons: 		    true;
-    icon-theme:                     "Papirus";
+    icon-theme:                     "Sardi-Mono-Colora";
     sidebar-mode: 		    false;
     display-run: 	            "Run";
     display-ssh: 		    "SSh";
