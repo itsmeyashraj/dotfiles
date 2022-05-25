@@ -42,9 +42,9 @@ export GDK_SCALE=1
 export GDK_DPI_SCALE=1
 
 # Default Apps
-export EDITOR="nvim"
+export EDITOR="vim"
 export READER="zathura"
-export VISUAL="nvim"
+export VISUAL="vim"
 export TERMINAL="alacritty"
 export BROWSER="brave"
 export VIDEO="mpv"
@@ -52,11 +52,12 @@ export IMAGE="sxiv -b"
 export COLORTERM="truecolor"
 export OPENER="xdg-open"
 export PAGER="less"
-export WM="bspwm"
+#export WM="bspwm"
 export CM_LAUNCHER=rofi
+export CM_SELECTIONS="clipboard"
+export CM_MAX_CLIPS=10
 #export QT_QPA_PLATFORMTHEME=qt5ct
-export QT_QPA_PLATFORMTHEME=gtk2
-
+#export QT_QPA_PLATFORMTHEME=gtk2
 
 # Path
 path=("$HOME/scripts" "$HOME/scripts/alsa" "$HOME/scripts/dragon" "$HOME/scripts/lf" "$HOME/scripts/i3" "$HOME/scripts/pulse"

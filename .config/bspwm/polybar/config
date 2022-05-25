@@ -26,12 +26,11 @@ format-margin =
 format-offset =
 
 include-file = ~/.config/bspwm/polybar/themes/colors/gruvbox.ini
-include-file = ~/.config/bspwm/polybar/themes/modules/modules.ini
+include-file = ~/.config/bspwm/polybar/themes/modules/modules_gruv.ini
 
-#mainbar
+#Mainbar
 
 [bar/mainbar-bspwm]
-
 monitor = VGA-0
 monitor-strict = false
 bottom = false
@@ -61,16 +60,18 @@ module-margin-left = 1
 module-margin-right = 1
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
-; Overally font
-font-0 = "JetBrainsMono Nerd Font:size=10;2"
+; Overall font
+font-0 = "JetBrainsMono Nerd Font:style=bold:size=10;2"
 ; Workspace Icon font
 font-1 = "FontAwesome:size=10;2"
 ; Extra Font for modules
-font-2 = "JetBrainsMono Nerd Font:size=10;2"
+font-2 = "JetBrainsMono Nerd Font:style=bold:size=10;2"
 ; Extra Font for modules 2
 font-3 = "JetBrainsMono Nerd Font:size=16;4"
+; Japanese Fonts
+font-4 = "Sarasa Gothic J:style=bold:size=10;4"
 
-modules-left = BLLD bspwm BLRD xwindow
+modules-left = bspwm xwindow
 modules-center = spotify spotify-prev spotify-play-pause spotify-next 
 modules-right = weather memory2 cpu2 date 
 

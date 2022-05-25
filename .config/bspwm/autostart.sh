@@ -7,16 +7,12 @@ function run {
   fi
 }
 
-#[ ! -s ~/.config/mpd/pid ] && mpd &
-
 # Ev
-#GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
-#export GTK2_RC_FILES
-
 export GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
 export QT_QPA_PLATFORMTHEME=gtk2
 
-killall glava picom sxhkd dunst xfce4-power-manager flameshot
+# Safely kill programs
+killall glava dunst sxhkd xfce4-power-manager flameshot
 
 # Launch polybar
 $HOME/.config/polybar/launch.sh &
@@ -25,14 +21,15 @@ $HOME/.config/polybar/launch.sh &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 
 # Restore wallpaper
-~/.config/bspwm/.fehbg
+xwallpaper --zoom $HOME/Pictures/Wallpapers/gruvgirl-dark.png &
 
 # X settings
-xsetroot -cursor_name left_ptr &
-xrdb -load ~/.config/bspwm/xresources
+#xsetroot -cursor_name left_ptr &
+xsetroot -cursor left_ptr &
+xrdb -load ~/.config/bspwm/xresources &
 
 # start compositor
-picom --config $HOME/.config/picom/picom.conf &
+picom -b --config $HOME/.config/picom/picom.conf --experimental-backend &
 
 # polkit agent - using gnome's because it supports gtk theme
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
@@ -48,28 +45,29 @@ CAVA_PATH="$HOME/.config/cava"
 cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
 
 # replace neovim colorscheme
-sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadrc.lua
+#sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadrc.lua
 
 # change glava color
 sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $HOME/.config/glava/bars.glsl
 
 # change spicetify colorscheme
-COLOR_SCHEME="gruvbox"
-if grep -q $COLOR_SCHEME "$HOME/.config/spicetify/config-xpui.ini";
-then
-  :
-else
-  spicetify config color_scheme $COLOR_SCHEME
-  spicetify apply --no-restart
-fi 
+#COLOR_SCHEME="gruvbox"
+#if grep -q $COLOR_SCHEME "$HOME/.config/spicetify/config-xpui.ini";
+#then
+#  :
+#else
+#  spicetify config color_scheme $COLOR_SCHEME
+#  spicetify apply --no-restart
+#fi 
 
 # Lockscreen
 xss-lock -- betterlockscreen -l dimblur &
 
 # Autostart apps
+flameshot &
+run nm-applet &
 dex -a -s ~/.config/autostart &
 clipmenud &
 xfce4-power-manager &
-sleep 10 && flameshot &
-# glava | should be in the end so that everything important loads up first
-sleep 10 && glava --desktop &
+sleep 5 && glava --desktop &
+#ffplay -nodisp -autoexit $HOME/Downloads/startup-01.mp3 &

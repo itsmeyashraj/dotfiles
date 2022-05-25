@@ -2,7 +2,16 @@
 x-scheme-handler/magnet=torrent.desktop;
 application/x.bittorrent=torrent.desktop;
 image/svg+xml=gimp.desktop;brave-browser.desktop;inkscape.desktop;
-application/x-php=vscodium-bin.desktop;
+application/x-php=visual-studio-code.desktop;vscodium-bin.desktop;
+text/html=vim.desktop;nvim.desktop;
+application/x-desktop=vim.desktop;nvim.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+text/plain=vim.desktop;nvim.desktop;visual-studio-code.desktop;
+application/x-shellscript=vim.desktop;visual-studio-code.desktop;
+image/png=feh.desktop;sxiv.desktop;
+application/x-trash=vim.desktop;
+image/jpeg=sxiv.desktop;
 
 [Default Applications]
 video/x-matroska=mpv.desktop;
@@ -13,8 +22,8 @@ image/jpeg=img.desktop;
 text/html=brave.desktop;
 text/xml=brave.desktop;
 text/plain=text.desktop;
-x-scheme-handler/http=brave.desktop;
-x-scheme-handler/https=brave.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
 x-scheme-handler/ftp=brave.desktop;
 application/json=editor.desktop
 application/pdf=org.pwmt.zathura.desktop;

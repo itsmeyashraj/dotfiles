@@ -1,12 +1,13 @@
 configuration {
     font: 			    "JetBrainsMono Nerd Font 12";
     show-icons: 		    true;
-    icon-theme:                     "Sardi-Mono-Colora";
+    /*icon-theme:                     "Papirus";*/
     sidebar-mode: 		    false;
     display-run: 	            "Run";
     display-ssh: 		    "SSh";
     display-drun: 		    "Apps";
     display-combi: 		    "Combi";
+    modi:			    "window,run,drun,emoji,calc";
 }
 
 @import                             "~/.config/rofi/gruvbox.rasi"

@@ -5,5 +5,9 @@
 3. install tumbler & ffmpegthumbnailer for thunar
 4. Resize some modules to fit in your system. They are located in modules folder .config/bspwm/polybar/themes/modules/"here"
 5. For spotify module check polybar scripts and edit zscroll file l = "length for zscroll to acrivate = polybar spotify modules - 2"6. spotify modules
-scrollspotify ->
+6. scrollspotify ->
 polybar spotify module -> label-maxlen = 12 more that the length of scrollspotifystatus
+7. qt application use gtk theme using qt5-styleplugins(aur) , you may need to rebuild(reinstall) it when a new qt5 update comes
+
+8. colorscript -b bomber colorbars debian fade pipes1 pipes2 pukeskull rupees six tux xmonad hex pipes2-slim kaisen
+9. you need to change gtk-3.0/settings gtk-cursor-theme-name=cursor-theme-name , use should also change xresources cursor theme

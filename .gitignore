@@ -58,7 +58,6 @@
 .config/neofetch/medallion-silver.png
 .config/neofetch/medallion-white.png
 .config/nvim/
-.config/paru/
 .config/pulse/
 .config/spotify/
 .config/spicetify/Backup/
@@ -84,3 +83,8 @@
 .xsession-errors.old
 Documents/
 Downloads/
+.gksu.lock
+.local/state/
+.ssh/
+.vim/
+.viminfo

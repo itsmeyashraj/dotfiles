@@ -6,6 +6,7 @@ font:
     y: 1
   normal:
    family: "JetBrainsMono Nerd Font"
+   style: Bold
 
 window:
   padding:
@@ -20,8 +21,8 @@ cursor:
   style:
     blinking: Always
 
-env:
-  TERM: xterm-256color
+    env:
+      TERM: xterm-256color
 
 scrolling:
   history: 5000

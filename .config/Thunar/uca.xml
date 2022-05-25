@@ -21,7 +21,7 @@
 	<directories/>
 </action>
 <action>
-	<icon>plasma-search</icon>
+	<icon>catfish</icon>
 	<name>Catfish</name>
 	<unique-id>1651325567230177-3</unique-id>
 	<command>catfish --path=%f
@@ -29,6 +29,15 @@
 	<description>Search with catfish</description>
 	<patterns>*</patterns>
 	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>system-file-manager-root</icon>
+	<name>Open Thunar Root</name>
+	<unique-id>1652770493804733-1</unique-id>
+	<command>pkexec thunar %f</command>
+	<description>open thunar root</description>
+	<patterns>*</patterns>
 	<directories/>
 </action>
 </actions>

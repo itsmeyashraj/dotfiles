@@ -8,10 +8,10 @@ mouse_middle_click = close_all
 mouse_right_click = close_current
 
 #Shortcuts
-close = ctrl+space
-close_all = ctrl+shift+space
-history = ctrl+grave
-context = ctrl+shift+period
+close = 
+close_all = 
+history = 
+context = 
 
 width = 250
 height = 650
@@ -29,7 +29,7 @@ horizontal_padding = 12
 
 frame_width = 2
 
-font = JetBrains Mono Nerd Font Medium 11
+font = JetBrains Mono Nerd Font Medium 10
 
 sort = no
 idle_threshold = 120
@@ -58,6 +58,7 @@ class = Dunst
 progress_bar = true
 progress_bar_height = 10
 corner_radius = 7
+#corner_radius = 15
 
 [urgency_low]
 timeout = 5
@@ -83,3 +84,7 @@ highlight = "#e78a4e"
 [media_controls]
 appname = "mediactl"
 timeout = 2
+
+[play_sound]
+summary = "*"
+script = ~/.local/bin/alert.sh
