@@ -58,7 +58,24 @@ class = Dunst
 progress_bar = true
 progress_bar_height = 10
 corner_radius = 7
-#corner_radius = 15
+
+#Urgency & sounds
+
+[NetworkManager]
+appname = NetworkManager
+urgency = critical
+
+#[NetworkManagerDisconnect]
+#appname = NetworkManager
+#summary = "Disconnected"
+#urgency = critical
+#script = ~/.config/dunst/sounds/disconnect.sh
+
+#[NetworkManagerConnect]
+#appname = NetworkManager
+#summary = "Connection Established"
+#urgency = critical
+#script = ~/.config/dunst/sounds/connect.sh
 
 [urgency_low]
 timeout = 5
@@ -66,25 +83,24 @@ background = "#323232"
 foreground = "#dfbf8e"
 frame_color = "#e78a4e"
 highlight = "#e78a4e"
+script = ~/.config/dunst/sounds/low.sh
 
 [urgency_normal]
 timeout = 5
 background = "#323232"
 foreground = "#dfbf8e"
-frame_color = "#e78a4e"
+frame_color = "#d65d0e"
 highlight = "#e78a4e"
+script = ~/.config/dunst/sounds/normal.sh
 
 [urgency_critical]
 timeout = 0
-background = "#212B30"
-foreground = "#EC407A"
-frame_color = "#e78a4e"
+background = "#323232"
+foreground = "#dfbf8e"
+frame_color = "#cc241d"
 highlight = "#e78a4e"
+script = ~/.config/dunst/sounds/critical.sh
 
-[media_controls]
-appname = "mediactl"
-timeout = 2
-
-[play_sound]
-summary = "*"
-script = ~/.local/bin/alert.sh
+#[play_sound]
+#summary = "*"
+#script = ~/.local/bin/alert.sh

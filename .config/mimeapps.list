@@ -7,11 +7,12 @@ text/html=vim.desktop;nvim.desktop;
 application/x-desktop=vim.desktop;nvim.desktop;
 x-scheme-handler/http=xfce4-web-browser.desktop;
 x-scheme-handler/https=xfce4-web-browser.desktop;
-text/plain=vim.desktop;nvim.desktop;visual-studio-code.desktop;
-application/x-shellscript=vim.desktop;visual-studio-code.desktop;
+text/plain=sublime_text.desktop;vim.desktop;nvim.desktop;visual-studio-code.desktop;
+application/x-shellscript=sublime_text.desktop;vim.desktop;nvim.desktop;visual-studio-code.desktop;
 image/png=feh.desktop;sxiv.desktop;
 application/x-trash=vim.desktop;
 image/jpeg=sxiv.desktop;
+text/x-matlab=sublime_text.desktop;vim.desktop;
 
 [Default Applications]
 video/x-matroska=mpv.desktop;
