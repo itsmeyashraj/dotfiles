@@ -36,7 +36,6 @@
   "vim.statusBarColorControl": false,
   "vim.useCtrlKeys": false,
   "breadcrumbs.enabled": false,
-  "workbench.editor.showTabs": false,
   "explorer.openEditors.visible": 0,
   "editor.scrollBeyondLastLine": false,
   "window.title": "${folderName}/${activeEditorShort}",
@@ -55,6 +54,23 @@
   "editor.foldingHighlight": false,
   "editor.guides.indentation": true,
   "editor.guides.highlightActiveIndentation": false,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  // comment: tab settings by pure vscode's settings
   // "workbench.editor.labelFormat": "short",
+  // "workbench.editor.showTabs": false,
+  // "workbench.editor.tabSizing": "shrink",
+  "editor.cursorSmoothCaretAnimation": true,
+  "customizeUI.stylesheet": {
+    // "_comment": "This settings hides top right editor actions buttons",
+    ".editor-actions": "display: none !important;",
+    ":root": "--tab-height: 26px; --font-size-tab-title: 10px;",
+    // ".editor-actions": "height: var(--tab-height) !important; line-height: var(--tab-height) !important;",
+    ".tabs-container .tab": "height: var(--tab-height) !important; line-height: var(--tab-height) !important;",
+    ".tabs-container .monaco-icon-label": "height: var(--tab-height) !important; line-height: var(--tab-height) !important; font-size: var(--font-size-tab-title); !important",
+    ".tabs-container .monaco-icon-label:before": "height: var(--tab-height) !important; line-height: var(--tab-height) !important;",
+    ".tabs-container .tab-actions": "display: none !important",
+    ".tabs-container .monaco-icon-description-container": "display: none;",
+    ".tabs-container": "height: var(--tab-height) !important;"
+    //new settings
+  }
 }
