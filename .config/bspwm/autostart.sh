@@ -27,6 +27,7 @@ xwallpaper --zoom $HOME/Pictures/Wallpapers/gruvgirl-dark.png &
 xsetroot -cursor_name left_ptr &
 #xsetroot -cursor left_ptr &
 #xrdb -load ~/.config/bspwm/xresources &
+xrdb -load ~/.config/bspwm/X11/xresources.gruvbox &
 
 # start compositor
 picom -b --config $HOME/.config/picom/picom.conf --experimental-backend &
