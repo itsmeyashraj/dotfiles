@@ -24,9 +24,9 @@ run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 xwallpaper --zoom $HOME/Pictures/Wallpapers/gruvgirl-dark.png &
 
 # X settings
-#xsetroot -cursor_name left_ptr &
-xsetroot -cursor left_ptr &
-xrdb -load ~/.config/bspwm/xresources &
+xsetroot -cursor_name left_ptr &
+#xsetroot -cursor left_ptr &
+#xrdb -load ~/.config/bspwm/xresources &
 
 # start compositor
 picom -b --config $HOME/.config/picom/picom.conf --experimental-backend &
@@ -64,7 +64,7 @@ sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $HOME/.config/glava/bars.gl
 xss-lock -- betterlockscreen -l dimblur &
 
 # Autostart apps
-flameshot &
+run flameshot &
 run nm-applet &
 dex -a -s ~/.config/autostart &
 clipmenud &

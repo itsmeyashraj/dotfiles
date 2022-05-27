@@ -88,3 +88,10 @@ Downloads/
 .ssh/
 .vim/
 .viminfo
+.config/gconf/
+.config/nemo/
+.config/pcmanfm/
+.config/plank/
+.config/sublime-text/
+.config/xarchiver/
+Pictures/

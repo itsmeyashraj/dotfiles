@@ -48,6 +48,7 @@ show_indicators = no
 icon_position = left
 max_icon_size = 80
 icon_path =/usr/share/icons/Gruvbox-Material-Dark/:/usr/share/icons/Gruvbox-Material-Dark/symbolic/status/
+
 sticky_history = yes
 history_length = 20
 #browser = x-www-browser -new-tab
