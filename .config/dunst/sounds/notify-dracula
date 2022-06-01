@@ -1,0 +1,14 @@
+#!/bin/bash
+declare -a apps=("changevolume" "someapp")
+if [ "$5" == "LOW" ]; then
+	if [ "$1" != ${apps[$1]} ]; then
+        ffplay -nodisp -autoexit $HOME/.config/dunst/sounds/Ubuntu/Menupopup.wav ;
+else
+	:
+fi
+elif [ "$5" == NORMAL ]; then
+	ffplay -nodisp -autoexit $HOME/.config/dunst/sounds/Ubuntu/Default.wav
+
+elif [ "$5" == CRITICAL ]; then
+	ffplay -nodisp -autoexit $HOME/.config/dunst/sounds/Ubuntu/question.wav
+fi

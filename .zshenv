@@ -48,7 +48,7 @@ export VISUAL="vim"
 export TERMINAL="alacritty"
 export BROWSER="brave"
 export VIDEO="mpv"
-export IMAGE="sxiv -b"
+export IMAGE="sxiv -b -a"
 export COLORTERM="truecolor"
 export OPENER="xdg-open"
 export PAGER="less"
@@ -60,8 +60,5 @@ export CM_MAX_CLIPS=10
 #export QT_QPA_PLATFORMTHEME=gtk2
 
 # Path
-path=("$HOME/scripts" "$HOME/scripts/alsa" "$HOME/scripts/dragon" "$HOME/scripts/lf" "$HOME/scripts/i3" "$HOME/scripts/pulse"
-	"$HOME/scripts/polybar" "$HOME/scripts/bspwm" "$HOME/scripts/lemonbar" "$HOME/scripts/transmission"
-	"$HOME/bin/tweetdeck-linux-x64" "$XDG_DATA_HOME/ruby/gems/bin" "$HOME/go/bin" "$HOME/.local/share/cargo/bin"
-	"$XDG_DATA_HOME/npm/bin" "$HOME/.local/bin" "$path[@]")
+path=("$XDG_DATA_HOME/ruby/gems/bin" "$HOME/go/bin" "$HOME/.local/share/cargo/bin" "$XDG_DATA_HOME/npm/bin" "$HOME/.local/bin" "$HOME/.config/bspwm/scripts" "$path[@]")
 export PATH

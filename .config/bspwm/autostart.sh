@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function run {
-  if ! pgrep $1 ;
+  if ! pidof $1 ;
   then
     $@&
   fi
@@ -10,9 +10,10 @@ function run {
 # Ev
 export GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
 export QT_QPA_PLATFORMTHEME=gtk2
+pgrep bspswallow || bspswallow &
 
 # Safely kill programs
-killall glava dunst sxhkd xfce4-power-manager flameshot
+killall -9 sxhkd picom dunst
 
 # Launch polybar
 $HOME/.config/polybar/launch.sh &
@@ -21,22 +22,22 @@ $HOME/.config/polybar/launch.sh &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 
 # Restore wallpaper
-xwallpaper --zoom $HOME/Pictures/Wallpapers/gruvgirl-dark.png &
+xwallpaper --zoom $HOME/Pictures/Wallpapers/gruvbox/gruvbox_redsky.jpg &
 
 # X settings
-xsetroot -cursor_name left_ptr &
+xsetroot -cursor_name left_ptr
 #xsetroot -cursor left_ptr &
 #xrdb -load ~/.config/bspwm/xresources &
-xrdb -load ~/.config/bspwm/X11/xresources.gruvbox &
+xrdb -merge ~/.config/bspwm/X11/gruvbox &
 
 # start compositor
-picom -b --config $HOME/.config/picom/picom.conf --experimental-backend &
+run picom -b --config $HOME/.config/picom/picom.conf --experimental-backend &
 
 # polkit agent - using gnome's because it supports gtk theme
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # Launch notification daemon
-dunst -config $HOME/.config/dunst/dunstrc.gruvbox &
+run dunst -config $HOME/.config/dunst/dunstrc.gruvbox &
 
 # Change alacritty colorscheme 
 sed -i '/colors:/c\colors: *gruvbox-dark' $HOME/.config/alacritty/alacritty.yml
@@ -62,13 +63,17 @@ sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $HOME/.config/glava/bars.gl
 #fi 
 
 # Lockscreen
-xss-lock -- betterlockscreen -l dimblur &
+run xss-lock -- betterlockscreen -l dimblur &
+
+# Conky
+run conky -c $HOME/.config/conky/gruvbox.conkyrc &
 
 # Autostart apps
 run flameshot &
 run nm-applet &
 dex -a -s ~/.config/autostart &
-clipmenud &
-xfce4-power-manager &
-sleep 5 && glava --desktop &
-#ffplay -nodisp -autoexit $HOME/Downloads/startup-01.mp3 &
+run conky -c $HOME/.config/conky/dtos-small/gruvbox.conkyrc &
+run plank &
+run clipmenud &
+run xfce4-power-manager &
+ffplay -nodisp -autoexit $HOME/.config/dunst/sounds/Ubuntu/startup.wav &

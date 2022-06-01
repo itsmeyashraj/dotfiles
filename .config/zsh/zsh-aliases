@@ -23,7 +23,7 @@ alias gm="git commit"
 
 ### system
 alias convert="magick convert"
-alias sxiv="sxiv -b"
+alias sxiv="sxiv -b -a"
 alias mytime="tty-clock -ct"
 alias update="sudo pacman -Syyu && paru -Syyu --noconfirm"
 alias v="nvim"

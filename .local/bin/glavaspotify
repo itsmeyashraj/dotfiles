@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if pidof spotify; then
+	if pidof glava; then
+		killall spotify glava;
+	else
+		glava --desktop;
+	fi
+elif pidof glava; then
+	spotify;
+else
+	spotify & glava --desktop;
+fi

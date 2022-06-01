@@ -5,8 +5,8 @@ margin-bottom = 0
 
 [settings]
 ;https://github.com/jaagr/polybar/wiki/Configuration#application-settings
-throttle-output = 5
-throttle-output-for = 10
+;throttle-output = 5
+;throttle-output-for = 10
 screenchange-reload = true
 compositing-background = over
 compositing-foreground = over
@@ -18,12 +18,12 @@ pseudo-transparency = true
 ; Define fallback values used by all module formats
 format-foreground = #FF0000
 format-background = #00FF00
-format-underline =
-format-overline =
-format-spacing =
-format-padding =
-format-margin =
-format-offset =
+;format-underline =
+;format-overline =
+;format-spacing =
+;format-padding =
+;format-margin =
+;format-offset =
 
 include-file = ~/.config/bspwm/polybar/themes/colors/gruvbox.ini
 include-file = ~/.config/bspwm/polybar/themes/modules/modules_gruv.ini

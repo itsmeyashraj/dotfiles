@@ -54,6 +54,7 @@
   "editor.foldingHighlight": false,
   "editor.guides.indentation": true,
   "editor.guides.highlightActiveIndentation": false,
+  "security.workspace.trust.enabled": false,
   "workbench.activityBar.visible": false,
   // comment: tab settings by pure vscode's settings
   // "workbench.editor.labelFormat": "short",

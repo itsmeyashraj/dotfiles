@@ -37,7 +37,7 @@ echo "setting cursortheme \"$cursor\""
 [[ "$cursor" != "$cursor_gtk3" ]] && \
 	sed -i "s/cursor-theme-name=.*/cursor-theme-name=$cursor/" $gtk3 &>/dev/null
 [[ -e $user_default ]] && sed -i "s/Inherits=.*/Inherits=$cursor/" $user_default &>/dev/null
-[[ -e $glob_default ]] && sudo sed -i "s/Inherits=.*/Inherits=$cursor/" $glob_default &>/dev/null
+[[ -e $glob_default ]] && sed -i "s/Inherits=.*/Inherits=$cursor/" $glob_default &>/dev/null
 
 # and in the realms of the GNOMEs
 [[ -f /usr/bin/gconftool-2 ]] && gconftool-2 --type string -s /desktop/gnome/peripherals/mouse/cursor $cursor

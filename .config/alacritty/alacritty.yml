@@ -1,9 +1,9 @@
 # Parts of this config were created by Derek Taylor, AKA DistroTube. The rest was created by Matt Weber aka The Linux Cast
 
 font:
-  size: 11
+  size: 10
   offset:
-    y: 1
+    y: 2
   normal:
    family: "JetBrainsMono Nerd Font"
    style: Bold

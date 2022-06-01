@@ -24,7 +24,7 @@ alt + p
 #Scratchpads
 
 super + b
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 0 nemo
+	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 0 pcmanfm
 
 super + shift + b
 	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 1 alacritty -e newsboat

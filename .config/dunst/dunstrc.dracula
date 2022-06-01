@@ -1,23 +1,107 @@
+[global]
+monitor = 0
 
-w]
-    # IMPORTANT: colors have to be defined in quotation marks.
-    # Otherwise the "#" and following would be interpreted as a commen
-t.
-    background = "#282a36"
-    foreground = "#6272a4"
-    timeout = 10
-    # Icon for notifications with low urgency, uncomment to enable
-    #new_icon = /path/to/icon
+#Mouse actions
+follow = mouse
+mouse_left_click = do_action
+mouse_middle_click = close_all
+mouse_right_click = close_current
+
+#Shortcuts
+close = 
+close_all = 
+history = 
+context = 
+
+width = 250
+height = 650
+
+offset = 10x35
+indicate_hidden = yes
+
+shrink = no
+
+separator_height = 2
+separator_color = auto
+
+padding = 14
+horizontal_padding = 12
+
+frame_width = 2
+
+font = JetBrainsMono Nerd Font Medium 10
+
+sort = no
+idle_threshold = 120
+
+line_height = 4
+markup = full
+format = "%s\n %b"
+alignment = left
+vertical_alignment = top
+show_age_threshold = 60
+word_wrap = yes
+ignore_newline = no
+stack_duplicates = false
+hide_duplicate_count = yes
+show_indicators = no
+icon_position = left
+max_icon_size = 80
+icon_path =/usr/share/icons/Gruvbox-Material-Dark/:/usr/share/icons/Gruvbox-Material-Dark/symbolic/status/
+
+sticky_history = yes
+history_length = 20
+#browser = x-www-browser -new-tab
+browser = /usr/bin/xdg-open
+always_run_script = true
+title = Dunst
+class = Dunst
+progress_bar = true
+progress_bar_height = 10
+corner_radius = 7
+
+#Urgency & sounds
+
+[NetworkManager]
+appname = NetworkManager
+urgency = critical
+
+#[NetworkManagerDisconnect]
+#appname = NetworkManager
+#summary = "Disconnected"
+#urgency = critical
+#script = ~/.config/dunst/sounds/disconnect.sh
+
+#[NetworkManagerConnect]
+#appname = NetworkManager
+#summary = "Connection Established"
+#urgency = critical
+#script = ~/.config/dunst/sounds/connect.sh
+
+[urgency_low]
+timeout = 5
+background = "#282a36"
+foreground = "#6272a4"
+frame_color = "#e78a4e"
+highlight = "#e78a4e"
+#script = ~/.config/dunst/sounds/low.sh
 
 [urgency_normal]
-    background = "#282a36"
-    foreground = "#bd93f9"
-    timeout = 10
-    # Icon for notifications with normal urgency, uncomment to enable
-    #new_icon = /path/to/icon
+timeout = 5
+background = "#282a36"
+foreground = "#6272a4"
+frame_color = "#d65d0e"
+highlight = "#e78a4e"
+#script = ~/.config/dunst/sounds/normal.sh
 
 [urgency_critical]
-    background = "#ff5555"
-    foreground = "#f8f8f2"
-    frame_color = "#ff5555"
-    timeout = 0
+timeout = 10
+background = "#282a36"
+foreground = "#6272a4"
+frame_color = "#cc241d"
+highlight = "#e78a4e"
+#script = ~/.config/dunst/sounds/critical.sh
+
+[play_sound]
+summary = "*"
+script = ~/.config/dunst/sounds/notify-dracula

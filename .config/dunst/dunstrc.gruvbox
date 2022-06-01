@@ -29,7 +29,7 @@ horizontal_padding = 12
 
 frame_width = 2
 
-font = JetBrains Mono Nerd Font Medium 10
+font = JetBrainsMono Nerd Font Medium 10
 
 sort = no
 idle_threshold = 120
@@ -84,7 +84,7 @@ background = "#323232"
 foreground = "#dfbf8e"
 frame_color = "#e78a4e"
 highlight = "#e78a4e"
-script = ~/.config/dunst/sounds/low.sh
+#script = ~/.config/dunst/sounds/low.sh
 
 [urgency_normal]
 timeout = 5
@@ -92,16 +92,16 @@ background = "#323232"
 foreground = "#dfbf8e"
 frame_color = "#d65d0e"
 highlight = "#e78a4e"
-script = ~/.config/dunst/sounds/normal.sh
+#script = ~/.config/dunst/sounds/normal.sh
 
 [urgency_critical]
-timeout = 0
+timeout = 10
 background = "#323232"
 foreground = "#dfbf8e"
 frame_color = "#cc241d"
 highlight = "#e78a4e"
-script = ~/.config/dunst/sounds/critical.sh
+#script = ~/.config/dunst/sounds/critical.sh
 
-#[play_sound]
-#summary = "*"
-#script = ~/.local/bin/alert.sh
+[play_sound]
+summary = "*"
+script = ~/.config/dunst/sounds/notify-gruv
