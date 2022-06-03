@@ -103,24 +103,24 @@ ${goto 12}${color1}${top_mem name 3}$alignr$color${top_mem mem_res 3}
 ${voffset 18}${color1}${alignc}${font4}BSPWM KEYBINDINGS${font}${color}
 ${color1}${hr}${color}
 ${color1}[S]+[RET]${alignr}${color2}open terminal${color}
-${color1}[S]+b${alignr}${color2}open qutebrowser${color}
-${color1}[S]+[SHIFT]+[RET]${alignr}${color2}run prompt${color}
-${color1}[S]+[SHIFT]+c${alignr}${color2}close window${color}
+${color1}[S]+w${alignr}${color2}open browser${color}
+${color1}[S]+d${alignr}${color2}run prompt${color}
+${color1}[S]+q${alignr}${color2}close window${color}
 ${color1}[S]+hjkl${alignr}${color2}move win focus${color}
-${color1}[S]+[SHIFT]+hjkl${alignr}${color2}move window${color}
+${color1}[S]+[C]+uiou${alignr}${color2}preselect${color}
 ${color1}[S]+[1-9]${alignr}${color2}switch workspace${color}
 ${color1}[S]+[SHIFT]+[1-9]${alignr}${color2}send window${color}
-${color1}[S]+h/l${alignr}${color2}shrink/expand${color}
+${color1}[S]+f${alignr}${color2}fullscreen${color}
 ${color1}${hr}${color}
-${color1}[S]+e, e${alignr}${color2}launch emacs${color}
-${color1}[S]+e, b${alignr}${color2}ibuffer${color}
-${color1}[S]+e, d${alignr}${color2}dired${color}
-${color1}[S]+e, n${alignr}${color2}elfeed${color}
-${color1}[S]+e, s${alignr}${color2}eshell${color}
-${color1}[S]+e, v${alignr}${color2}vterm${color}
-${color1}[S]+p, b${alignr}${color2}dm-setbg${color}
-${color1}[S]+p, s${alignr}${color2}dm-websearch${color}
+${color1}[C]+[ALT]+s${alignr}${color2}flameshot${color}
+${color1}[S]+b${alignr}${color2}file manager${color}
+${color1}[S]+n${alignr}${color2}pulsemixer${color}
+${color1}[S]+s, r${alignr}${color2}rofi-beats${color}
+${color1}[S]+s, c${alignr}${color2}clipboard${color}
+${color1}[S]+s, d${alignr}${color2}calc{color}
+${color1}[S]+s, e${alignr}${color2}emoji${color}
+${color1}[S]+s, s${alignr}${color2}dmsearch${color}
 ${color1}${hr}${color}
 ${color1}[S]+[SHIFT]+r${alignr}${color2}restart bspwm${color}
-${color1}[S]+[SHIFT]+q${alignr}${color2}quit bspwm${color}
+${color1}[S]+x${alignr}${color2}logout${color}
 ]];

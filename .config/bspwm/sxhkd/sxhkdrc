@@ -59,7 +59,7 @@ super + g; {n,t,l,g,k,a,o}
   {nitrogen,telegram-desktop,lowriter,gimp-2.10,kdenlive,audacium,obs}
 
 super + s; {s,b,a,c,r,d,e}
-  {dmsearch,bm.sh,dmconf,clipmenu,rofi-beats, rofi -show calc -no-show-match -no-sort, snapdrop.net, rofi -show emoji}
+  {dmsearch,bm.sh,dmconf,clipmenu,rofi-beats, rofi -show calc -no-show-match -no-sort, rofi -show emoji}
 
 alt + z; {a,s}
    {archlinux-tweak-tool, spotify}

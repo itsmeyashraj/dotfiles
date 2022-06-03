@@ -1,0 +1,111 @@
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Replace the "❯" symbol in the prompt with "➜"
+#[character] # The name of the module we are configuring is "character"
+#success_symbol = "[ ❯](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+#error_symbol = "[ ❯](bold red)"
+
+format = """
+[ ❯ ](bold green)
+"""
+
+[username]
+style_user = "white bold"
+style_root = "black bold"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[shell]
+fish_indicator = ""
+zsh_indicator = ""
+powershell_indicator = "_"
+unknown_indicator = "mystery shell"
+style = "cyan bold"
+disabled = true
+
+[git_commit]
+commit_hash_length = 4
+
+[git_status]
+conflicted = "🏳 "
+ahead = "🏎💨"
+behind = "😰 "
+diverged = "😵 "
+up_to_date = "✓ "
+untracked = " "
+stashed = "📦 "
+modified = " "
+staged = '[++\($count\)](green)'
+renamed = "קּ "
+deleted = "🗑 "
+
+[python]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[java]
+symbol = " "
+
+[lua]
+format = "via [ $version](bold blue) "
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[package]
+symbol = " "
+
+[perl]
+symbol = " "

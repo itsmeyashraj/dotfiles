@@ -1,6 +1,5 @@
 #Aliases
 ## interactive features
-alias mkdir='mcd'
 alias mv='mv -i'
 alias rm='rm -i'
 alias cp="cp -i"
@@ -39,3 +38,5 @@ alias sprint="termdown 20m && echo SPRINT DONE && paplay /usr/share/sounds/freed
 alias sprint30="termdown 30m && echo SPRINT DONE && paplay /usr/share/sounds/freedesktop/stereo/complete.oga"
 alias poly="nvim .config/polybar/config"
 alias e="emacs -nw"
+alias pkg="expac --timefmt='%Y-%m-%d %T' '%l\t%n'|sort -n"
+alias pkgs="expac --timefmt='%Y-%m-%d %T' '%l\t%n'|sort -n | fzf"

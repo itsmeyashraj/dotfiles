@@ -33,6 +33,7 @@ bspc rule -a Lxappearance state=floating
 bspc rule -a Arandr state=floating
 bspc rule -a Arcolinux-welcome-app.py state=floating
 bspc rule -a Nm-connection-editor state=floating
+bspc rule -a xarchiver state=floating
 
 #Single monitor
 bspc monitor -d 1 2 3 4 5 6 7

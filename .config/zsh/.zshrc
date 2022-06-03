@@ -16,15 +16,15 @@ autoload -U down-line-or-beginning-search
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 
+
+#my
+autoload -U rangercd
+zle -N rangercd
+#
 # Colors
 autoload -Uz colors && colors
 
 # interactive
-mcd() {
-    mkdir -p $1
-    cd $1
-}
-
 cd() {
 	builtin cd "$@" && command exa -aG --color=always --icons --group-directories-first
 }
@@ -34,9 +34,6 @@ bindkey "^p" up-line-or-beginning-search # Up
 bindkey "^n" down-line-or-beginning-search # Down
 bindkey "^k" up-line-or-beginning-search # Up
 bindkey "^j" down-line-or-beginning-search # Down
-
-# Edit line in vim with ctrl-e:
-autoload edit-command-line; zle -N edit-command-line
 
 # Speedy Key
 #xset r rate 200 40
@@ -57,5 +54,4 @@ zsh_add_plugin "hlissner/zsh-autopair"
 # More completions https://github.com/zsh-users/zsh-completions
 
 colorscript random
-#neofetch
 eval "$(starship init zsh)"
