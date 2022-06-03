@@ -60,5 +60,5 @@ export CM_MAX_CLIPS=10
 #export QT_QPA_PLATFORMTHEME=gtk2
 
 # Path
-path=("$XDG_DATA_HOME/ruby/gems/bin" "$HOME/go/bin" "$HOME/.local/share/cargo/bin" "$XDG_DATA_HOME/npm/bin" "$HOME/.local/bin" "$HOME/.config/bspwm/scripts" "$path[@]")
+path=("$XDG_DATA_HOME/ruby/gems/bin" "$HOME/go/bin" "$HOME/.local/share/cargo/bin" "$XDG_DATA_HOME/npm/bin" "$HOME/.local/bin" "$HOME/.bin" "$HOME/.config/bspwm/scripts" "$path[@]")
 export PATH

@@ -15,13 +15,13 @@ URxvt.iso14755:         false
 URxvt.iso14755_52:      false
 URxvt.meta8:            false
 URxvt.metaSendsEscape:  true
-URxvt.iconFile:     /usr/share/icons/Sardi-Mono/scalable/apps/terminal.svg
+URxvt.iconFile:  		/usr/share/icons/Sardi-Mono/scalable/apps/terminal.svg
 URxvt.urlLauncher:      firefox
 URxvt.underlineURLs:    true
 URxvt.urlButton:        1
 
 ! appearance
-URxvt.geometry:     100x30
+URxvt.geometry: 		100x30
 URxvt.depth:             32
 !URxvt.transparent:      true
 URxvt.shading:           80
@@ -34,9 +34,9 @@ URxvt.scrollWithBuffer:  true
 URxvt.scrollTtyKeypress: true
 URxvt.internalBorder:    0
 URxvt.externalBorder:    0
-URxvt.colorIT:         #4682B4
-URxvt.colorBD:         #F9F9F9
-URxvt.colorUL:         #87afd7
+URxvt.colorIT:      	 #4682B4
+URxvt.colorBD:      	 #F9F9F9
+URxvt.colorUL:      	 #87afd7
 
 !!! get your color schemes from here
 !!! https://terminal.sexy/
@@ -48,7 +48,7 @@ URxvt.colorUL:         #87afd7
 
 URxvt.foreground:   #F9F9F9
 URxvt.background:   [80]#222222
-!URxvt.background:  #000000
+!URxvt.background:	#000000
 !URxvt.background:  rgba:2222/2222/2222/AAAA
 !URxvt.background:  [80]#404552
 !URxvt.background:  [70]#3F424A
@@ -94,12 +94,12 @@ URxvt.background:   [80]#222222
 !!! copy/paste colorcodes in
 
 ! fonts
-URxvt.letterSpace:          -1
-URxvt.font:                   xft:Monospace:regular:size=11
-URxvt.imFont:                 xft:Monospace:regular:size=11
-URxvt.italicFont:             xft:Monospace:italic:size=11
-URxvt.boldFont:               xft:Monospace:bold:size=11
-URxvt.boldItalicFont:         xft:Monospace:regular:size=11
+URxvt.letterSpace: 	    		-1
+URxvt.font:                 	xft:Monospace:regular:size=11
+URxvt.imFont:               	xft:Monospace:regular:size=11
+URxvt.italicFont:           	xft:Monospace:italic:size=11
+URxvt.boldFont:             	xft:Monospace:bold:size=11
+URxvt.boldItalicFont:     		xft:Monospace:regular:size=11
 ! run :.!fc-list | grep <font-name>
 
 ! perl extensions
@@ -189,7 +189,7 @@ UXTerm*termName: xterm-256color
 UXTerm*cursorColor:        #c8c8c8
 UXTerm*VT100.geometry:     100x30
 UXTerm*font:               Monospace
-UXTerm*faceSize:       11
+UXTerm*faceSize:		   11
 UXTerm*dynamicColors:      true
 UXTerm*utf8:               2
 UXTerm*eightBitInput:      true
