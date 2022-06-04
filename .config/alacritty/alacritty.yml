@@ -1,9 +1,9 @@
 # Parts of this config were created by Derek Taylor, AKA DistroTube. The rest was created by Matt Weber aka The Linux Cast
 
 font:
-  size: 10
+  size: 11
   offset:
-    y: 2
+    y: 1
   normal:
    family: "JetBrainsMono Nerd Font"
    style: Bold
@@ -621,4 +621,4 @@ key_bindings:
   - { key: PageDown,  mods: None,          action: ScrollPageDown, mode: ~Alt  }
   - { key: Home,      mods: Shift,         action: ScrollToTop,    mode: ~Alt  }
   - { key: End,       mods: Shift,         action: ScrollToBottom, mode: ~Alt  }
-
+  - { key: Space,  mods: Control,       mode: Vi, action: ScrollToBottom       }

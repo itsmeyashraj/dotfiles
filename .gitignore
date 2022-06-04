@@ -96,3 +96,5 @@ Downloads/
 .config/xarchiver/
 Pictures/
 .config/qalculate/
+.config/pavucontrol.ini
+.zcompdump*

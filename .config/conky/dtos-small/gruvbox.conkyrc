@@ -15,7 +15,7 @@ conky.config = {
 	net_avg_samples = 2,						-- The number of samples to average for net data
 	no_buffers = true,							-- Subtract (file system) buffers from used memory?
 	temperature_unit = 'fahrenheit',			-- fahrenheit or celsius
-	text_buffer_size = 2048,					-- size of buffer for display of content of large variables - default 256
+	text_buffer_size = 100000,					-- size of buffer for display of content of large variables - default 256
 	update_interval = 1,						-- update interval
 	imlib_cache_size = 0,                       -- disable image cache to get a new spotify cover per song
 

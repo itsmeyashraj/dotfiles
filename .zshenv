@@ -9,8 +9,9 @@ export LANG=en_US.UTF-8
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
 export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
+export XDG_STATE_HOME=${XDG_STATE_HOME="$HOME/.local/state"}
 
-# 
+# Disable files
 export LESSHISTFILE=-
 
 # Doesn't seem to work
@@ -33,6 +34,10 @@ export HISTFILE="$XDG_CACHE_HOME"/zsh/history
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
 export STARSHIP_CONFIG=~/.config/zsh/starship.toml
+export _Z_DATA="$XDG_DATA_HOME/z"
+#can have error
+#export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
 
 # Scaling
 export QT_AUTO_SCREEN_SCALE_FACTOR=0

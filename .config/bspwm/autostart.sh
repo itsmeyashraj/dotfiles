@@ -10,7 +10,7 @@ function run {
 # Ev
 export GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
 export QT_QPA_PLATFORMTHEME=gtk2
-run bspswallow || bspswallow 
+#run bspswallow || bspswallow 
 
 # Safely kill programs
 killall -9 sxhkd picom dunst

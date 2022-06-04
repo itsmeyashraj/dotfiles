@@ -1,0 +1,11 @@
+# Completions
+zmodload zsh/complist # important for vim keybindings to work
+autoload -U compinit; compinit
+#zstyle ':completion:*' menu select
+zstyle ':completion:*' completer _complete _match _approximate
+zstyle ':completion:*' completer _extensions _complete _approximate
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+zstyle ':completion:*:approximate:*' max-errors 1 numeric
+
+# Compinit
+_comp_options+=(globdots)
