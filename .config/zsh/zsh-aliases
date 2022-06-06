@@ -1,9 +1,6 @@
 #Aliases
-## interactive features
-alias mv='mv -i'
-alias rm='rm -i'
-alias cp="cp -i"
-
+alias rm="rm -i"
+alias rf="rm -f"
 # fix obvious typo's
 alias cd..='cd ..'
 alias pdw="pwd"

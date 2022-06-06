@@ -73,10 +73,10 @@
 .git-credentials
 .gitconfig
 .lesshst
-.local/bin/Glass Animals - Heat Waves (Official Video)-mRD0-GxqHVo.mkv
-.local/bin/axyl-volume
 .local/bin/ytd
-.local/share/
+!.local/share/
+.local/share/*
+!.local/share/fonts/
 .pki/
 .screenrc
 .xsession-errors
@@ -98,3 +98,9 @@ Pictures/
 .config/qalculate/
 .config/pavucontrol.ini
 .zcompdump*
+.vscode-oss/
+!.config/VSCodium/
+.config/VSCodium/*
+!.config/VSCodium/User/
+.config/VSCodium/User/*
+!.config/VSCodium/User/settings.json

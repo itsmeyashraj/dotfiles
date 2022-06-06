@@ -1,0 +1,8 @@
+#!/bin/bash
+# Floating windows
+bspc rule -r "*"
+bspc rule -a Lxappearance state=floating
+bspc rule -a Arandr state=floating
+bspc rule -a Arcolinux-welcome-app.py state=floating
+bspc rule -a Nm-connection-editor state=floating
+bspc rule -a xarchiver state=floating

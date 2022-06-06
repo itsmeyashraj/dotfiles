@@ -1,0 +1,9 @@
+# To see the key combo you want to use just do:
+# cat > /dev/null , And press it
+
+autoload -U up-line-or-beginning-search
+autoload -U down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+bindkey "^P" up-line-or-beginning-search # Up
+bindkey "^K" down-line-or-beginning-search # Down

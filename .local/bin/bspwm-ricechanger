@@ -1,0 +1,1 @@
+sed -i '/THEME=/c\THEME="gruvbox"' $HOME/.config/bspwm/bspwmrc
