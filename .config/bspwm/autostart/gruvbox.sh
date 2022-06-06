@@ -32,7 +32,7 @@ xwallpaper --zoom $HOME/Pictures/Wallpapers/gruvbox/gruvbox_redsky.jpg
 xrdb -merge ~/.config/bspwm/X11/gruvbox
 
 # Launch notification daemon
-reload dunst -config $HOME/.config/dunst/dunstrc.gruvbox 
+reload dunst -conf $HOME/.config/dunst/dunstrc.gruvbox 
 
 # Change alacritty colorscheme 
 sed -i '/colors:/c\colors: *gruvbox-dark' $HOME/.config/alacritty/alacritty.yml

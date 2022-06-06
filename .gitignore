@@ -64,7 +64,6 @@
 .config/spicetify/Extracted/
 .config/user-dirs.dirs
 .config/user-dirs.locale
-.config/xfce4/
 .config/zsh/plugins/
 .config/zsh/starship.default
 .config/zsh/starship.pastel
@@ -104,3 +103,10 @@ Pictures/
 !.config/VSCodium/User/
 .config/VSCodium/User/*
 !.config/VSCodium/User/settings.json
+!.config/xfce4/
+.config/xfce4/*
+!.config/xfce4/xfconf/
+.config/xfce4/xfconf/*
+!.config/xfce4/xfconf/xfce-perchannel-xml/
+.config/xfce4/xfconf/xfce-perchannel-xml/*
+!.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
