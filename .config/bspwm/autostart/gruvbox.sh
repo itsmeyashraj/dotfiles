@@ -1,26 +1,26 @@
 #!/bin/bash
-#experiment
-function reload {
+# Functions
+reload() {
   killall -q $1 &
   while pgrep -u $UID -x $1 >/dev/null; do sleep 1; done
-  $@&
+  $@ &
 }
 
-function runonce {
+runonce() {
   if ! pidof -x $1 ;
   then
-    $@&
+    $@ &
   fi
 }
-##########
+
 # Env
-#export GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
-#export QT_QPA_PLATFORMTHEME=gtk2
+export GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
+export QT_QPA_PLATFORMTHEME=gtk2
 
 # Launch polybar
-#reload polybar --reload mainbar-bspwm -c ~/.config/bspwm/polybar/polybar-gruvbox
-reload polybar -c ~/.config/bspwm/polybar/polybar-gruvbox
-#$HOME/.config/polybar/launch.sh
+POLYTHEME=`grep 'THEME="' ~/.config/bspwm/bspwmrc | cut -d "=" -f2 | cut -d '"' -f2`
+reload polybar -c ~/.config/bspwm/polybar/polybar-$POLYTHEME
+#reload polybar -c ~/.config/bspwm/polybar/polybar-$THEME
 
 # Launch sxhkd
 reload sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc
@@ -32,24 +32,24 @@ xwallpaper --zoom $HOME/Pictures/Wallpapers/gruvbox/gruvbox_redsky.jpg
 xrdb -merge ~/.config/bspwm/X11/gruvbox
 
 # Launch notification daemon
-reload dunst -conf $HOME/.config/dunst/dunstrc.gruvbox 
+reload dunst -conf $XDG_CONFIG_HOME/dunst/dunstrc.gruvbox 
 
 # Change alacritty colorscheme 
-sed -i '/colors:/c\colors: *gruvbox-dark' $HOME/.config/alacritty/alacritty.yml
+sed -i '/colors:/c\colors: *gruvbox-dark' $XDG_CONFIG_HOME/alacritty/alacritty.yml
 
 # change cava colorschemes
-CAVA_PATH="$HOME/.config/cava"
+CAVA_PATH="$XDG_CONFIG_HOME/cava"
 cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
 
 # replace neovim colorscheme
 #sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadrc.lua
 
 # change glava color
-sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $HOME/.config/glava/bars.glsl
+sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $XDG_CONFIG_HOME/glava/bars.glsl
 
 # change spicetify colorscheme
 #COLOR_SCHEME="gruvbox"
-#if grep -q $COLOR_SCHEME "$HOME/.config/spicetify/config-xpui.ini";
+#if grep -q $COLOR_SCHEME "$XDG_CONFIG_HOME/spicetify/config-xpui.ini";
 #then
 #  :
 #else
@@ -58,6 +58,11 @@ sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $HOME/.config/glava/bars.gl
 #fi 
 
 # Conky
-reload conky -c $HOME/.config/conky/dtos-small/gruvbox.conkyrc
+reload conky -c $XDG_CONFIG_HOME/conky/dtos-small/gruvbox.conkyrc
 #runonce plank 
-#runonce ffplay -nodisp -autoexit $HOME/.config/dunst/sounds/Ubuntu/startup.wav &
+#runonce ffplay -nodisp -autoexit $XDG_CONFIG_HOME/dunst/sounds/Ubuntu/startup.wav &
+#sleep 5 &
+#if ! [ -f /tmp/startupsound ]; then
+#        ffplay -nodisp -autoexit $XDG_CONFIG_HOME/dunst/sounds/Ubuntu/startup.wav &&
+#        touch /tmp/startupsound
+#fi &

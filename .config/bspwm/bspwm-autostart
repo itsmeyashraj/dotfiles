@@ -1,25 +1,23 @@
 #!/bin/bash
-#experiment
-function reload {
+# Functions
+reload() {
   killall -9 $1 &
   while pgrep -u $UID -x $1 >/dev/null; do sleep 1; done
-  $@&
+  $@ &
 }
 
-function runonce {
+runonce() {
   if ! pidof -x $1 ;
   then
-    $@&
+    $@ &
   fi
 }
-#####
-# Constant autostart apps that won't change
 
 # X settings
 xsetroot -cursor_name left_ptr
 
 # Start compositor
-runonce picom -b --config $HOME/.config/picom/picom.conf --experimental-backend 
+runonce picom -b --config $XDG_CONFIG_HOME/picom/picom.conf
 
 # Polkit agent - using gnome's because it supports gtk theme
 runonce /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
@@ -31,6 +29,5 @@ runonce /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 runonce flameshot 
 runonce nm-applet 
 dex -a -s ~/.config/autostart 
-#runonce plank 
-runonce clipmenud 
+#runonce clipmenud 
 runonce xfce4-power-manager 
