@@ -24,34 +24,34 @@ alt + p
 #Scratchpads
 
 super + b
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 0 pcmanfm
+	tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 0 pcmanfm
 
 super + shift + b
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 1 alacritty -e newsboat
+	tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 1 alacritty -e newsboat
 
 super + m
-        tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 2 neomutt
+        tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 2 neomutt
 
 super + shift + m
-        tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 3 alacritty -e ncmpcpp 
+        tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 3 alacritty -e ncmpcpp 
 
 super + n
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 4 alacritty -e pulsemixer
+	tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 4 alacritty -e pulsemixer
 
 super + shift + n
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 5 alacritty -e ranger
+	tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 5 alacritty -e ranger
 
 super + t
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 6 alacritty
+	tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 6 alacritty
 
 super + shift + t 
-       tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 7 alacritty
+       tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 7 alacritty
 
 super + v 
-       tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 8 alacritty
+       tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 8 alacritty
 
 super + shift + v
-	tdrop -ma -w 98% -h 40% -x 1% -y 34 -n 9 alacritty
+	tdrop -ma -w 60% -h 60% -x 20% -y 20% -n 9 alacritty
 
 #Multi
 
