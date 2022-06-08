@@ -8,4 +8,4 @@ bspc rule -a Xarchiver state=floating
 bspc rule -a Xfce4-power-manager-settings state=floating
 
 # App Manage rules
-bspc rule -a Plank layer=above manage=on border=off
+bspc rule -a Plank layer=above manage=off border=off
