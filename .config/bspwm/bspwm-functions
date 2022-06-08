@@ -1,23 +1,13 @@
 #!/bin/bash
-# Run only when not running already!
-function run {
-  if ! pidof -x $1 ;
-  then
-    $@&
-  fi
-}
-
-# waits for application to be killed and then executes afterwards
 function reload {
-  killall -9 $1 &
+  killall -q $1 &
   while pgrep -u $UID -x $1 >/dev/null; do sleep 1; done
-  $@&
+  $@ &
 }
 
-# Same as run just name changed
 function runonce {
   if ! pidof -x $1 ;
   then
-    $@&
+    $@ &
   fi 
 }

@@ -1,20 +1,6 @@
 #!/bin/bash
-# Functions
-reload() {
-  killall -9 $1 &
-  while pgrep -u $UID -x $1 >/dev/null; do sleep 1; done
-  $@ &
-}
-
-runonce() {
-  if ! pidof -x $1 ;
-  then
-    $@ &
-  fi
-}
-
 # X settings
-xsetroot -cursor_name left_ptr
+xsetroot -cursor_name left_ptr &
 
 # Start compositor
 runonce picom -b --config $XDG_CONFIG_HOME/picom/picom.conf
@@ -25,9 +11,14 @@ runonce /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # Bspswallow
 #pgrep bspswallow || bspswallow &
 
+# Lockscreen
+xset s 600 1
+xss-lock -n 'systemctl suspend' -- betterlockscreen -l dimblur &
+
 # Autostart apps
-runonce flameshot 
-runonce nm-applet 
-dex -a -s ~/.config/autostart 
-#runonce clipmenud 
-runonce xfce4-power-manager 
+runonce flameshot
+runonce nm-applet
+dex -a -s ~/.config/autostart &
+#runonce clipmenud
+clipmenud &
+#runonce xfce4-power-manager --daemon

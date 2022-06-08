@@ -1,4 +1,3 @@
-#!/bin/bash
 #BSPWM configuration
 bspc config border_width         2
 bspc config window_gap           5

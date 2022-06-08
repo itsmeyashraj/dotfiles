@@ -1,4 +1,3 @@
-#!/bin/bash
 # Floating windows
 bspc rule -r "*"
 bspc rule -a Lxappearance state=floating
@@ -6,3 +5,7 @@ bspc rule -a Arandr state=floating
 bspc rule -a Arcolinux-welcome-app.py state=floating
 bspc rule -a Nm-connection-editor state=floating
 bspc rule -a Xarchiver state=floating
+bspc rule -a Xfce4-power-manager-settings state=floating
+
+# App Manage rules
+bspc rule -a Plank layer=above manage=on border=off

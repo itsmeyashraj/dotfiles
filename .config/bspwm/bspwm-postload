@@ -4,4 +4,4 @@ if ! [ -f /tmp/startupsound ]; then
         ffplay -nodisp -autoexit $XDG_CONFIG_HOME/dunst/sounds/Windows11/startup.mp3 &
         touch /tmp/startupsound
 fi &
-notify-send "bspwm loaded"
+notify-send "bspwm loaded" &

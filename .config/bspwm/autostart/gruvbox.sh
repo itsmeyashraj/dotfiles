@@ -1,18 +1,4 @@
 #!/bin/bash
-# Functions
-reload() {
-  killall -q $1 &
-  while pgrep -u $UID -x $1 >/dev/null; do sleep 1; done
-  $@ &
-}
-
-runonce() {
-  if ! pidof -x $1 ;
-  then
-    $@ &
-  fi
-}
-
 # Env
 export GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
 export QT_QPA_PLATFORMTHEME=gtk2
@@ -26,26 +12,26 @@ reload polybar -c ~/.config/bspwm/polybar/polybar-$POLYTHEME
 reload sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc
 
 # Restore wallpaper
-xwallpaper --zoom $HOME/Pictures/Wallpapers/gruvbox/gruvbox_redsky.jpg
+xwallpaper --zoom $HOME/Pictures/Wallpapers/gruvbox/gruvbox_redsky.jpg &
 
 # Xresources
-xrdb -merge ~/.config/bspwm/X11/gruvbox
+xrdb -merge ~/.config/bspwm/X11/gruvbox &
 
 # Launch notification daemon
 reload dunst -conf $XDG_CONFIG_HOME/dunst/dunstrc.gruvbox 
 
 # Change alacritty colorscheme 
-sed -i '/colors:/c\colors: *gruvbox-dark' $XDG_CONFIG_HOME/alacritty/alacritty.yml
+sed -i '/colors:/c\colors: *gruvbox-dark' $XDG_CONFIG_HOME/alacritty/alacritty.yml &
 
 # change cava colorschemes
 CAVA_PATH="$XDG_CONFIG_HOME/cava"
-cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config
+cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config &
 
 # replace neovim colorscheme
 #sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadrc.lua
 
 # change glava color
-sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $XDG_CONFIG_HOME/glava/bars.glsl
+sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $XDG_CONFIG_HOME/glava/bars.glsl &
 
 # change spicetify colorscheme
 #COLOR_SCHEME="gruvbox"
@@ -60,9 +46,3 @@ sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $XDG_CONFIG_HOME/glava/bars
 # Conky
 reload conky -c $XDG_CONFIG_HOME/conky/dtos-small/gruvbox.conkyrc
 #runonce plank 
-#runonce ffplay -nodisp -autoexit $XDG_CONFIG_HOME/dunst/sounds/Ubuntu/startup.wav &
-#sleep 5 &
-#if ! [ -f /tmp/startupsound ]; then
-#        ffplay -nodisp -autoexit $XDG_CONFIG_HOME/dunst/sounds/Ubuntu/startup.wav &&
-#        touch /tmp/startupsound
-#fi &

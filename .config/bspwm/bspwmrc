@@ -4,16 +4,16 @@
 THEME="gruvbox"
 
 # Configuration
-source $XDG_CONFIG_HOME/bspwm/themes/bspwm-$THEME
+source "$XDG_CONFIG_HOME/bspwm/themes/bspwm-$THEME"
 
 # Application rules
-source $XDG_CONFIG_HOME/bspwm/bspwm-rules
+source "$XDG_CONFIG_HOME/bspwm/bspwm-rules"
 
 # Monitors
-source $XDG_CONFIG_HOME/bspwm/bspwm-monitors
+source "$XDG_CONFIG_HOME/bspwm/bspwm-monitors"
 
 # Autostart
-#source $HOME/.config/bspwm/bspwm-functions
-source $XDG_CONFIG_HOME/bspwm/autostart/$THEME.sh
-source $XDG_CONFIG_HOME/bspwm/bspwm-autostart
-source $XDG_CONFIG_HOME/bspwm/bspwm-postload
+source "$HOME/.config/bspwm/bspwm-functions" wait
+source "$XDG_CONFIG_HOME/bspwm/autostart/$THEME.sh"
+source "$XDG_CONFIG_HOME/bspwm/bspwm-autostart" wait
+source "$XDG_CONFIG_HOME/bspwm/bspwm-postload"

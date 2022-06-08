@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<channel name="xfce4-session" version="1.0">
-  <property name="general" type="empty">
-    <property name="LockCommand" type="string" value="betterlockscreen -l dimblur"/>
-  </property>
-</channel>
