@@ -1,3 +1,5 @@
+;; Settings
+
 [global/wm]
 ;https://github.com/jaagr/polybar/wiki/Configuration#global-wm-settings
 margin-top = 0
@@ -25,9 +27,7 @@ format-background = #00FF00
 ;format-margin =
 ;format-offset =
 
-#include-file = ~/.config/bspwm/polybar/themes/colors/gruvbox.ini
-#include-file = ~/.config/bspwm/polybar/themes/modules/modules_gruv.ini
-
+;; Colors
 
 [colors]
 background = #282828
@@ -52,6 +52,7 @@ lightbg2 = #3c3836
 darkorange = #d65d0e
 orange = #fe8019
 
+;; Modules
 
 [module/bspwm]
 type = internal/bspwm
@@ -122,7 +123,6 @@ label-urgent-padding = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
-#################### MODULES A - Z #######################
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 [module/cpu1]
@@ -658,6 +658,7 @@ format-background = ${colors.lightbg2}
 format-padding = 1 
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
 [module/BLLD]
 type = custom/text
 content = "%{T4}%{O-17}"
@@ -670,10 +671,7 @@ content = "%{O-17}%{T4}"
 content-background = ${colors.background}
 content-foreground = ${colors.lightbg2}
 
-
-
-
-#Mainbar
+;; Mainbar BSPWM
 
 [bar/mainbar-bspwm]
 monitor = VGA-0
@@ -687,7 +685,6 @@ line-size = 2
 
 background = ${colors.background}
 foreground = ${colors.foreground}
-
 
 radius = 0.0
 
@@ -741,4 +738,3 @@ dpi = 0
 ; Enable support for inter-process messaging
 ; See the Messaging wiki page for more details.
 enable-ipc = true
-
