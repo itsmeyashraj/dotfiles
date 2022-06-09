@@ -11,51 +11,11 @@ polybar spotify module -> label-maxlen = 12 more that the length of scrollspotif
 
 8. colorscript -b bomber colorbars debian fade pipes1 pipes2 pukeskull rupees six tux xmonad hex pipes2-slim kaisen
 9. you need to change gtk-3.0/settings gtk-cursor-theme-name=cursor-theme-name , use should also change xresources cursor theme
+10. If using nvidia card turn on full composition pipeline. because I have disable unredir in picom. This increases performance. If you face screen tearing issues then try commenting out "unredir-if-possible = true"
 
-script is here
-#!/bin/bash
-git clone https://github.com/itsmeyashraj/dotfiles &&
-mv $HOME/* -r $HOME/bakup/ && cp * -r $HOME/
 
-# Don't update if already done
-if ! [ -f /tmp/updatedone ]; then
-	sudo pacman -Syyu &
-        touch /tmp/updatedone
-fi &
+## Install script is here 
+.local/share/yashOS/install.sh
 
-# source pkgs from seperate file
-#packages=cat required-pkgs
-#if ! sudo pacman -Si - < required-pkgs; then
-#	paru -S - < required-pkgs;
-#else
-#	sudo pacman -S --noconfirm $packages
-#fi
-#echo $packages
-sudo pacman -S - < required-pkgs &&
-paru -S - < AUR &&
-# pulseaudio -> pipewire
-# prompt do you want to install pipewire? in dialog
-while true; do
-    read -p "Do you wish to install pipewire?" yn
-    case $yn in
-        [Yy]* ) sudo pacman -S pipewire pipewire-media-session pipewire-alsa pipewire-jack --noconfirm && sudo pacman -Rns pulseaudio-alsa gnome-bluetooth blueberry pulseaudio-bluetooth pulseaudio --noconfirm && sudo pacman -S pipewire-pulse blueberry --noconfirm ; break;;
-        [Nn]* ) exit;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
-
-# disable annoying colorscripts
-colorscript -b bomber colorbars debian fade hex kaisen pipes1 pipes2 pipes-slim pukeskull rupees six tux xmonad
-
-# make zsh cache directory for history saving
-mkdir .cache/zsh/ && touch .cache/zsh/history
-
-# uninstall bloat terminal
-if -f [/usr/bin/termite]; then sudo pacman -Rns termite --noconfirm fi
-if -f [/usr/bin/xfce4]; then 
-	if -f [usr/bin/xfce4-terminal]; then
-	sudo pacman -Rns xfce4-terminal --noconfirm
-	fi
-fi
-
-echo "Reboot now"
+## This repo is in WIP. I promise will upload some pictures and improve readme later. 
+Tq, regards yashraj

@@ -77,6 +77,7 @@
 .local/share/*
 !.local/share/fonts/
 !.local/share/yashOS/
+!.local/share/applications/
 .pki/
 .screenrc
 .xsession-errors

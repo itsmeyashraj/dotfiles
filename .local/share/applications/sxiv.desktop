@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Sxiv(user)
+Exec=/usr/bin/sxiv -b -a %f
+Icon=sxiv
+NoDisplay=true

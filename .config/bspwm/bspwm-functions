@@ -1,13 +1,30 @@
 #!/bin/bash
-function reload {
+reload () {
   killall -q $1 &
   while pgrep -u $UID -x $1 >/dev/null; do sleep 1; done
   $@ &
 }
 
-function runonce {
+runonce () {
   if ! pidof -x $1 ;
   then
     $@ &
   fi 
+}
+
+setfloat () {
+  for i in $1; do
+	  bspc rule -a $i state=floating center=true follow=on focus=on; done
+	
+}
+
+setdock () {
+  for i in $1; do
+	  bspc rule -a $i layer=above manage=off border=off; done
+}
+
+setworkspace () {
+  for i in $2; do
+	  bspc rule -a $i desktop=$1 follow=on focus=on; done
+
 }

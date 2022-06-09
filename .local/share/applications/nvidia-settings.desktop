@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=NVIDIA X Server Settings(user)
+Comment=NVIDIA Settings from .config/nvidia/settings
+Exec=gksu "/usr/bin/nvidia-settings --config $XDG_CONFIG_HOME/nvidia/settings"
+Icon=nvidia-settings
+Categories=Settings;HardwareSettings;

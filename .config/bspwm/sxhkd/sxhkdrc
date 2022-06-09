@@ -5,7 +5,7 @@ super + Return
     alacritty
 
 super + shift + Return
-    thunar
+    xfce4-terminal
 
 super + r
     alacritty -e "ranger"

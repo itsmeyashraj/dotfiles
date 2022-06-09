@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Spotify with glava
+Comment=Start/Stop Spotify with glava
+Exec=sh -c glavaspotify
+Icon=spotify
+Categories=Audio;Music;Player;AudioVideo;

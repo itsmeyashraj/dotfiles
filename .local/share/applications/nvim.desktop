@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Neovim(user)
+Comment=Start neovim using alacritty
+Exec=alacritty -e nvim %U
+Icon=nvim
+
