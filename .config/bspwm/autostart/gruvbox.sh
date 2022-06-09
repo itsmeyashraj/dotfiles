@@ -5,7 +5,7 @@ export QT_QPA_PLATFORMTHEME=gtk2
 
 # Launch polybar
 POLYTHEME=`grep 'THEME="' ~/.config/bspwm/bspwmrc | cut -d "=" -f2 | cut -d '"' -f2`
-reload polybar -c ~/.config/bspwm/polybar/polybar-$POLYTHEME
+reload polybar --reload mainbar-bspwm -c ~/.config/bspwm/polybar/polybar-$POLYTHEME
 #reload polybar -c ~/.config/bspwm/polybar/polybar-$THEME
 
 # Launch sxhkd
