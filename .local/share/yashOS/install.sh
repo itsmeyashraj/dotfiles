@@ -43,4 +43,12 @@ if -f [/usr/bin/xfce4]; then
 	fi
 fi
 
+# If on Arcolinux then
+if [ `cat /etc/*-release | grep "DISTRIB_ID" | cut -d "=" -f2` == ArcoLinux ]; then
+	sudo pacman -Rns arcolinux-alacritty-git
+else
+	:
+fi
+
+# All done message now
 echo "Reboot now"
