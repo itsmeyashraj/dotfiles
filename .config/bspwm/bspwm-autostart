@@ -2,10 +2,10 @@
 # X settings
 xsetroot -cursor_name left_ptr &
 
-# Start compositor
-runonce picom -b --config $XDG_CONFIG_HOME/picom/picom.conf
+# Compositor
+runonce picom --experimental-backends &
 
-# Polkit agent - using gnome's because it supports gtk theme
+# Polkit agent
 #runonce /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
 runonce /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 

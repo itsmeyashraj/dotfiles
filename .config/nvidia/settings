@@ -2,7 +2,7 @@
 # /home/yashraj/.config/nvidia/settings
 #
 # Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
-# Generated on Thu Jun  9 19:21:40 2022
+# Generated on Fri Jun 10 02:12:35 2022
 #
 
 # ConfigProperties:
@@ -42,7 +42,7 @@ Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
 [DPY:VGA-0]/Dithering=0
 [DPY:VGA-0]/DitheringMode=0
 [DPY:VGA-0]/DitheringDepth=0
-[DPY:VGA-0]/DigitalVibrance=500
+[DPY:VGA-0]/DigitalVibrance=450
 [DPY:VGA-0]/SynchronousPaletteUpdates=0
 [DPY:DVI-D-0]/Dithering=0
 [DPY:DVI-D-0]/DitheringMode=0

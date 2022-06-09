@@ -3,26 +3,32 @@
 #################################
 # requires https://github.com/jonaburg/picom
 # (These are also the default values)
-transition-length = 300
+transition-length = 100
 transition-pow-x = 0.1
 transition-pow-y = 0.1
 transition-pow-w = 0.1
 transition-pow-h = 0.1
 size-transition = true
 
-
 #################################
 #             Corners           #
 #################################
 # requires: https://github.com/sdhand/compton or https://github.com/jonaburg/picom
-corner-radius = 15;
+corner-radius = 10;
 rounded-corners-exclude = [
+  #"window_type = 'normal'",
+  "class_g = 'awesome'",
   "class_g = 'Polybar'",
-  "class_g = 'Polybar' && class_i = 'tray'",
+  "class_g = 'tray'",
   "class_g = 'Dunst'",
+  "class_g = 'code-oss'",
+  "window_type = 'tooltip'",
+  "window_type = 'panel'",
+  "window_type = 'popup_menu'",
 ];
 round-borders = 1;
 round-borders-exclude = [
+  #"class_g = 'TelegramDesktop'",
 ];
 
 #################################
@@ -95,6 +101,7 @@ shadow-exclude = [
   "class_g = 'Cairo-clock'",
   "class_g = 'slop'",
   "class_g = 'Polybar'",
+  "class_g = 'tray'",
   "_GTK_FRAME_EXTENTS@:c"
 ];
 
@@ -117,7 +124,7 @@ shadow-exclude = [
 # Fade windows in/out when opening/closing and when opacity changes,
 #  unless no-fading-openclose is used.
 # fading = false
-fading = true;
+fading = false;
 
 # Opacity change between steps while fading in. (0.01 - 1.0, defaults to 0.028)
 # fade-in-step = 0.028
@@ -197,13 +204,21 @@ focus-exclude = [
 opacity-rule = [
   "80:class_g     = 'Bar'",             # lemonbar
   "100:class_g    = 'slop'",            # maim
-  "100:class_g    = 'XTerm'",
+  "90:class_g    = 'XTerm'",
   "100:class_g    = 'URxvt'",
   "100:class_g    = 'kitty'",
   "90:class_g     = 'Alacritty'",
+  "90:class_g     = 'Xfce4-terminal'",
   "100:class_g    = 'Polybar'",
+  "100:class_g    = 'tray'",
   "100:class_g    = 'code-oss'",
-  "80:class_g     = 'Rofi'",
+  "90:class_g =   'Code'",
+  "100:class_g    = 'Meld'",
+  "70:class_g     = 'TelegramDesktop'",
+  "90:class_g     = 'Joplin'",
+  "100:class_g    = 'firefox'",
+  "90:class_g     = 'Rofi'",
+  "100:class_g    = 'Thunderbird'"
 ];
 
 
@@ -245,9 +260,8 @@ opacity-rule = [
 
 blur: {
   # requires: https://github.com/ibhagwan/picom
-  method = "dual_kawase";
-  # method = "kernel";
-  strength = 8;
+  method = "kawase";
+  strength = 7;
   # deviation = 1.0;
   # kernel = "11x11gaussian";
   background = false;
@@ -260,13 +274,14 @@ blur: {
 blur-background-exclude = [
   "window_type = 'dock'",
   "window_type = 'desktop'",
-  "class_g = 'Dunst'",
-  "class_g = 'Polybar'",
+  "class_g = 'tray'",
+  #"class_g = 'URxvt'",
   #
   # prevents picom from blurring the background
   # when taking selection screenshot with `main`
   # https://github.com/naelstrof/maim/issues/130
   "class_g = 'slop'",
+  "class_g = 'Dunst'",
   "_GTK_FRAME_EXTENTS@:c"
 ];
 
@@ -287,7 +302,7 @@ backend = "glx";
 
 
 # Enable/disable VSync.
-# vsync = false
+#vsync = false
 vsync = true
 
 # Enable remote control via D-Bus. See the *D-BUS API* section below for more details.
@@ -339,7 +354,7 @@ refresh-rate = 0
 # to maximize performance for full-screen windows. Known to cause flickering 
 # when redirecting/unredirecting windows. paint-on-overlay may make the flickering less obvious.
 #
-# unredir-if-possible = false
+unredir-if-possible = true
 
 # Delay before unredirecting the window, in milliseconds. Defaults to 0.
 # unredir-if-possible-delay = 0

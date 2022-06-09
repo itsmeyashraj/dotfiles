@@ -4,9 +4,10 @@ export GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
 export QT_QPA_PLATFORMTHEME=gtk2
 
 # Launch polybar
-POLYTHEME=`grep 'THEME="' ~/.config/bspwm/bspwmrc | cut -d "=" -f2 | cut -d '"' -f2`
-reload polybar --reload mainbar-bspwm -c ~/.config/bspwm/polybar/polybar-$POLYTHEME
-#reload polybar -c ~/.config/bspwm/polybar/polybar-$THEME
+#POLYTHEME=`grep 'THEME="' ~/.config/bspwm/bspwmrc | cut -d "=" -f2 | cut -d '"' -f2`
+#reload polybar --reload mainbar-bspwm -c ~/.config/bspwm/polybar/polybar-$POLYTHEME
+#reload polybar --reload mainbar-bspwm -c $XDG_CONFIG_HOME/bspwm/polybar/polybar-$THEME
+reload polybar --reload mainbar-bspwm -c $XDG_CONFIG_HOME/bspwm/polybar/polybar-gruvbox
 
 # Launch sxhkd
 reload sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc

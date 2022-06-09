@@ -58,7 +58,7 @@ title = Dunst
 class = Dunst
 progress_bar = true
 progress_bar_height = 10
-corner_radius = 7
+corner_radius = 10
 
 #Urgency & sounds
 
@@ -102,6 +102,6 @@ frame_color = "#cc241d"
 highlight = "#e78a4e"
 #script = ~/.config/dunst/sounds/critical.sh
 
-[play_sound]
-summary = "*"
-script = ~/.config/dunst/sounds/notify-gruv
+#[play_sound]
+#summary = "*"
+#script = ~/.config/dunst/sounds/notify-gruv

@@ -5,7 +5,7 @@ super + Return
     alacritty
 
 super + shift + Return
-    xfce4-terminal
+    kitty
 
 super + r
     alacritty -e "ranger"
@@ -85,14 +85,8 @@ XF86Sleep
 
 #Audio Keybindings
 
-XF86AudioRaiseVolume
-        $HOME/.local/bin/pulsevol up
-
-XF86AudioLowerVolume
-        $HOME/.local/bin/pulsevol down
-
-XF86AudioMute
-        $HOME/.local/bin/pulsevol mute
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+	volume{ --up, --down, --toggle}
 
 alt + d
         amixer -c 1 -- sset Master 2db+

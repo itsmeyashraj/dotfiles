@@ -19,6 +19,7 @@ bspc config remove_disabled_monitors true
 bspc config merge_overlapping_monitors true
 bspc config initial_polarity first_child
 bspc config ignore_ewmh_fullscreen exit
+bspc config pointer_motion_interval 17
 #bspc config ignore_ewmh_fullscreen full
 
 #BSPWM coloring
