@@ -28,3 +28,11 @@ setworkspace () {
 	  bspc rule -a $i desktop=$1 follow=on focus=on; done
 
 }
+
+setwall () {
+  if [ -f $1 ]; then
+	  hsetroot -cover "$1" &
+  else
+	  hsetroot -solid "#404552" &
+  fi
+}
