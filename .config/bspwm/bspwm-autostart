@@ -1,7 +1,4 @@
 #!/bin/bash
-# X settings
-xsetroot -cursor_name left_ptr &
-
 # Compositor
 runonce picom --experimental-backends &
 

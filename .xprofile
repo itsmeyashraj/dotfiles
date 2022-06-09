@@ -1,3 +1,5 @@
-nvidia-settings --config "$XDG_CONFIG_HOME/nvidia/settings" --load-config-only &
-xrdb -load "$XDG_CONFIG_HOME/X11/xresources" &
-numlockx on &
+#!/bin/sh
+# This file is used by display managers, I only want to manage one file.
+
+RUNWM=false
+source "$XDG_CONFIG_HOME/X11/xinitrc"
