@@ -1,6 +1,6 @@
 #!/bin/bash
 # Env
-export GTK2_RC_FILES=$HOME/.config/bspwm/gtk-2.0/gtkrc
+export GTK2_RC_FILES=$XDG_CONFIG_HOME/bspwm/gtk-2.0/gtkrc
 export QT_QPA_PLATFORMTHEME=gtk2
 
 # Launch polybar

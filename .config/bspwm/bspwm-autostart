@@ -6,8 +6,7 @@ xsetroot -cursor_name left_ptr &
 runonce picom --experimental-backends &
 
 # Polkit agent
-#runonce /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
-runonce /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
+runonce /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
 
 # Bspswallow
 #pgrep bspswallow || bspswallow &
