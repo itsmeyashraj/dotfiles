@@ -113,3 +113,6 @@ Pictures/
 !.config/xfce4/xfconf/xfce-perchannel-xml/
 .config/xfce4/xfconf/xfce-perchannel-xml/*
 !.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+.config/.todoist-linux.json
+.config/Todoist/
+.local/share/fonts/.uuid
