@@ -711,7 +711,8 @@ font-2 = "JetBrainsMono Nerd Font:style=bold:size=12;2"
 ; Extra Font for modules 2
 font-3 = "JetBrainsMono Nerd Font:size=16;4"
 ; Japanese Fonts
-font-4 = "Sarasa Gothic J:style=bold:size=12;4"
+;font-4 = "Sarasa Gothic J:style=bold:size=12;4"
+font-4 = "Source Han Sans JP:style=bold:size=12;2"
 
 modules-left = bspwm xwindow
 modules-center = spotify spotify-prev spotify-play-pause spotify-next 

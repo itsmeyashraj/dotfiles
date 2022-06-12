@@ -76,6 +76,7 @@
 !.local/share/
 .local/share/*
 !.local/share/fonts/
+!.local/share/plank/themes/
 !.local/share/yashOS/
 !.local/share/applications/
 .pki/

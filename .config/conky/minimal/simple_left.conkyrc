@@ -1,0 +1,67 @@
+conky.config = {
+
+background=true,
+update_interval=1,
+double_buffer=true,
+no_buffers=true,
+imlib_cache_size=10,
+
+draw_shades=false,
+draw_outline=false,
+draw_borders=false,
+
+gap_x=75,
+gap_y=-75,
+
+alignment="bottom_left",
+
+minimum_height=400,
+minimum_width=0,
+
+--Windows
+	own_window = true,							-- create your own window to draw
+	own_window_class = 'Conky',					-- manually set the WM_CLASS name for use with xprop
+	own_window_type = 'desktop',				-- if own_window true options are: normal/override/dock/desktop/panel
+	own_window_hints = 'undecorated,below,above,sticky,skip_taskbar,skip_pager',  -- if own_window true - just hints - own_window_type sets it
+
+own_window_argb_visual=true,
+own_window_argb_value=0,
+
+use_xft=true,
+xftalpha=1,
+font="Droid Sans:size=10",
+text_buffer_size=256,
+override_utf8_locale=true,
+color0='#282828',
+
+
+
+}
+
+
+
+conky.text = [[
+\
+\
+\
+\
+${font Product Sans:weight=Bold:size=90}${color0}\
+${time %H:%M}\
+${voffset -80}
+${font Product Sans:weight=Bold:size=40}${color0}\
+${time %A}
+${voffset -80}
+${font Product Sans:weight=Bold:size=40}${color0}\
+${time %d %B, %Y}\
+${voffset -25}
+${font Product Sans:weight=Bold:size=15}${color0}\
+CPU usage: ${cpu cpu0}% | Storage: ${fs_free /} free\
+\
+\
+\
+\
+\
+\
+\
+\
+]]

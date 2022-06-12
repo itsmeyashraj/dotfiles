@@ -45,5 +45,4 @@ sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $XDG_CONFIG_HOME/glava/bars
 #fi 
 
 # Conky
-reload conky -c $XDG_CONFIG_HOME/conky/dtos-small/gruvbox.conkyrc
-#runonce plank 
+reload conky -q -c $XDG_CONFIG_HOME/conky/dtos-small/gruvbox.conkyrc

@@ -1,3 +1,6 @@
+adobe-source-code-pro-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-sans-fonts
 accountsservice
 alacritty
 arc-gtk-theme
@@ -14,7 +17,6 @@ exa
 flameshot
 fzf
 gksu
-glava
 gnome-themes-extra
 gparted
 gvfs-gphoto2
@@ -50,7 +52,7 @@ sxhkd
 ttf-font-awesome
 ttf-joypixels
 ttf-ms-fonts
-ttf-sarasa-gothic
+ttf-ubuntu-font-family
 tty-clock
 ueberzug
 unrar
@@ -59,7 +61,6 @@ vim
 vscodium-bin
 xorg-xprop
 xss-lock
-xterm
 hsetroot
 youtube-dl
 zathura

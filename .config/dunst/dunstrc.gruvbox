@@ -8,10 +8,10 @@ mouse_middle_click = close_all
 mouse_right_click = close_current
 
 #Shortcuts
-close = 
-close_all = 
-history = 
-context = 
+close = ctrl+space
+close_all = ctrl+shift+space
+history = ctrl+grave
+context = ctrl+shift+grave
 
 width = 250
 height = 650
