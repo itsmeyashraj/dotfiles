@@ -116,3 +116,4 @@ Pictures/
 .config/.todoist-linux.json
 .config/Todoist/
 .local/share/fonts/.uuid
+.config/notion-app/
