@@ -7,16 +7,16 @@ export QT_QPA_PLATFORMTHEME=gtk2
 #POLYTHEME=`grep 'THEME="' ~/.config/bspwm/bspwmrc | cut -d "=" -f2 | cut -d '"' -f2`
 #reload polybar --reload mainbar-bspwm -c ~/.config/bspwm/polybar/polybar-$POLYTHEME
 #reload polybar --reload mainbar-bspwm -c $XDG_CONFIG_HOME/bspwm/polybar/polybar-$THEME
-reload polybar --reload mainbar-bspwm -c $XDG_CONFIG_HOME/bspwm/polybar/polybar-gruvbox
+reload polybar --reload mainbar-bspwm -c $XDG_CONFIG_HOME/bspwm/themes/gruvbox/polybar/gruvbox.ini
 
 # Launch sxhkd
 reload sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc
 
 # Set Wallpaper
-setwall $HOME/Pictures/Wallpapers/gruvbox/gruvbox_redsky.jpg
+setwall $HOME/Pictures/Wallpapers/gruvbox/wall.*
 
 # Xresources
-xrdb -merge ~/.config/bspwm/X11/gruvbox &
+xrdb -merge ~/.config/bspwm/themes/gruvbox/X11/xresources &
 
 # Launch notification daemon
 reload dunst -conf $XDG_CONFIG_HOME/dunst/dunstrc.gruvbox 
@@ -32,7 +32,7 @@ cp "$CAVA_PATH"/colorschemes/gruvbox "$CAVA_PATH"/config &
 #sed -i "s/theme =.*$/theme = \"gruvbox\",/g" $HOME/.config/nvim/lua/custom/chadrc.lua
 
 # Change glava color
-sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $XDG_CONFIG_HOME/glava/bars.glsl &
+#sed -i '/COLOR/c\#define COLOR (#83a598 * GRADIENT)' $XDG_CONFIG_HOME/glava/bars.glsl &
 
 # Change spicetify colorscheme
 #COLOR_SCHEME="gruvbox"
