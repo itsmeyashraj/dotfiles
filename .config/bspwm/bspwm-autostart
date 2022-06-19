@@ -1,6 +1,7 @@
 #!/bin/bash
 # Compositor
-runonce picom --experimental-backends
+#runonce picom --experimental-backends
+runonce picom
 
 # Polkit agent
 runonce /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 

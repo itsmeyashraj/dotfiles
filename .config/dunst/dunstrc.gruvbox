@@ -47,8 +47,7 @@ hide_duplicate_count = yes
 show_indicators = no
 icon_position = left
 max_icon_size = 80
-icon_path =/usr/share/icons/Gruvbox-Material-Dark/:/usr/share/icons/Gruvbox-Material-Dark/symbolic/status/
-
+icon_path =/usr/share/icons/Adwaita/:/usr/share/icons/Adwaita/16x16/status/
 sticky_history = yes
 history_length = 20
 #browser = x-www-browser -new-tab
@@ -105,3 +104,7 @@ highlight = "#e78a4e"
 #[play_sound]
 #summary = "*"
 #script = ~/.config/dunst/sounds/notify-gruv
+
+[volume_sound]
+appname = changevolume
+icon_position = off

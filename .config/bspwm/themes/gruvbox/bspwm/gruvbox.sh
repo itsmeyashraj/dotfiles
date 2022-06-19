@@ -13,7 +13,7 @@ reload polybar --reload mainbar-bspwm -c $XDG_CONFIG_HOME/bspwm/themes/gruvbox/p
 reload sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc
 
 # Set Wallpaper
-setwall $HOME/Pictures/Wallpapers/gruvbox/wall.*
+setwall $XDG_CONFIG_HOME/bspwm/themes/gruvbox/wallpaper/wall.*
 
 # Xresources
 xrdb -merge ~/.config/bspwm/themes/gruvbox/X11/xresources &
